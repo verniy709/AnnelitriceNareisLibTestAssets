@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_YoRHa_1ABC" ParentName="Anneli_1ABC" Abstract="True">
+		<equippedStatOffsets>
+			<MeleeHitChance>0.3</MeleeHitChance>
+			<MeleeDodgeChance>0.3</MeleeDodgeChance>
+			<ResearchSpeed>0.3</ResearchSpeed>
+			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.3</HackingSpeed>
+			<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.3</MechRepairSpeed>
+			<MedicalSurgerySuccessChance>0.3</MedicalSurgerySuccessChance>
+			<MentalBreakThreshold>-0.3</MentalBreakThreshold>
+			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">6</MechBandwidth>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_YoRHa</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_YoRHa_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+<!--Anneli_YoRHa_Zantai-->
+	<ThingDef ParentName="Anneli_YoRHa_1ABC">
+		<defName>Anneli_YoRHa_Zantai</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1ABC_Zantai</label>
+		<graphicData>
+			<texPath>1ABC/Anneli_YoRHa_Zantai</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1ABC/Anneli_YoRHa_Zantai</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Operator</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_YoRHa_Zantai_White-->
+	<ThingDef ParentName="Anneli_YoRHa_1ABC">
+		<defName>Anneli_YoRHa_Zantai_White</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1ABC_Zantai</label>
+		<graphicData>
+			<texPath>1ABC/Anneli_YoRHa_Zantai</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1ABC/Anneli_YoRHa_Zantai</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Commander</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<recipeMaker Inherit="False">
+			<!--Not makeable-->
+			<useIngredientsForColor>false</useIngredientsForColor>
+    	</recipeMaker>
+    	<thingCategories Inherit="False">
+			<li>Category_Annelitrice_YoRHa_Dyed</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

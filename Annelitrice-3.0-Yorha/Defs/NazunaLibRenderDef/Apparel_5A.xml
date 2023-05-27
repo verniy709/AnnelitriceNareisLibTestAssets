@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_CloakA</defName>
+		<originalDef>Anneli_YoRHa_CloakA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_CloakA</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.52, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.52, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.52, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.52, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_Back_CloakA</li>
+				</prefix>
+				<renderLayer>BottomOverlay</renderLayer>
+				<drawOffsetSouth>(0, -0.52, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.52, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.52, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.52, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_CloakB</defName>
+		<originalDef>Anneli_YoRHa_CloakB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_CloakB</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.52, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.52, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.52, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.52, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_Back_CloakB</li>
+				</prefix>
+				<renderLayer>BottomOverlay</renderLayer>
+				<drawOffsetSouth>(0, -0.52, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.52, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.52, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.52, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

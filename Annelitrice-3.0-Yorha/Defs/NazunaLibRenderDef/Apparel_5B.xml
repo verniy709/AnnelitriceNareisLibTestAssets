@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_KneePlates</defName>
+		<originalDef>Anneli_YoRHa_KneePlates</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_KneePlates</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.259, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.259, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.259, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.259, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

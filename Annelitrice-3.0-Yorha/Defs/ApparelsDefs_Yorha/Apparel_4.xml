@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_YoRHa_4" ParentName="Anneli_4" Abstract="True">
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_YoRHa</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_YoRHa_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_DestroyerArmor-->
+	<ThingDef ParentName="Anneli_YoRHa_4">
+		<defName>Anneli_YoRHa_DestroyerArmor</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)4_DestroyerArmor</label>
+		<graphicData>
+			<texPath>4/Anneli_YoRHa_DestroyerArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_YoRHa_DestroyerArmor</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Copied_Nier</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(110,65,60,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_YoRHa_ArmorVest-->
+	<ThingDef ParentName="Anneli_YoRHa_4">
+		<defName>Anneli_YoRHa_ArmorVest</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)4_ArmorVest</label>
+		<graphicData>
+			<texPath>4/Anneli_YoRHa_ArmorVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_YoRHa_ArmorVest</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Attacker</li>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+				<li>Anneli_YoRHa_Gunner</li>
+				<li>Anneli_YoRHa_Scanner</li>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Operator</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

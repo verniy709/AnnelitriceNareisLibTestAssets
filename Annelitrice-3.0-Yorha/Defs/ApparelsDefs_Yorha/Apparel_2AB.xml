@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_YoRHa_2AB" ParentName="Anneli_2AB" Abstract="True">
+		<equippedStatOffsets>
+			<MeleeHitChance>0.1</MeleeHitChance>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			<ResearchSpeed>0.1</ResearchSpeed>
+			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.1</HackingSpeed>
+			<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.1</MechRepairSpeed>
+			<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_YoRHa</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_YoRHa_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_DressA-->
+	<ThingDef ParentName="Anneli_YoRHa_2AB">
+		<defName>Anneli_YoRHa_DressA</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)2AB_DressA</label>
+		<graphicData>
+			<texPath>2AB/Anneli_YoRHa_DressA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_YoRHa_DressA</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelSecialTex">
+				<replaceTexPathList>
+					<li>
+						<apparelDef>Anneli_YoRHa_TrenchCoat</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_DressA_Cropped</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_FurCoat</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_DressA_Cropped</path>
+					</li> 	
+					<li>
+						<apparelDef>Anneli_Jurnizia_TrenchCoat</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_DressA_Cropped</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Gakuen_Coat</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_DressA_Cropped</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Parka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_GorkaParka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_CamoParka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Hoodie</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+				</replaceTexPathList>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_DressB-->
+	<ThingDef ParentName="Anneli_YoRHa_2AB">
+		<defName>Anneli_YoRHa_DressB</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)2AB_DressB</label>
+		<graphicData>
+			<texPath>2AB/Anneli_YoRHa_DressB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_YoRHa_DressB</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Operator</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelSecialTex">
+				<replaceTexPathList>	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Parka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_GorkaParka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_CamoParka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Hoodie</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+				</replaceTexPathList>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_DressC-->
+	<ThingDef ParentName="Anneli_YoRHa_2AB">
+		<defName>Anneli_YoRHa_DressC</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)2AB_DressC</label>
+		<graphicData>
+			<texPath>2AB/Anneli_YoRHa_DressC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_YoRHa_DressC</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Operator</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelSecialTex">
+				<replaceTexPathList>	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Parka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_GorkaParka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_CamoParka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Hoodie</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+				</replaceTexPathList>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_DressD-->
+	<ThingDef ParentName="Anneli_YoRHa_2AB">
+		<defName>Anneli_YoRHa_DressD</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)2AB_DressD</label>
+		<graphicData>
+			<texPath>2AB/Anneli_YoRHa_DressD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_YoRHa_DressD</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Copied_Flower</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelSecialTex">
+				<replaceTexPathList>	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Parka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_GorkaParka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_CamoParka</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Hoodie</apparelDef>
+						<level>1</level>
+						<path>Anneli_Null/Anneli_Null</path>
+					</li> 	 
+				</replaceTexPathList>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_LongDressA-->
+	<ThingDef ParentName="Anneli_YoRHa_2AB">
+		<defName>Anneli_YoRHa_LongDressA</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)2AB_LongDressA</label>
+		<graphicData>
+			<texPath>2AB/Anneli_YoRHa_LongDressA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_YoRHa_LongDressA</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelSecialTex">
+				<replaceTexPathList>
+					<li>
+						<apparelDef>Anneli_YoRHa_TrenchCoat</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_LongDressA_Cropped</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_FurCoat</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_LongDressA_Cropped</path>
+					</li> 	
+					<li>
+						<apparelDef>Anneli_Jurnizia_TrenchCoat</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_LongDressA_Cropped</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Gakuen_Coat</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_LongDressA_Cropped</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Parka</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_LongDressA_Cropped</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_GorkaParka</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_LongDressA_Cropped</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_CamoParka</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_LongDressA_Cropped</path>
+					</li> 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Hoodie</apparelDef>
+						<level>1</level>
+						<path>Cropped_Apparels/Anneli_YoRHa_LongDressA_Cropped</path>
+					</li> 	 
+				</replaceTexPathList>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_LongDressB-->
+	<ThingDef ParentName="Anneli_YoRHa_2AB">
+		<defName>Anneli_YoRHa_LongDressB</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)2AB_LongDressB</label>
+		<graphicData>
+			<texPath>2AB/Anneli_YoRHa_LongDressB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_YoRHa_LongDressB</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_LongDressB_White-->
+	<ThingDef ParentName="Anneli_YoRHa_2AB">
+		<defName>Anneli_YoRHa_LongDressB_White</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)2AB_LongDressB</label>
+		<graphicData>
+			<texPath>2AB/Anneli_YoRHa_LongDressB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_YoRHa_LongDressB</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Commander</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<recipeMaker Inherit="False">
+			<!--Not makeable-->
+			<useIngredientsForColor>false</useIngredientsForColor>
+		</recipeMaker>
+		<thingCategories Inherit="False">
+			<li>Category_Annelitrice_YoRHa_Dyed</li>
+		</thingCategories>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_LongDressC-->
+	<ThingDef ParentName="Anneli_YoRHa_2AB">
+		<defName>Anneli_YoRHa_LongDressC</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)2AB_LongDressC</label>
+		<graphicData>
+			<texPath>2AB/Anneli_YoRHa_LongDressC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_YoRHa_LongDressC</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_CombatSuit-->
+	<ThingDef ParentName="Anneli_YoRHa_2AB">
+		<defName>Anneli_YoRHa_CombatSuit</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)2AB_CombatSuit</label>
+		<graphicData>
+			<texPath>2AB/Anneli_YoRHa_CombatSuit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_YoRHa_CombatSuit</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Operator</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

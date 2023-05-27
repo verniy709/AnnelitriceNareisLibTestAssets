@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Category_Annelitrice_YoRHa</defName>
+		<parent>Apparel</parent>
+		<label>Annelitrice YoRHa Apparels</label>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Category_Annelitrice_YoRHa_Dyed</defName>
+		<parent>Category_Annelitrice_YoRHa</parent>
+		<label>Pawn Spawn YoRHa Apparels</label>
+	</ThingCategoryDef>
+	
+</Defs>

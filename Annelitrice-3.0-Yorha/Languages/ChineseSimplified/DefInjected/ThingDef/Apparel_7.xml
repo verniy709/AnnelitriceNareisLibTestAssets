@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_YoRHa_Bag -->
+
+  <Anneli_YoRHa_Bag.label>(寄叶)7_背包</Anneli_YoRHa_Bag.label>
+  <Anneli_YoRHa_Bag.description>可染色.</Anneli_YoRHa_Bag.description>
+
+
+  <!-- Anneli_YoRHa_OxidantTank -->
+
+  <Anneli_YoRHa_OxidantTank.label>(寄叶)7_氧气罐</Anneli_YoRHa_OxidantTank.label>
+  <Anneli_YoRHa_OxidantTank.description>可染色.</Anneli_YoRHa_OxidantTank.description>
+
+
+</LanguageData>

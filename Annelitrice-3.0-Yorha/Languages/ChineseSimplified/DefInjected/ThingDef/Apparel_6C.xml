@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_YoRHa_MaskA -->
+
+  <Anneli_YoRHa_MaskA.label>(寄叶)6C_口罩A</Anneli_YoRHa_MaskA.label>
+  <Anneli_YoRHa_MaskA.description>可染色.</Anneli_YoRHa_MaskA.description>
+
+
+  <!-- Anneli_YoRHa_MaskA_White -->
+
+  <Anneli_YoRHa_MaskA_White.label>(寄叶)6C_口罩A</Anneli_YoRHa_MaskA_White.label>
+  <Anneli_YoRHa_MaskA_White.description>可染色.</Anneli_YoRHa_MaskA_White.description>
+
+
+  <!-- Anneli_YoRHa_MaskB -->
+
+  <Anneli_YoRHa_MaskB.label>(寄叶)6C_口罩B</Anneli_YoRHa_MaskB.label>
+  <Anneli_YoRHa_MaskB.description>可染色.</Anneli_YoRHa_MaskB.description>
+
+
+  <!-- Anneli_YoRHa_Veil -->
+
+  <Anneli_YoRHa_Veil.label>(寄叶)6C_面纱</Anneli_YoRHa_Veil.label>
+  <Anneli_YoRHa_Veil.description>可染色.</Anneli_YoRHa_Veil.description>
+
+
+</LanguageData>

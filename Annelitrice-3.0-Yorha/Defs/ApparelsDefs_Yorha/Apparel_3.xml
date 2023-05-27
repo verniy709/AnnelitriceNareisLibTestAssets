@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_YoRHa_3" ParentName="Anneli_3" Abstract="True">
+		<equippedStatOffsets>
+			<MeleeHitChance>0.1</MeleeHitChance>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			<ResearchSpeed>0.1</ResearchSpeed>
+			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.1</HackingSpeed>
+			<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.1</MechRepairSpeed>
+			<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_YoRHa</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_YoRHa_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_DestroyerCoat-->
+	<ThingDef ParentName="Anneli_YoRHa_3">
+		<defName>Anneli_YoRHa_DestroyerCoat</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)3_DestroyerCoat</label>
+		<graphicData>
+			<texPath>3/Anneli_YoRHa_DestroyerCoat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_YoRHa_DestroyerCoat</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Copied_Nier</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(70,75,85,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_YoRHa_BlazerA-->
+	<ThingDef ParentName="Anneli_YoRHa_3">
+		<defName>Anneli_YoRHa_BlazerA</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)3_BlazerA</label>
+		<graphicData>
+			<texPath>3/Anneli_YoRHa_BlazerA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_YoRHa_BlazerA</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_YoRHa_BlazerB-->
+	<ThingDef ParentName="Anneli_YoRHa_3">
+		<defName>Anneli_YoRHa_BlazerB</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)3_BlazerB</label>
+		<graphicData>
+			<texPath>3/Anneli_YoRHa_BlazerB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_YoRHa_BlazerB</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Commander</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_YoRHa_Vest-->
+	<ThingDef ParentName="Anneli_YoRHa_3">
+		<defName>Anneli_YoRHa_Vest</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)3_Vest</label>
+		<graphicData>
+			<texPath>3/Anneli_YoRHa_Vest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_YoRHa_Vest</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Gunner</li>
+				<li>Anneli_YoRHa_Scanner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_YoRHa_TrenchCoat-->
+	<ThingDef ParentName="Anneli_YoRHa_3">
+		<defName>Anneli_YoRHa_TrenchCoat</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)3_TrenchCoat</label>
+		<graphicData>
+			<texPath>3/Anneli_YoRHa_TrenchCoat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_YoRHa_TrenchCoat</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Defender</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_YoRHa_CoatA-->
+	<ThingDef ParentName="Anneli_YoRHa_3">
+		<defName>Anneli_YoRHa_CoatA</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)3_CoatA</label>
+		<graphicData>
+			<texPath>3/Anneli_YoRHa_CoatA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_YoRHa_CoatA</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Gunner</li>
+				<li>Anneli_YoRHa_Scanner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_YoRHa_CoatB-->
+	<ThingDef ParentName="Anneli_YoRHa_3">
+		<defName>Anneli_YoRHa_CoatB</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)3_CoatB</label>
+		<graphicData>
+			<texPath>3/Anneli_YoRHa_CoatB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_YoRHa_CoatB</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Gunner</li>
+				<li>Anneli_YoRHa_Scanner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_YoRHa_CoatC-->
+	<ThingDef ParentName="Anneli_YoRHa_3">
+		<defName>Anneli_YoRHa_CoatC</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)3_CoatC</label>
+		<graphicData>
+			<texPath>3/Anneli_YoRHa_CoatC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_YoRHa_CoatC</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Attacker</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+	
+</Defs>

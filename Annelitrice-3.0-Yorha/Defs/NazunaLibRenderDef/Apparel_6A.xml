@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_FlatCap</defName>
+		<originalDef>Anneli_YoRHa_FlatCap</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_FlatCap</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_Beret</defName>
+		<originalDef>Anneli_YoRHa_Beret</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_Beret</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_Hood</defName>
+		<originalDef>Anneli_YoRHa_Hood</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_Hood</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_RibbonedHat</defName>
+		<originalDef>Anneli_YoRHa_RibbonedHat</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_RibbonedHat</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_Headband</defName>
+		<originalDef>Anneli_YoRHa_Headband</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_Headband</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_Hairband</defName>
+		<originalDef>Anneli_YoRHa_Hairband</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_Hairband</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_FlowerAccessory</defName>
+		<originalDef>Anneli_YoRHa_FlowerAccessory</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_FlowerAccessory</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_Headwear</defName>
+		<originalDef>Anneli_YoRHa_Headwear</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_Headwear</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_ConicalHat</defName>
+		<originalDef>Anneli_YoRHa_ConicalHat</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_ConicalHat</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

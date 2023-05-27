@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_YoRHa_MusicBox -->
+
+  <Anneli_YoRHa_MusicBox.label>(寄叶)8A_音乐盒</Anneli_YoRHa_MusicBox.label>
+  <Anneli_YoRHa_MusicBox.description>可染色. 无服装贴图.</Anneli_YoRHa_MusicBox.description>
+
+
+  <!-- Anneli_YoRHa_WeaponSet -->
+
+  <Anneli_YoRHa_WeaponSet.label>(寄叶)8A_武器组</Anneli_YoRHa_WeaponSet.label>
+  <Anneli_YoRHa_WeaponSet.description>不可染色</Anneli_YoRHa_WeaponSet.description>
+
+
+</LanguageData>

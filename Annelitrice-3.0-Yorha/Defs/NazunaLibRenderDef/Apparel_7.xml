@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_Bag</defName>
+		<originalDef>Anneli_YoRHa_Bag</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>7/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_Bag</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>0, 0.519, 0)</drawOffsetSouth>
+				<drawOffsetEast>0, 0.519, 0)</drawOffsetEast>
+				<drawOffsetNorth>0, 0.519, 0)</drawOffsetNorth>
+				<drawOffsetWest>0, 0.519, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_OxidantTank</defName>
+		<originalDef>Anneli_YoRHa_OxidantTank</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>7/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_OxidantTank</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.71, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.71, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.71, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.71, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

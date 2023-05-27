@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--Adulthood-->
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_YoRHa_Combatant</defName>
+		<title>Annelitrice YoRHa Combatant</title>
+		<titleShort>YoRHa Combatant</titleShort>
+		<baseDesc>[PAWN_nameDef] acts as a YoRHa combatant, a well-trained and determined warrior.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-4</value>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_YoRHa</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_YoRHa_FrontlineOfficer</defName>
+		<title>Annelitrice YoRHa Frontline Officer</title>
+		<titleShort>YoRHa Frontline Officer</titleShort>
+		<baseDesc>[PAWN_nameDef] acts as a YoRHa frontline officer, responsible for building fortifications.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_YoRHa</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_YoRHa_Scout</defName>
+		<title>Annelitrice YoRHa Scout</title>
+		<titleShort>YoRHa Scout</titleShort>
+		<baseDesc>[PAWN_nameDef] acts as a YoRHa scout, eyes and ears on the field.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_YoRHa</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_YoRHa_Logistics_Officer</defName>
+		<title>Annelitrice YoRHa Logistics Officer</title>
+		<titleShort>YoRHa Logistics Officer</titleShort>
+		<baseDesc>[PAWN_nameDef] acts as a YoRHa logistics officer. Her duty is confidential, because everyone pretends foods are not needed.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>-4</value>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_YoRHa</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_YoRHa_Commander</defName>
+		<title>Annelitrice YoRHa Commander</title>
+		<titleShort>YoRHa Commander</titleShort>
+		<baseDesc>[PAWN_nameDef] acts as a YoRHa commander. She does not spend much time on trivia.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>-4</value>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_YoRHa</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_YoRHa_Deserter</defName>
+		<title>Annelitrice YoRHa Deserter</title>
+		<titleShort>YoRHa Deserter</titleShort>
+		<baseDesc>[PAWN_nameDef] acts as a YoRHa deserter. She has some questions about the goal of this organization.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_YoRHa</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_YoRHa_Executioner</defName>
+		<title>Annelitrice YoRHa Executioner</title>
+		<titleShort>YoRHa Executioner</titleShort>
+		<baseDesc>[PAWN_nameDef] acts as a YoRHa executioner. She takes care of the ones who ask too many questions.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-4</value>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_YoRHa</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_YoRHa_Hacker</defName>
+		<title>Annelitrice YoRHa Hacker</title>
+		<titleShort>YoRHa Hacker</titleShort>
+		<baseDesc>[PAWN_nameDef] acts as a YoRHa hacker. She provides intelligence support for operations.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>-6</value>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_YoRHa</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_YoRHa_Healer</defName>
+		<title>Annelitrice YoRHa Healer</title>
+		<titleShort>YoRHa Healer</titleShort>
+		<baseDesc>[PAWN_nameDef] acts as a YoRHa healer, "reparing" the wounds.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>-4</value>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_YoRHa</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_YoRHa_Operator</defName>
+		<title>Annelitrice YoRHa Operator</title>
+		<titleShort>YoRHa Operator</titleShort>
+		<baseDesc>[PAWN_nameDef] acts as a YoRHa operator, not designed for combat.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>-4</value>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_YoRHa</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

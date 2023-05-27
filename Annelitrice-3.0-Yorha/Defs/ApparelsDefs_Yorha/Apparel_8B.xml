@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_YoRHa_8B" ParentName="Anneli_8B" Abstract="True">
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_YoRHa</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_YoRHa_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!-- Anneli_YoRHa_POD_Bullet-->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Anneli_YoRHa_POD_Bullet</defName>
+		<label>POD bullet</label>
+		<graphicData>
+			<texPath>Projectiles/Anneli_YoRHa_POD_Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>8</damageAmountBase>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- Anneli_YoRHa_POD_Sound-->
+	<SoundDef>
+		<defName>Anneli_YoRHa_POD_Sound</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_YoRHa_POD_Sound</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>18</min>
+					<max>20</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="Anneli_YoRHa_8B">
+		<defName>Anneli_YoRHa_POD</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)8B_POD</label>
+		<graphicData>
+			<texPath>8B/Anneli_YoRHa_POD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8B/Anneli_YoRHa_POD</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Commander</li>
+				<li>Anneli_YoRHa_Attacker</li>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Executioner</li>
+				<li>Anneli_YoRHa_Gunner</li>
+				<li>Anneli_YoRHa_Healer</li>
+				<li>Anneli_YoRHa_Operator</li>
+				<li>Anneli_YoRHa_Scanner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType><!--tickerType-->
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<label>POD</label>
+				<defaultProjectile>Anneli_YoRHa_POD_Bullet</defaultProjectile>
+				<warmupTime>2.0</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>20</burstShotCount>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<soundCast>Anneli_YoRHa_POD_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<accuracyTouch>0.75</accuracyTouch>
+				<accuracyShort>0.85</accuracyShort>
+				<accuracyMedium>0.85</accuracyMedium>
+				<accuracyLong>0.65</accuracyLong>
+				<defaultCooldownTime>2.0</defaultCooldownTime>
+				<commandIcon>8B/Anneli_YoRHa_POD</commandIcon>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="MVCF.Comps.CompProperties_VerbGiver">
+				<verbProps>
+					<li>
+						<label>POD</label>
+						<draw>false</draw>
+						<description>POD.</description>
+						<canBeToggled>true</canBeToggled>
+					</li>
+				</verbProps>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- Anneli_YoRHa_Grimore_Bullet-->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Anneli_YoRHa_Grimore_Bullet</defName>
+		<label>Grimore bullet</label>
+		<graphicData>
+			<texPath>Projectiles/Anneli_YoRHa_Grimore_Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>8</damageAmountBase>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- Anneli_YoRHa_Grimore_Sound-->
+	<SoundDef>
+		<defName>Anneli_YoRHa_Grimore_Sound</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_YoRHa_Grimore_Sound</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>18</min>
+					<max>20</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="Anneli_YoRHa_8B">
+		<defName>Anneli_YoRHa_Grimore</defName>
+		<description>Not dyeable.</description>
+		<label>(YoRHa)8B_Grimore</label>
+		<graphicData>
+			<texPath>8B/Anneli_YoRHa_Grimore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8B/Anneli_YoRHa_Grimore</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Copied_Flower</li>
+				<li>Anneli_YoRHa_Copied_Nier</li>
+				<li>Anneli_YoRHa_Copied_Kaine</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType><!--tickerType-->
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<label>Grimore</label>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Anneli_YoRHa_Grimore_Bullet</defaultProjectile>
+				<warmupTime>2.0</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>20</burstShotCount>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<soundCast>Anneli_YoRHa_Grimore_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<accuracyTouch>0.75</accuracyTouch>
+				<accuracyShort>0.85</accuracyShort>
+				<accuracyMedium>0.85</accuracyMedium>
+				<accuracyLong>0.65</accuracyLong>
+				<defaultCooldownTime>2.0</defaultCooldownTime>
+				<commandIcon>8B/Anneli_YoRHa_Grimore</commandIcon>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="MVCF.Comps.CompProperties_VerbGiver">
+				<verbProps>
+					<li>
+						<label>Grimore</label>
+						<draw>false</draw>
+						<description>Grimore.</description>
+						<canBeToggled>true</canBeToggled>
+					</li>
+				</verbProps>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- Anneli_YoRHa_BabyMachine_Bullet-->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Anneli_YoRHa_BabyMachine_Bullet</defName>
+		<label>BabyMachine bullet</label>
+		<graphicData>
+			<texPath>Projectiles/Anneli_YoRHa_BabyMachine_Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>8</damageAmountBase>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- Anneli_YoRHa_BabyMachine_Sound-->
+	<SoundDef>
+		<defName>Anneli_YoRHa_BabyMachine_Sound</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_YoRHa_BabyMachine_Sound</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>18</min>
+					<max>20</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="Anneli_YoRHa_8B">
+		<defName>Anneli_YoRHa_BabyMachine</defName>
+		<description>Not dyeable.</description>
+		<label>(YoRHa)8B_BabyMachine</label>
+		<graphicData>
+			<texPath>8B/Anneli_YoRHa_BabyMachine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8B/Anneli_YoRHa_BabyMachine</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Commander</li>
+				<li>Anneli_YoRHa_Attacker</li>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Executioner</li>
+				<li>Anneli_YoRHa_Gunner</li>
+				<li>Anneli_YoRHa_Healer</li>
+				<li>Anneli_YoRHa_Operator</li>
+				<li>Anneli_YoRHa_Scanner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType><!--tickerType-->
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<label>BabyMachine</label>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Anneli_YoRHa_BabyMachine_Bullet</defaultProjectile>
+				<warmupTime>2.0</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>20</burstShotCount>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<soundCast>Anneli_YoRHa_BabyMachine_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<accuracyTouch>0.75</accuracyTouch>
+				<accuracyShort>0.85</accuracyShort>
+				<accuracyMedium>0.85</accuracyMedium>
+				<accuracyLong>0.65</accuracyLong>
+				<defaultCooldownTime>2.0</defaultCooldownTime>
+				<commandIcon>8B/Anneli_YoRHa_BabyMachine</commandIcon>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="MVCF.Comps.CompProperties_VerbGiver">
+				<verbProps>
+					<li>
+						<label>BabyMachine</label>
+						<draw>false</draw>
+						<description>BabyMachine.</description>
+						<canBeToggled>true</canBeToggled>
+					</li>
+				</verbProps>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

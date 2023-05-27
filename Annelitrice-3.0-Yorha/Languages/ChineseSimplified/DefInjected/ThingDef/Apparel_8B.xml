@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_YoRHa_POD_Bullet -->
+
+  <Anneli_YoRHa_POD_Bullet.label>POD子弹</Anneli_YoRHa_POD_Bullet.label>
+
+
+  <!-- Anneli_YoRHa_POD_Sound -->
+
+  <Anneli_YoRHa_POD.label>(寄叶)8B_POD</Anneli_YoRHa_POD.label>
+  <Anneli_YoRHa_POD.description>可染色.</Anneli_YoRHa_POD.description>
+
+
+  <!-- Anneli_YoRHa_Grimore_Bullet -->
+
+  <Anneli_YoRHa_Grimore_Bullet.label>魔法书子弹</Anneli_YoRHa_Grimore_Bullet.label>
+
+
+  <!-- Anneli_YoRHa_Grimore_Sound -->
+
+  <Anneli_YoRHa_Grimore.label>(寄叶)8B_魔法书</Anneli_YoRHa_Grimore.label>
+  <Anneli_YoRHa_Grimore.description>不可染色.</Anneli_YoRHa_Grimore.description>
+
+
+  <!-- Anneli_YoRHa_BabyMachine_Bullet -->
+
+  <Anneli_YoRHa_BabyMachine_Bullet.label>机器子弹</Anneli_YoRHa_BabyMachine_Bullet.label>
+
+
+  <!-- Anneli_YoRHa_BabyMachine_Sound -->
+
+  <Anneli_YoRHa_BabyMachine.label>(寄叶)8B_机器宝宝</Anneli_YoRHa_BabyMachine.label>
+  <Anneli_YoRHa_BabyMachine.description>不可染色.</Anneli_YoRHa_BabyMachine.description>
+
+
+</LanguageData>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="Anneli_FactionBase">
+		<defName>Anneli_Faction_YoRHa</defName>
+		<label>Anneli Faction YoRHa Butai</label>
+		<description>A group of annelitrice who claim to be androids, but still sleep, consume food, and battle other so-called evil mechanoids. They strive to protect human colonies from the threats of evil mechanoids, positioning themselves as saviors. However, rumors persist that the YoRHa annelitrice are capturing survivors amid chaos. Their goal is to transform humanoids into mechanoids and use them to stage more attacks.\n\nIn reality, the YoRHa annelitrice are collecting footage for a movie that depicts an unending war between machine and organic beings. Inspired by an ancient work, an unknown movie producer had an uncontrollable urge to express the philosophy of love, death, and androids in a new film. The producer explored the idea of whether an android could become human with enough biological components. The resulting movie portrayed an eternal war between androids who pretended to be flesh-and-blood creatures and Cyborg humans who pretended to be machines. The film became a hit due to its sexually alluring actresses and extreme visual violence. However, movie critics criticized the supposed philosophy, calling it trite, shallow and pedantic.</description>
+		<pawnSingular>Annelitrice</pawnSingular>
+		<pawnsPlural>Annelitrice</pawnsPlural>
+		<fixedName>Forged YoRHa Butai</fixedName>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+		</requiredMemes>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<techLevel>Spacer</techLevel>
+		<allowedCultures>
+			<li>Anneli_Cultures_Astropolitan</li>
+		</allowedCultures>
+		<settlementTexturePath>Anneli_Factions/Anneli_YoRHa</settlementTexturePath>
+		<factionIconPath>Anneli_Factions/Anneli_YoRHa</factionIconPath>
+		<listOrderPriority>30</listOrderPriority>
+		<settlementGenerationWeight>0.5</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>True</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Gestalt</leaderTitle>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<backstoryCategories>
+			<li>Anneli_Childhood</li>
+			<li>Anneli_Story_YoRHa</li>
+		</backstoryCategories>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0, 200)</li> 
+				<li>(500, 300)</li> 
+				<li>(2000, 500)</li>
+				<li>(4000, 800)</li>
+				<li>(10000, 1000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_Exotic</li>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_PirateMerchant</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-75</min>
+			<max>75</max>
+		</allowedArrivalTemperatureRange>
+		<pawnGroupMakers>
+			<!-- Strike Squad -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Anneli_YoRHa_Leader>1</Anneli_YoRHa_Leader>
+					<Anneli_YoRHa_Copied_Flower>1</Anneli_YoRHa_Copied_Flower>
+					<Anneli_YoRHa_Copied_Nier>1</Anneli_YoRHa_Copied_Nier>
+					<Anneli_YoRHa_Copied_Kaine>1</Anneli_YoRHa_Copied_Kaine>
+					<Anneli_YoRHa_Commander>5</Anneli_YoRHa_Commander>
+					<Anneli_YoRHa_Attacker>10</Anneli_YoRHa_Attacker>
+					<Anneli_YoRHa_Battler>5</Anneli_YoRHa_Battler>
+					<Anneli_YoRHa_Defender>5</Anneli_YoRHa_Defender>
+					<Anneli_YoRHa_Executioner>5</Anneli_YoRHa_Executioner>
+					<Anneli_YoRHa_Gunner>5</Anneli_YoRHa_Gunner>
+					<Anneli_YoRHa_Healer>5</Anneli_YoRHa_Healer>
+					<Anneli_YoRHa_Operator>5</Anneli_YoRHa_Operator>
+					<Anneli_YoRHa_Scanner>5</Anneli_YoRHa_Scanner>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<Anneli_YoRHa_Copied_Flower>1</Anneli_YoRHa_Copied_Flower>
+					<Anneli_YoRHa_Commander>1</Anneli_YoRHa_Commander>
+					<Anneli_YoRHa_Battler>1</Anneli_YoRHa_Battler>
+					<Anneli_YoRHa_Defender>1</Anneli_YoRHa_Defender>
+					<Anneli_YoRHa_Gunner>1</Anneli_YoRHa_Gunner>
+					<Anneli_YoRHa_Healer>1</Anneli_YoRHa_Healer>
+					<Anneli_YoRHa_Operator>1</Anneli_YoRHa_Operator>
+					<Anneli_YoRHa_Scanner>1</Anneli_YoRHa_Scanner>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Anneli_YoRHa_Copied_Flower>1</Anneli_YoRHa_Copied_Flower>
+				</traders>
+				<carriers>
+					<Muffalo>3</Muffalo>
+					<Dromedary>3</Dromedary>
+					<Alpaca>3</Alpaca>
+					<Elephant>2</Elephant>
+				</carriers>
+				<guards>
+					<Anneli_YoRHa_Commander>1</Anneli_YoRHa_Commander>
+					<Anneli_YoRHa_Battler>1</Anneli_YoRHa_Battler>
+					<Anneli_YoRHa_Defender>1</Anneli_YoRHa_Defender>
+					<Anneli_YoRHa_Gunner>1</Anneli_YoRHa_Gunner>
+					<Anneli_YoRHa_Healer>1</Anneli_YoRHa_Healer>
+					<Anneli_YoRHa_Operator>1</Anneli_YoRHa_Operator>
+					<Anneli_YoRHa_Scanner>1</Anneli_YoRHa_Scanner>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<Anneli_YoRHa_Leader>1</Anneli_YoRHa_Leader>
+					<Anneli_YoRHa_Copied_Flower>1</Anneli_YoRHa_Copied_Flower>
+					<Anneli_YoRHa_Copied_Nier>1</Anneli_YoRHa_Copied_Nier>
+					<Anneli_YoRHa_Copied_Kaine>1</Anneli_YoRHa_Copied_Kaine>
+					<Anneli_YoRHa_Commander>5</Anneli_YoRHa_Commander>
+					<Anneli_YoRHa_Attacker>10</Anneli_YoRHa_Attacker>
+					<Anneli_YoRHa_Battler>5</Anneli_YoRHa_Battler>
+					<Anneli_YoRHa_Defender>5</Anneli_YoRHa_Defender>
+					<Anneli_YoRHa_Executioner>5</Anneli_YoRHa_Executioner>
+					<Anneli_YoRHa_Gunner>5</Anneli_YoRHa_Gunner>
+					<Anneli_YoRHa_Healer>5</Anneli_YoRHa_Healer>
+					<Anneli_YoRHa_Operator>5</Anneli_YoRHa_Operator>
+					<Anneli_YoRHa_Scanner>5</Anneli_YoRHa_Scanner>
+				</options>
+			</li>
+		</pawnGroupMakers>
+	</FactionDef>
+
+</Defs>

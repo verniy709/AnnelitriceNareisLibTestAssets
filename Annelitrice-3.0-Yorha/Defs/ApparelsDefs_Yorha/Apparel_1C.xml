@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_YoRHa_1C" ParentName="Anneli_1C" Abstract="True">
+		<equippedStatOffsets>
+			<MeleeHitChance>0.1</MeleeHitChance>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			<ResearchSpeed>0.1</ResearchSpeed>
+			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.1</HackingSpeed>
+			<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.1</MechRepairSpeed>
+			<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_YoRHa</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_YoRHa_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_Bandage-->
+	<ThingDef ParentName="Anneli_YoRHa_1C">
+		<defName>Anneli_YoRHa_Bandage</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1C_Bandage</label>
+		<graphicData>
+			<texPath>1C/Anneli_YoRHa_Bandage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_YoRHa_Bandage</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Copied_Kaine</li>
+				<li>Anneli_YoRHa_Attacker</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.5</generateCommonality><!--Less chance-->
+	</ThingDef>
+
+	<!--Anneli_YoRHa_Socks-->
+	<ThingDef ParentName="Anneli_YoRHa_1C">
+		<defName>Anneli_YoRHa_Socks</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1C_Socks</label>
+		<graphicData>
+			<texPath>1C/Anneli_YoRHa_Socks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_YoRHa_Socks</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Healer</li>
+				<li>Anneli_YoRHa_Operator</li>
+				<li>Anneli_YoRHa_Gunner</li>
+				<li>Anneli_YoRHa_Scanner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_Socks_White-->
+	<ThingDef ParentName="Anneli_YoRHa_1C">
+		<defName>Anneli_YoRHa_Socks_White</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1C_Socks</label>
+		<graphicData>
+			<texPath>1C/Anneli_YoRHa_Socks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_YoRHa_Socks</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Copied_Flower</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<recipeMaker Inherit="False">
+			<!--Not makeable-->
+			<useIngredientsForColor>false</useIngredientsForColor>
+    	</recipeMaker>
+    	<thingCategories Inherit="False">
+			<li>Category_Annelitrice_YoRHa_Dyed</li>
+		</thingCategories>
+	</ThingDef>
+
+<!--Anneli_YoRHa_TightA-->
+	<ThingDef ParentName="Anneli_YoRHa_1C">
+		<defName>Anneli_YoRHa_TightA</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1C_TightA</label>
+		<graphicData>
+			<texPath>1C/Anneli_YoRHa_TightA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_YoRHa_TightA</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Gunner</li>
+				<li>Anneli_YoRHa_Scanner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_YoRHa_TightB-->
+	<ThingDef ParentName="Anneli_YoRHa_1C">
+		<defName>Anneli_YoRHa_TightB</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1C_TightB</label>
+		<graphicData>
+			<texPath>1C/Anneli_YoRHa_TightB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_YoRHa_TightB</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Attacker</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_YoRHa_StockingsA-->
+	<ThingDef ParentName="Anneli_YoRHa_1C">
+		<defName>Anneli_YoRHa_StockingsA</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1C_StockingsA</label>
+		<graphicData>
+			<texPath>1C/Anneli_YoRHa_StockingsA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_YoRHa_StockingsA</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Commander</li>
+				<li>Anneli_YoRHa_Attacker</li>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+				<li>Anneli_YoRHa_Gunner</li>
+				<li>Anneli_YoRHa_Scanner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+<!--Anneli_YoRHa_StockingsB-->
+	<ThingDef ParentName="Anneli_YoRHa_1C">
+		<defName>Anneli_YoRHa_StockingsB</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1C_StockingsB</label>
+		<graphicData>
+			<texPath>1C/Anneli_YoRHa_StockingsB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_YoRHa_StockingsB</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Operator</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+		
+</Defs>

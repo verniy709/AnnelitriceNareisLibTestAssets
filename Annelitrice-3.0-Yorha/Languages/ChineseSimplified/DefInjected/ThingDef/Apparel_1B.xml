@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_YoRHa_Underwear -->
+
+  <Anneli_YoRHa_Underwear.label>(寄叶)1B_内裤</Anneli_YoRHa_Underwear.label>
+  <Anneli_YoRHa_Underwear.description>可染色.</Anneli_YoRHa_Underwear.description>
+
+
+  <!-- Anneli_YoRHa_Thong -->
+
+  <Anneli_YoRHa_Thong.label>(寄叶)1B_丁字裤</Anneli_YoRHa_Thong.label>
+  <Anneli_YoRHa_Thong.description>可染色.</Anneli_YoRHa_Thong.description>
+
+
+  <!-- Anneli_YoRHa_Hipster -->
+
+  <Anneli_YoRHa_Hipster.label>(寄叶)1B_短裤</Anneli_YoRHa_Hipster.label>
+  <Anneli_YoRHa_Hipster.description>可染色.</Anneli_YoRHa_Hipster.description>
+
+
+</LanguageData>

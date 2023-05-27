@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_YoRHa_1AB" ParentName="Anneli_1AB" Abstract="True">
+		<equippedStatOffsets>
+			<MeleeHitChance>0.2</MeleeHitChance>
+			<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			<ResearchSpeed>0.2</ResearchSpeed>
+			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.2</HackingSpeed>
+			<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.2</MechRepairSpeed>
+			<MedicalSurgerySuccessChance>0.2</MedicalSurgerySuccessChance>
+			<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">4</MechBandwidth>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_YoRHa</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_YoRHa_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+<!--Anneli_YoRHa_BodySuitA-->
+	<ThingDef ParentName="Anneli_YoRHa_1AB">
+		<defName>Anneli_YoRHa_BodySuitA</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1AB_BodySuitA</label>
+		<graphicData>
+			<texPath>1AB/Anneli_YoRHa_BodySuitA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_YoRHa_BodySuitA</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Healer</li>
+				<li>Anneli_YoRHa_Operator</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_YoRHa_BodySuitB-->
+	<ThingDef ParentName="Anneli_YoRHa_1AB">
+		<defName>Anneli_YoRHa_BodySuitB</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1AB_BodySuitB</label>
+		<graphicData>
+			<texPath>1AB/Anneli_YoRHa_BodySuitB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_YoRHa_BodySuitB</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Healer</li>
+				<li>Anneli_YoRHa_Operator</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_YoRHa_BodySuitC-->
+	<ThingDef ParentName="Anneli_YoRHa_1AB">
+		<defName>Anneli_YoRHa_BodySuitC</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1AB_BodySuitC</label>
+		<graphicData>
+			<texPath>1AB/Anneli_YoRHa_BodySuitC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_YoRHa_BodySuitC</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Healer</li>
+				<li>Anneli_YoRHa_Operator</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_YoRHa_BodySuitC_White-->
+	<ThingDef ParentName="Anneli_YoRHa_1AB">
+		<defName>Anneli_YoRHa_BodySuitC_White</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1AB_BodySuitC</label>
+		<graphicData>
+			<texPath>1AB/Anneli_YoRHa_BodySuitC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_YoRHa_BodySuitC</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Commander</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Maskd Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<recipeMaker Inherit="False">
+			<!--Not makeable-->
+			<useIngredientsForColor>false</useIngredientsForColor>
+    	</recipeMaker>
+    	<thingCategories Inherit="False">
+			<li>Category_Annelitrice_YoRHa_Dyed</li>
+		</thingCategories>
+	</ThingDef>
+
+<!--Anneli_YoRHa_LingerieA-->
+	<ThingDef ParentName="Anneli_YoRHa_1AB">
+		<defName>Anneli_YoRHa_LingerieA</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1AB_LingerieA</label>
+		<graphicData>
+			<texPath>1AB/Anneli_YoRHa_LingerieA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_YoRHa_LingerieA</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Copied_Kaine</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(125,155,190,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_LingerieB-->
+	<ThingDef ParentName="Anneli_YoRHa_1AB">
+		<defName>Anneli_YoRHa_LingerieB</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)1AB_LingerieB</label>
+		<graphicData>
+			<texPath>1AB/Anneli_YoRHa_LingerieB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_YoRHa_LingerieB</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Copied_Flower</li>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

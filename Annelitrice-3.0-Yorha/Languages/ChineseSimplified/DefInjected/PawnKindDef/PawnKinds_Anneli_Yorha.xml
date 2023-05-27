@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pawn spawn apparel:
+	Battler=Executioner
+	Defender=Operator
+	Gunner=Scanner -->
+
+  <Anneli_YoRHa_Leader.label>寄叶_复制体_格式塔</Anneli_YoRHa_Leader.label>
+  <Anneli_YoRHa_Copied_Flower.label>寄叶_复制体_灭世之花</Anneli_YoRHa_Copied_Flower.label>
+  <Anneli_YoRHa_Copied_Nier.label>寄叶_复制体_尼尔</Anneli_YoRHa_Copied_Nier.label>
+  <Anneli_YoRHa_Copied_Kaine.label>寄叶_复制体_凯宁</Anneli_YoRHa_Copied_Kaine.label>
+  <Anneli_YoRHa_Commander.label>寄叶_指挥官</Anneli_YoRHa_Commander.label>
+  <Anneli_YoRHa_Attacker.label>寄叶_A型号</Anneli_YoRHa_Attacker.label>
+  <Anneli_YoRHa_Battler.label>寄叶_B型号</Anneli_YoRHa_Battler.label>
+  <Anneli_YoRHa_Defender.label>寄叶_D型号</Anneli_YoRHa_Defender.label>
+  <Anneli_YoRHa_Executioner.label>寄叶_E型号</Anneli_YoRHa_Executioner.label>
+  <Anneli_YoRHa_Gunner.label>寄叶_G型号</Anneli_YoRHa_Gunner.label>
+  <Anneli_YoRHa_Healer.label>寄叶_H型号</Anneli_YoRHa_Healer.label>
+  <Anneli_YoRHa_Operator.label>寄叶_O型号</Anneli_YoRHa_Operator.label>
+  <Anneli_YoRHa_Scanner.label>寄叶_S型号</Anneli_YoRHa_Scanner.label>
+
+
+</LanguageData>

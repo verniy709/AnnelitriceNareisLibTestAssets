@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_YoRHa_34" ParentName="Anneli_34" Abstract="True">
+		<equippedStatOffsets>
+			<MeleeHitChance>0.2</MeleeHitChance>
+			<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			<ResearchSpeed>0.2</ResearchSpeed>
+			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.2</HackingSpeed>
+			<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.2</MechRepairSpeed>
+			<MedicalSurgerySuccessChance>0.2</MedicalSurgerySuccessChance>
+			<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">4</MechBandwidth>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_YoRHa</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_YoRHa_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_YoRHa_HeavyArmor-->
+	<ThingDef ParentName="Anneli_YoRHa_34">
+		<defName>Anneli_YoRHa_HeavyArmor</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)34_HeavyArmor</label>
+		<graphicData>
+			<texPath>34/Anneli_YoRHa_HeavyArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_YoRHa_HeavyArmor</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Defender</li>
+				<li>Anneli_YoRHa_Operator</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

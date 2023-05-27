@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_DressA</defName>
+		<originalDef>Anneli_YoRHa_DressA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2AB/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_DressA</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_DressB</defName>
+		<originalDef>Anneli_YoRHa_DressB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2AB/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_DressB</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_DressC</defName>
+		<originalDef>Anneli_YoRHa_DressC</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2AB/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_DressC</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_DressD</defName>
+		<originalDef>Anneli_YoRHa_DressD</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2AB/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_DressD</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_LongDressA</defName>
+		<originalDef>Anneli_YoRHa_LongDressA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2AB/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_LongDressA</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_LongDressB</defName>
+		<originalDef>Anneli_YoRHa_LongDressB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2AB/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_LongDressB</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_LongDressB_White</defName>
+		<originalDef>Anneli_YoRHa_LongDressB_White</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2AB/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_LongDressB_White</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_LongDressC</defName>
+		<originalDef>Anneli_YoRHa_LongDressC</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2AB/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_LongDressC</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_YoRHa_CombatSuit</defName>
+		<originalDef>Anneli_YoRHa_CombatSuit</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2AB/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_YoRHa_CombatSuit</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<drawOffsetSouth>(0, 0.22, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.22, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.22, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.22, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

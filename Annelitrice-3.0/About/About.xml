@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Annelitrice 3.0</name>
+  <author>Verniy709</author>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <packageId>Verniy709.Annelitrice3.0</packageId>
+  <description>
+  </description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>Verniy709.Annelitrice2.0</li>
+    <li>Verniy709.FacialAnimationForAnnelitrice</li>
+    <li>Verniy709.FacialAnimationForAnnelitriceRemake</li>
+    <li>Verniy709.Annelitrice.Ahmislan</li>
+    <li>Verniy709.Annelitrice.CosplayA</li>
+    <li>Verniy709.Annelitrice.Gakuen</li>
+    <li>Verniy709.Annelitrice.Jurnizia</li>
+    <li>Verniy709.Annelitrice.Yorha</li>
+  </incompatibleWith>
+</ModMetaData>

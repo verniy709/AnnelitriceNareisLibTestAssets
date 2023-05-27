@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- Guests -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+                    <value>
+                        <li>
+                            <factionDef>Anneli_Faction_YoRHa</factionDef>
+                            <pawnKinds>
+                                <li>Anneli_YoRHa_Copied_Flower</li>
+                                <li>Anneli_YoRHa_Copied_Nier</li>
+                                <li>Anneli_YoRHa_Copied_Kaine</li>
+                                <li>Anneli_YoRHa_Commander</li>
+                                <li>Anneli_YoRHa_Attacker</li>
+                                <li>Anneli_YoRHa_Battler</li>
+                                <li>Anneli_YoRHa_Defender</li>
+                                <li>Anneli_YoRHa_Executioner</li>
+                                <li>Anneli_YoRHa_Gunner</li>
+                                <li>Anneli_YoRHa_Healer</li>
+                                <li>Anneli_YoRHa_Operator</li>
+                                <li>Anneli_YoRHa_Scanner</li>
+                            </pawnKinds>
+                        </li>  
+                    </value>
+                </li>
+                <!-- Mercenaries -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+                    <value>
+                        <li>
+                            <factionDef>Anneli_Faction_YoRHa</factionDef>
+                            <pawnKinds>
+                                <li>Anneli_YoRHa_Copied_Flower</li>
+                                <li>Anneli_YoRHa_Copied_Nier</li>
+                                <li>Anneli_YoRHa_Copied_Kaine</li>
+                                <li>Anneli_YoRHa_Commander</li>
+                                <li>Anneli_YoRHa_Attacker</li>
+                                <li>Anneli_YoRHa_Battler</li>
+                                <li>Anneli_YoRHa_Defender</li>
+                                <li>Anneli_YoRHa_Executioner</li>
+                                <li>Anneli_YoRHa_Gunner</li>
+                                <li>Anneli_YoRHa_Healer</li>
+                                <li>Anneli_YoRHa_Operator</li>
+                                <li>Anneli_YoRHa_Scanner</li>
+                            </pawnKinds>
+                        </li>  
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
