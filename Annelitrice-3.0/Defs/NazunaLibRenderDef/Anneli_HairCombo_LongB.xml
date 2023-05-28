@@ -54,9 +54,9 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<drawOffsetSouth>(0, 0.59, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.55, 0)</drawOffsetEast>
+				<drawOffsetEast>(0, 0.59, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.59, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.55, 0)</drawOffsetWest>
+				<drawOffsetWest>(0, 0.59, 0)</drawOffsetWest>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 			</li>
@@ -76,9 +76,9 @@
 				</prefix>
 				<renderLayer>BottomHair</renderLayer>
 				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.59, 0)</drawOffsetEast>
+				<drawOffsetEast>(0, 0.55, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.59, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.59, 0)</drawOffsetWest>
+				<drawOffsetWest>(0, 0.55, 0)</drawOffsetWest>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 				<weightOfThePrefix>
