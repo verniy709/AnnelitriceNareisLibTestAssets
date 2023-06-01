@@ -12,10 +12,10 @@
 					<li>Anneli_YoRHa_Bandage</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<drawOffsetSouth>(0, 0.11, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.11, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.11, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.11, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.12, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.12, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.12, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.12, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 		</levels>
@@ -33,10 +33,10 @@
 					<li>Anneli_YoRHa_Socks</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<drawOffsetSouth>(0, 0.11, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.11, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.11, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.11, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.12, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.12, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.12, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.12, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 		</levels>
@@ -54,10 +54,10 @@
 					<li>Anneli_YoRHa_Socks_White</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<drawOffsetSouth>(0, 0.11, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.11, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.11, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.11, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.12, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.12, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.12, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.12, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 		</levels>
@@ -96,10 +96,10 @@
 					<li>Anneli_YoRHa_TightB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<drawOffsetSouth>(0, 0.11, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.11, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.11, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.11, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.12, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.12, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.12, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.12, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 		</levels>
@@ -117,10 +117,10 @@
 					<li>Anneli_YoRHa_StockingsA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<drawOffsetSouth>(0, 0.11, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.11, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.11, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.11, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.12, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.12, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.12, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.12, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 		</levels>
@@ -138,10 +138,10 @@
 					<li>Anneli_YoRHa_StockingsB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<drawOffsetSouth>(0, 0.11, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.11, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.11, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.11, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.12, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.12, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.12, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.12, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 		</levels>

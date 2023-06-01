@@ -200,6 +200,36 @@
 		</colorGenerator>
 	</ThingDef>	
 
+	<!--Anneli_YoRHa_Ribbon-->
+	<ThingDef ParentName="Anneli_YoRHa_6A_NonMetal">
+		<defName>Anneli_YoRHa_Ribbon</defName>
+		<description>Dyeable.</description>
+		<label>(YoRHa)6A_Ribbon</label>
+		<graphicData>
+			<texPath>6A/Anneli_YoRHa_Ribbon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_YoRHa_Ribbon</wornGraphicPath>
+			<tags>
+				<li>Anneli_YoRHa_Copied_Flower</li>
+				<li>Anneli_YoRHa_Battler</li>
+				<li>Anneli_YoRHa_Executioner</li>
+				<li>Anneli_YoRHa_Gunner</li>
+				<li>Anneli_YoRHa_Scanner</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>	
+
 	<!--Anneli_YoRHa_Headband-->
 	<ThingDef ParentName="Anneli_YoRHa_6A_NonMetal">
 		<defName>Anneli_YoRHa_Headband</defName>

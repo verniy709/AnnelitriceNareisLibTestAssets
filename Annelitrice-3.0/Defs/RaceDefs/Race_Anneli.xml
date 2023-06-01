@@ -71,7 +71,7 @@
 								<options>
 									<li>
 										<weight>2</weight>
-										<only>RGBA(1,0.94,0.94,1)</only>
+										<only>RGBA(1,0.95,0.95,1)</only>
 									</li>
 									<li>
 										<weight>3</weight>
@@ -83,15 +83,15 @@
 									</li>
 									<li>
 										<weight>2</weight>
-										<only>RGBA(1,0.94,0.91,1)</only>
+										<only>RGBA(1,0.95,0.92,1)</only>
 									</li>
 									<li>
 										<weight>2</weight>
-										<only>RGBA(1,0.91,0.94,1)</only>
+										<only>RGBA(1,0.92,0.95,1)</only>
 									</li>
 									<li>
 										<weight>2</weight>
-										<only>RGBA(0.97,0.85,0.79,1)</only>
+										<only>RGBA(0.97,0.87,0.81,1)</only>
 									</li>
 								</options>
 							</first>

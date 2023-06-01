@@ -12,21 +12,21 @@
 					<li>Anneli_YoRHa_CloakA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<drawOffsetSouth>(0, 0.52, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.52, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.52, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.52, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.43, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.43, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.43, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.43, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_YoRHa_Back_CloakA</li>
+					<li>Anneli_Back_YoRHa_CloakA</li>
 				</prefix>
 				<renderLayer>BottomOverlay</renderLayer>
-				<drawOffsetSouth>(0, -0.52, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, -0.52, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, -0.52, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, -0.52, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, -0.43, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.43, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.43, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.43, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 		</levels>
@@ -44,21 +44,21 @@
 					<li>Anneli_YoRHa_CloakB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<drawOffsetSouth>(0, 0.52, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.52, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.52, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.52, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.43, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.43, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.43, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.43, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_YoRHa_Back_CloakB</li>
+					<li>Anneli_Back_YoRHa_CloakB</li>
 				</prefix>
 				<renderLayer>BottomOverlay</renderLayer>
-				<drawOffsetSouth>(0, -0.52, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, -0.52, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, -0.52, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, -0.52, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, -0.43, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.43, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.43, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.43, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 		</levels>

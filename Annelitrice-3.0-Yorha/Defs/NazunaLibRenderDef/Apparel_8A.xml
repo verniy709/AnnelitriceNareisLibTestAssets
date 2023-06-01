@@ -12,10 +12,10 @@
 					<li>Anneli_YoRHa_MusicBox</li>
 				</prefix>
 				<renderLayer>Overlay</renderLayer>
-				<drawOffsetSouth>(0, 0.81, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.81, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.81, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.81, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 		</levels>
@@ -33,21 +33,21 @@
 					<li>Anneli_YoRHa_WeaponSet</li>
 				</prefix>
 				<renderLayer>Overlay</renderLayer>
-				<drawOffsetSouth>(0, 0.81, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.81, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.81, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.81, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_YoRHa_Back_WeaponSet</li>
+					<li>Anneli_Back_YoRHa_WeaponSet</li>
 				</prefix>
 				<renderLayer>BottomOverlay</renderLayer>
-				<drawOffsetSouth>(0, -0.81, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, -0.81, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, -0.81, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, -0.81, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, -0.51, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.51, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.51, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.51, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 		</levels>
