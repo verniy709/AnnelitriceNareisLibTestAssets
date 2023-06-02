@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_HeelsA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.23, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.23, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.23, 0)</drawOffsetNorth>
@@ -33,6 +34,7 @@
 					<li>Anneli_YoRHa_HeelsB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.23, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.23, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.23, 0)</drawOffsetNorth>
@@ -54,6 +56,7 @@
 					<li>Anneli_YoRHa_HeelsC</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.23, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.23, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.23, 0)</drawOffsetNorth>
@@ -75,6 +78,7 @@
 					<li>Anneli_YoRHa_HeelsC_White</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.23, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.23, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.23, 0)</drawOffsetNorth>
@@ -96,6 +100,7 @@
 					<li>Anneli_YoRHa_DressShoes</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.23, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.23, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.23, 0)</drawOffsetNorth>
@@ -117,6 +122,7 @@
 					<li>Anneli_YoRHa_DestroyerBoots</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.26, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.26, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.26, 0)</drawOffsetNorth>
@@ -138,6 +144,7 @@
 					<li>Anneli_YoRHa_LongBootsA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.23, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.23, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.23, 0)</drawOffsetNorth>
@@ -159,6 +166,7 @@
 					<li>Anneli_YoRHa_LongBootsB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.23, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.23, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.23, 0)</drawOffsetNorth>
@@ -180,6 +188,7 @@
 					<li>Anneli_YoRHa_LongBootsC</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.23, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.23, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.23, 0)</drawOffsetNorth>
@@ -201,6 +210,7 @@
 					<li>Anneli_YoRHa_LongBootsC_White</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.23, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.23, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.23, 0)</drawOffsetNorth>
@@ -222,6 +232,7 @@
 					<li>Anneli_YoRHa_BootsA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.23, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.23, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.23, 0)</drawOffsetNorth>
@@ -243,6 +254,7 @@
 					<li>Anneli_YoRHa_BootsB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.23, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.23, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.23, 0)</drawOffsetNorth>
@@ -264,6 +276,7 @@
 					<li>Anneli_YoRHa_Sollerets</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
 				<drawOffsetSouth>(0, 0.26, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.26, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.26, 0)</drawOffsetNorth>

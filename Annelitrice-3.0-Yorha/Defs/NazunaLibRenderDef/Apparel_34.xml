@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_HeavyArmor</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel34</textureLevelsName>
 				<drawOffsetSouth>(0, 0.35, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.35, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.35, 0)</drawOffsetNorth>

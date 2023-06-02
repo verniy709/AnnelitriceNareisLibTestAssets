@@ -12,6 +12,7 @@
 					<li>Middle_Flat_B</li>
 				</prefix>
 				<renderLayer>BottomHair</renderLayer>
+				<textureLevelsName>Anneli_MiddleHair</textureLevelsName>
 				<drawOffsetSouth>(0, 0.55, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.55, 0)</drawOffsetNorth>
@@ -42,6 +43,7 @@
 					<li>Front_Straight_D</li>
 				</prefix>
 				<renderLayer>Hair</renderLayer>
+				<textureLevelsName>Anneli_FrontHair</textureLevelsName>
 				<drawOffsetSouth>(0, 0.59, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.55, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.59, 0)</drawOffsetNorth>
@@ -58,6 +60,7 @@
 					<li>Back_Pigtail_F</li>
 				</prefix>
 				<renderLayer>BottomHair</renderLayer>
+				<textureLevelsName>Anneli_BackHair</textureLevelsName>
 				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.59, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.59, 0)</drawOffsetNorth>

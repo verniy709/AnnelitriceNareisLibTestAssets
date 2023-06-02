@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_CloakA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.43, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.43, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.43, 0)</drawOffsetNorth>
@@ -22,7 +23,8 @@
 				<prefix>
 					<li>Anneli_Back_YoRHa_CloakA</li>
 				</prefix>
-				<renderLayer>BottomOverlay</renderLayer>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell5A</textureLevelsName>
 				<drawOffsetSouth>(0, -0.43, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, -0.43, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, -0.43, 0)</drawOffsetNorth>
@@ -44,6 +46,7 @@
 					<li>Anneli_YoRHa_CloakB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.43, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.43, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.43, 0)</drawOffsetNorth>
@@ -54,7 +57,8 @@
 				<prefix>
 					<li>Anneli_Back_YoRHa_CloakB</li>
 				</prefix>
-				<renderLayer>BottomOverlay</renderLayer>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell5A</textureLevelsName>
 				<drawOffsetSouth>(0, -0.43, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, -0.43, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, -0.43, 0)</drawOffsetNorth>

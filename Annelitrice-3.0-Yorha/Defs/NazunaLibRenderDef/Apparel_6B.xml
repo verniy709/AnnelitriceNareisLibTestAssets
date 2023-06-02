@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_EyeMaskA</li>
 				</prefix>
 				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_FaceMask6B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.62, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.62, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.62, 0)</drawOffsetNorth>
@@ -33,6 +34,7 @@
 					<li>Anneli_YoRHa_EyeMaskB</li>
 				</prefix>
 				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_FaceMask6B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.62, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.62, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.62, 0)</drawOffsetNorth>
@@ -54,6 +56,7 @@
 					<li>Anneli_YoRHa_EyeMaskC</li>
 				</prefix>
 				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_FaceMask6B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.62, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.62, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.62, 0)</drawOffsetNorth>
@@ -75,6 +78,7 @@
 					<li>Anneli_YoRHa_Flower</li>
 				</prefix>
 				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_FaceMask6B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.62, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.62, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.62, 0)</drawOffsetNorth>
@@ -96,6 +100,7 @@
 					<li>Anneli_YoRHa_SqureGlasses</li>
 				</prefix>
 				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_FaceMask6B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.62, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.62, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.62, 0)</drawOffsetNorth>

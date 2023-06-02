@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_Zantai</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1ABC</textureLevelsName>
 				<drawOffsetSouth>(0, 0.17, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.17, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.17, 0)</drawOffsetNorth>
@@ -33,6 +34,7 @@
 					<li>Anneli_YoRHa_Zantai_White</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1ABC</textureLevelsName>
 				<drawOffsetSouth>(0, 0.17, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.17, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.17, 0)</drawOffsetNorth>

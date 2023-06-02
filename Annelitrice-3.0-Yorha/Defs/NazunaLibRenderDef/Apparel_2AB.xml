@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_DressA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2AB</textureLevelsName>
 				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
@@ -33,6 +34,7 @@
 					<li>Anneli_YoRHa_DressB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2AB</textureLevelsName>
 				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
@@ -54,6 +56,7 @@
 					<li>Anneli_YoRHa_DressC</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2AB</textureLevelsName>
 				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
@@ -75,6 +78,7 @@
 					<li>Anneli_YoRHa_DressD</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2AB</textureLevelsName>
 				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
@@ -96,10 +100,23 @@
 					<li>Anneli_YoRHa_LongDressA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2AB</textureLevelsName>
 				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_YoRHa_LongDressA</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell2AB</textureLevelsName>
+				<drawOffsetSouth>(0, -0.29, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.29, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.29, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.29, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 			</li>
 		</levels>
@@ -117,6 +134,7 @@
 					<li>Anneli_YoRHa_LongDressB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2AB</textureLevelsName>
 				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
@@ -138,6 +156,7 @@
 					<li>Anneli_YoRHa_LongDressB_White</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2AB</textureLevelsName>
 				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
@@ -159,6 +178,7 @@
 					<li>Anneli_YoRHa_LongDressC</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2AB</textureLevelsName>
 				<drawOffsetSouth>(0, 0.29, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.29, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
@@ -180,6 +200,7 @@
 					<li>Anneli_YoRHa_CombatSuit</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2AB</textureLevelsName>
 				<drawOffsetSouth>(0, 0.22, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.22, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.22, 0)</drawOffsetNorth>

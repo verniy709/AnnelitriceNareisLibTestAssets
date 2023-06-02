@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_KneePlates</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.25, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.25, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.25, 0)</drawOffsetNorth>

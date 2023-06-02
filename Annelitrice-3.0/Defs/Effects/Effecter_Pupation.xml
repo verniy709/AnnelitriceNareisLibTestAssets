@@ -10,14 +10,13 @@
         <spawnLocType>OnSource</spawnLocType>
       </li>
       <li>
-        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
-        <positionRadius>0.2</positionRadius>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.3</positionRadius>
         <fleckDef>Anneli_PupaFormationA</fleckDef>
-        <ticksBetweenMotes>60</ticksBetweenMotes>
-        <burstCount>2~3</burstCount>
+        <burstCount>4~5</burstCount>
         <speed>0.3~0.6</speed>
         <scale>1.2~1.8</scale>
-        <positionOffset>(0, 0, -0.3)</positionOffset>
+        <positionOffset>(0, 0, -0.2)</positionOffset>
         <spawnLocType>OnSource</spawnLocType>
       </li>
       <li>

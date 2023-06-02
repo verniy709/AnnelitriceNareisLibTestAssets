@@ -12,6 +12,7 @@
 					<li>Naked</li>
 				</prefix>
 				<renderLayer>Body</renderLayer>
+				<textureLevelsName>Anneli_Body</textureLevelsName>
 				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>

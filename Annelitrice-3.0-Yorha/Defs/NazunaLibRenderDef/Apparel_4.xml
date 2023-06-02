@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_DestroyerArmor</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel4</textureLevelsName>
 				<drawOffsetSouth>(0, 0.34, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.34, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.34, 0)</drawOffsetNorth>
@@ -33,6 +34,7 @@
 					<li>Anneli_YoRHa_ArmorVest</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel4</textureLevelsName>
 				<drawOffsetSouth>(0, 0.32, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.32, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.32, 0)</drawOffsetNorth>

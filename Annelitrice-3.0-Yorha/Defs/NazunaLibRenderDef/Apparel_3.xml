@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_DestroyerCoat</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
 				<drawOffsetSouth>(0, 0.31, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.31, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.31, 0)</drawOffsetNorth>
@@ -33,6 +34,7 @@
 					<li>Anneli_YoRHa_BlazerA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
 				<drawOffsetSouth>(0, 0.31, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.31, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.31, 0)</drawOffsetNorth>
@@ -54,6 +56,7 @@
 					<li>Anneli_YoRHa_BlazerB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
 				<drawOffsetSouth>(0, 0.31, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.31, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.31, 0)</drawOffsetNorth>
@@ -75,6 +78,7 @@
 					<li>Anneli_YoRHa_Vest</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
 				<drawOffsetSouth>(0, 0.31, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.31, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.31, 0)</drawOffsetNorth>
@@ -96,6 +100,7 @@
 					<li>Anneli_YoRHa_TrenchCoat</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
 				<drawOffsetSouth>(0, 0.33, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.33, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.33, 0)</drawOffsetNorth>
@@ -117,6 +122,7 @@
 					<li>Anneli_YoRHa_CoatA</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
 				<drawOffsetSouth>(0, 0.31, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.31, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.31, 0)</drawOffsetNorth>
@@ -138,6 +144,7 @@
 					<li>Anneli_YoRHa_CoatB</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
 				<drawOffsetSouth>(0, 0.31, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.31, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.31, 0)</drawOffsetNorth>
@@ -159,6 +166,7 @@
 					<li>Anneli_YoRHa_CoatC</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
 				<drawOffsetSouth>(0, 0.33, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.33, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.33, 0)</drawOffsetNorth>

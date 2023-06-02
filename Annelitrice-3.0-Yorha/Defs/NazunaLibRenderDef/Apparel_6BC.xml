@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_LatexMask</li>
 				</prefix>
 				<renderLayer>HeadMask</renderLayer>
+				<textureLevelsName>Anneli_HeadMask6BC</textureLevelsName>
 				<drawOffsetSouth>(0, 0.64, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.64, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.64, 0)</drawOffsetNorth>

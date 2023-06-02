@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_HeavyHelmetA</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6ABC</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
@@ -33,6 +34,7 @@
 					<li>Anneli_YoRHa_HeavyHelmetB</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6ABC</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>

@@ -11,7 +11,8 @@
 				<prefix>
 					<li>Anneli_YoRHa_POD</li>
 				</prefix>
-				<renderLayer>Overlay</renderLayer>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>FrontShell8B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.52, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.52, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.52, 0)</drawOffsetNorth>
@@ -32,7 +33,8 @@
 				<prefix>
 					<li>Anneli_YoRHa_Grimore</li>
 				</prefix>
-				<renderLayer>Overlay</renderLayer>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>FrontShell8B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.52, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.52, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.52, 0)</drawOffsetNorth>
@@ -53,7 +55,8 @@
 				<prefix>
 					<li>Anneli_YoRHa_BabyMachine</li>
 				</prefix>
-				<renderLayer>Overlay</renderLayer>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>FrontShell8B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.52, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.52, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.52, 0)</drawOffsetNorth>

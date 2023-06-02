@@ -12,6 +12,7 @@
 					<li>Anneli_YoRHa_FlatCap</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
@@ -33,6 +34,7 @@
 					<li>Anneli_YoRHa_Beret</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
@@ -54,6 +56,7 @@
 					<li>Anneli_YoRHa_Hood</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
@@ -75,6 +78,7 @@
 					<li>Anneli_YoRHa_RibbonedHat</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
@@ -96,6 +100,7 @@
 					<li>Anneli_YoRHa_Ribbon</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
@@ -106,7 +111,8 @@
 				<prefix>
 					<li>Anneli_YoRHa_Ribbon</li>
 				</prefix>
-				<renderLayer>BottomOverlay</renderLayer>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell6A</textureLevelsName>
 				<drawOffsetSouth>(0, -0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, -0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, -0.65, 0)</drawOffsetNorth>
@@ -128,6 +134,7 @@
 					<li>Anneli_YoRHa_Headband</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
@@ -149,6 +156,7 @@
 					<li>Anneli_YoRHa_Hairband</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
@@ -170,6 +178,7 @@
 					<li>Anneli_YoRHa_FlowerAccessory</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
@@ -191,6 +200,7 @@
 					<li>Anneli_YoRHa_Headwear</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
@@ -212,6 +222,7 @@
 					<li>Anneli_YoRHa_ConicalHat</li>
 				</prefix>
 				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Hat6A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
