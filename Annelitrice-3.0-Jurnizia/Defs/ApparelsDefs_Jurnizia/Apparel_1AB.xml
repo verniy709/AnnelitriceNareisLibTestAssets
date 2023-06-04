@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Jurnizia_1AB" ParentName="Anneli_1AB" Abstract="True">
+		<equippedStatOffsets>
+			<PainShockThreshold>0.2</PainShockThreshold>
+			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.1</AimingDelayFactor>
+			<EatingSpeed>0.2</EatingSpeed>			
+			<ConstructionSpeed>0.2</ConstructionSpeed>
+			<HuntingStealth>0.2</HuntingStealth>
+			<MedicalTendSpeed>0.2</MedicalTendSpeed>
+			<MedicalTendQuality>0.2</MedicalTendQuality>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Jurnizia</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Jurnizia_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_Lingerie-->
+	<ThingDef ParentName="Anneli_Jurnizia_1AB">
+		<defName>Anneli_Jurnizia_Lingerie</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)1AB_Lingerie</label>
+		<graphicData>
+			<texPath>1AB/Anneli_Jurnizia_Lingerie</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_Jurnizia_Lingerie</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_Officer</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(240,205,195,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_LaceLingerie-->
+	<ThingDef ParentName="Anneli_Jurnizia_1AB">
+		<defName>Anneli_Jurnizia_LaceLingerie</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)1AB_LaceLingerie</label>
+		<graphicData>
+			<texPath>1AB/Anneli_Jurnizia_LaceLingerie</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_Jurnizia_LaceLingerie</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_Officer</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(240,205,195,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

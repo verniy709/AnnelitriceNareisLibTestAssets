@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_Beret -->
+
+  <Anneli_Gakuen_Beret.label>(学园)6A_贝雷帽</Anneli_Gakuen_Beret.label>
+  <Anneli_Gakuen_Beret.description>可染色.</Anneli_Gakuen_Beret.description>
+
+
+  <!-- Anneli_Gakuen_SunHat -->
+
+  <Anneli_Gakuen_SunHat.label>(学园)6A_夏日帽</Anneli_Gakuen_SunHat.label>
+  <Anneli_Gakuen_SunHat.description>可染色.</Anneli_Gakuen_SunHat.description>
+
+
+  <!-- Anneli_Gakuen_Headband -->
+
+  <Anneli_Gakuen_Headband.label>(学园)6A_头带</Anneli_Gakuen_Headband.label>
+  <Anneli_Gakuen_Headband.description>可染色.</Anneli_Gakuen_Headband.description>
+
+
+  <!-- Anneli_Gakuen_MilitaryHat -->
+
+  <Anneli_Gakuen_MilitaryHat.label>(学园)6A_军帽</Anneli_Gakuen_MilitaryHat.label>
+  <Anneli_Gakuen_MilitaryHat.description>可染色.</Anneli_Gakuen_MilitaryHat.description>
+
+
+  <!-- Anneli_Gakuen_BaseballCap -->
+
+  <Anneli_Gakuen_BaseballCap.label>(学园)6A_棒球帽</Anneli_Gakuen_BaseballCap.label>
+  <Anneli_Gakuen_BaseballCap.description>可染色.</Anneli_Gakuen_BaseballCap.description>
+
+
+  <!-- Anneli_Gakuen_VisorCap -->
+
+  <Anneli_Gakuen_VisorCap.label>(学园)6A_遮阳帽</Anneli_Gakuen_VisorCap.label>
+  <Anneli_Gakuen_VisorCap.description>可染色.</Anneli_Gakuen_VisorCap.description>
+
+
+  <!-- Anneli_Gakuen_BikeHelmet -->
+
+  <Anneli_Gakuen_BikeHelmet.label>(学园)6A_自行车头盔</Anneli_Gakuen_BikeHelmet.label>
+  <Anneli_Gakuen_BikeHelmet.description>可染色.</Anneli_Gakuen_BikeHelmet.description>
+
+
+  <!-- Anneli_Gakuen_TacticalHeadset -->
+
+  <Anneli_Gakuen_TacticalHeadset.label>(学园)6A_战术耳机</Anneli_Gakuen_TacticalHeadset.label>
+  <Anneli_Gakuen_TacticalHeadset.description>可染色.</Anneli_Gakuen_TacticalHeadset.description>
+
+
+  <!-- Anneli_Gakuen_CamoTacticalHeadset -->
+
+  <Anneli_Gakuen_CamoTacticalHeadset.label>(学园)6A_迷彩战术耳机</Anneli_Gakuen_CamoTacticalHeadset.label>
+  <Anneli_Gakuen_CamoTacticalHeadset.description>不可染色.</Anneli_Gakuen_CamoTacticalHeadset.description>
+
+
+  <!-- Anneli_Gakuen_CatHeadset -->
+
+  <Anneli_Gakuen_CatHeadset.label>(学园)6A_猫耳机</Anneli_Gakuen_CatHeadset.label>
+  <Anneli_Gakuen_CatHeadset.description>可染色.</Anneli_Gakuen_CatHeadset.description>
+
+
+  <!-- Anneli_Gakuen_Hachimaki -->
+
+  <Anneli_Gakuen_Hachimaki.label>(学园)6A_头巾</Anneli_Gakuen_Hachimaki.label>
+  <Anneli_Gakuen_Hachimaki.description>可染色.</Anneli_Gakuen_Hachimaki.description>
+
+
+  <!-- Anneli_Gakuen_HachimakiKanji -->
+
+  <Anneli_Gakuen_HachimakiKanji.label>(学园)6A_带标语的头巾</Anneli_Gakuen_HachimakiKanji.label>
+  <Anneli_Gakuen_HachimakiKanji.description>不可染色.</Anneli_Gakuen_HachimakiKanji.description>
+
+
+  <!-- Anneli_Gakuen_ChiikawaAccessories -->
+
+  <Anneli_Gakuen_ChiikawaAccessories.label>(学园)6A_小可爱发饰</Anneli_Gakuen_ChiikawaAccessories.label>
+  <Anneli_Gakuen_ChiikawaAccessories.description>不可染色.</Anneli_Gakuen_ChiikawaAccessories.description>
+
+
+</LanguageData>

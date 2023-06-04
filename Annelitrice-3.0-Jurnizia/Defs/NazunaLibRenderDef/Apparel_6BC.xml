@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_GP5GasMaskA</defName>
+		<originalDef>Anneli_Jurnizia_GP5GasMaskA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6BC/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_GP5GasMaskA</li>
+				</prefix>
+				<renderLayer>HeadMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6BC</textureLevelsName>
+				<drawOffsetSouth>(0, 0.64, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.64, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.64, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.64, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_GP5GasMaskB</defName>
+		<originalDef>Anneli_Jurnizia_GP5GasMaskB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6BC/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_GP5GasMaskB</li>
+				</prefix>
+				<renderLayer>HeadMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6BC</textureLevelsName>
+				<drawOffsetSouth>(0, 0.64, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.64, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.64, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.64, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_PMK1GasMaskA</defName>
+		<originalDef>Anneli_Jurnizia_PMK1GasMaskA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6BC/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_PMK1GasMaskA</li>
+				</prefix>
+				<renderLayer>HeadMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6BC</textureLevelsName>
+				<drawOffsetSouth>(0, 0.64, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.64, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.64, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.64, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_PMK1GasMaskB</defName>
+		<originalDef>Anneli_Jurnizia_PMK1GasMaskB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6BC/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_PMK1GasMaskB</li>
+				</prefix>
+				<renderLayer>HeadMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6BC</textureLevelsName>
+				<drawOffsetSouth>(0, 0.64, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.64, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.64, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.64, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

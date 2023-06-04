@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_Bra -->
+
+  <Anneli_Gakuen_Bra.label>(学园)1A_胸罩</Anneli_Gakuen_Bra.label>
+  <Anneli_Gakuen_Bra.description>可染色.</Anneli_Gakuen_Bra.description>
+
+
+  <!-- Anneli_Gakuen_CatBra -->
+
+  <Anneli_Gakuen_CatBra.label>(学园)1A_猫胸罩</Anneli_Gakuen_CatBra.label>
+  <Anneli_Gakuen_CatBra.description>可染色.</Anneli_Gakuen_CatBra.description>
+
+
+  <!-- Anneli_Gakuen_HalterNeckBra -->
+
+  <Anneli_Gakuen_HalterNeckBra.label>(学园)1A_露背胸罩</Anneli_Gakuen_HalterNeckBra.label>
+  <Anneli_Gakuen_HalterNeckBra.description>可染色.</Anneli_Gakuen_HalterNeckBra.description>
+
+
+  <!-- Anneli_Gakuen_ChestWrap -->
+
+  <Anneli_Gakuen_ChestWrap.label>(学园)1A_绷带裹胸</Anneli_Gakuen_ChestWrap.label>
+  <Anneli_Gakuen_ChestWrap.description>可染色.</Anneli_Gakuen_ChestWrap.description>
+
+
+</LanguageData>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_WoolMask -->
+
+  <Anneli_Gakuen_WoolMask.label>(学园)6C_布口罩</Anneli_Gakuen_WoolMask.label>
+  <Anneli_Gakuen_WoolMask.description>可染色.</Anneli_Gakuen_WoolMask.description>
+
+
+  <!-- Anneli_Gakuen_MedicalMask -->
+
+  <Anneli_Gakuen_MedicalMask.label>(学园)6C_医用口罩</Anneli_Gakuen_MedicalMask.label>
+  <Anneli_Gakuen_MedicalMask.description>可染色.</Anneli_Gakuen_MedicalMask.description>
+
+
+  <!-- Anneli_Gakuen_Toast -->
+
+  <Anneli_Gakuen_Toast.label>(学园)6C_吐司</Anneli_Gakuen_Toast.label>
+  <Anneli_Gakuen_Toast.description>不可染色.</Anneli_Gakuen_Toast.description>
+
+
+</LanguageData>

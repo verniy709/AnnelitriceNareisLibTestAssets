@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <li>Anneli_Jurnizia_Civilian_Male</li>
+	<li>Anneli_Jurnizia_Civilian_Female</li>
+	<li>Anneli_Jurnizia_Militia_Male</li>
+	<li>Anneli_Jurnizia_Militia_Female</li>
+	<li>Anneli_Jurnizia_Draftee</li>
+	<li>Anneli_Jurnizia_Officer</li>
+	<li>Anneli_Jurnizia_Driver</li>
+	<li>Anneli_Jurnizia_Spetsnaz</li>
+	<li>Anneli_Jurnizia_Sniper</li>
+	<li>Anneli_Jurnizia_InternalTroop_Male</li>
+	<li>Anneli_Jurnizia_InternalTroop_Female</li>
+	<li>Anneli_Jurnizia_HeavyTrooper</li> -->
+
+  <Anneli_Jurnizia_Leader.label>切尼亚_头领</Anneli_Jurnizia_Leader.label>
+  <Anneli_Jurnizia_Civilian_Male.label>切尼亚_平民</Anneli_Jurnizia_Civilian_Male.label>
+  <Anneli_Jurnizia_Civilian_Female.label>切尼亚_平民</Anneli_Jurnizia_Civilian_Female.label>
+  <Anneli_Jurnizia_Militia_Male.label>切尼亚_民兵</Anneli_Jurnizia_Militia_Male.label>
+  <Anneli_Jurnizia_Militia_Female.label>切尼亚_民兵</Anneli_Jurnizia_Militia_Female.label>
+  <Anneli_Jurnizia_Draftee.label>切尼亚_征召兵</Anneli_Jurnizia_Draftee.label>
+  <Anneli_Jurnizia_Officer.label>切尼亚_军官</Anneli_Jurnizia_Officer.label>
+  <Anneli_Jurnizia_Driver.label>切尼亚_装甲兵</Anneli_Jurnizia_Driver.label>
+  <Anneli_Jurnizia_Spetsnaz.label>切尼亚_特种部队</Anneli_Jurnizia_Spetsnaz.label>
+  <Anneli_Jurnizia_Sniper.label>切尼亚_狙击手</Anneli_Jurnizia_Sniper.label>
+  <Anneli_Jurnizia_InternalTroop_Male.label>切尼亚_内务部队</Anneli_Jurnizia_InternalTroop_Male.label>
+  <Anneli_Jurnizia_InternalTroop_Female.label>切尼亚_内务部队</Anneli_Jurnizia_InternalTroop_Female.label>
+  <Anneli_Jurnizia_HeavyTrooper.label>切尼亚_重装部队</Anneli_Jurnizia_HeavyTrooper.label>
+
+
+</LanguageData>

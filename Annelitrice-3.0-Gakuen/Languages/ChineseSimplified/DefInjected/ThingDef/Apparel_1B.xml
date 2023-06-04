@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_CatUnderwear -->
+
+  <Anneli_Gakuen_CatUnderwear.label>(学园)1B_猫内裤</Anneli_Gakuen_CatUnderwear.label>
+  <Anneli_Gakuen_CatUnderwear.description>可染色.</Anneli_Gakuen_CatUnderwear.description>
+
+
+  <!-- Anneli_Gakuen_Cheeky -->
+
+  <Anneli_Gakuen_Cheeky.label>(学园)1B_低腰内裤</Anneli_Gakuen_Cheeky.label>
+  <Anneli_Gakuen_Cheeky.description>可染色.</Anneli_Gakuen_Cheeky.description>
+
+
+  <!-- Anneli_Gakuen_Classic -->
+
+  <Anneli_Gakuen_Classic.label>(学园)1B_内裤</Anneli_Gakuen_Classic.label>
+  <Anneli_Gakuen_Classic.description>可染色.</Anneli_Gakuen_Classic.description>
+
+
+  <!-- Anneli_Gakuen_Loincloth -->
+
+  <Anneli_Gakuen_Loincloth.label>(学园)1B_兜裆布</Anneli_Gakuen_Loincloth.label>
+  <Anneli_Gakuen_Loincloth.description>可染色.</Anneli_Gakuen_Loincloth.description>
+
+
+</LanguageData>

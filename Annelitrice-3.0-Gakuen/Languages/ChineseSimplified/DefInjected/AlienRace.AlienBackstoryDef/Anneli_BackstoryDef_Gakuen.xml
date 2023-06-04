@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Adulthood -->
+
+  <Anneli_Gakuen_AverageStudent.title>安妮莉特丝学园平凡学生</Anneli_Gakuen_AverageStudent.title>
+  <Anneli_Gakuen_AverageStudent.titleShort>学园平凡学生</Anneli_Gakuen_AverageStudent.titleShort>
+  <Anneli_Gakuen_AverageStudent.baseDesc>[PAWN_nameDef]扮演一名学园平凡学生. 纯纯的路人角色.</Anneli_Gakuen_AverageStudent.baseDesc>
+
+  <Anneli_Gakuen_MusicClub.title>安妮莉特丝学园音乐部部员</Anneli_Gakuen_MusicClub.title>
+  <Anneli_Gakuen_MusicClub.titleShort>学园音乐部部员</Anneli_Gakuen_MusicClub.titleShort>
+  <Anneli_Gakuen_MusicClub.baseDesc>[PAWN_nameDef]扮演一名学园音乐部部员. 她为了做主唱而付出了很多努力.</Anneli_Gakuen_MusicClub.baseDesc>
+
+  <Anneli_Gakuen_BaseballPlayer.title>安妮莉特丝学园棒球手</Anneli_Gakuen_BaseballPlayer.title>
+  <Anneli_Gakuen_BaseballPlayer.titleShort>学园棒球手</Anneli_Gakuen_BaseballPlayer.titleShort>
+  <Anneli_Gakuen_BaseballPlayer.baseDesc>[PAWN_nameDef]扮演一名学园棒球手. 她所在的队伍已经连续五年赢得了全国大赛.</Anneli_Gakuen_BaseballPlayer.baseDesc>
+
+  <Anneli_Gakuen_GardenClub.title>安妮莉特丝学园学园园艺部员</Anneli_Gakuen_GardenClub.title>
+  <Anneli_Gakuen_GardenClub.titleShort>学园学园园艺部员</Anneli_Gakuen_GardenClub.titleShort>
+  <Anneli_Gakuen_GardenClub.baseDesc>[PAWN_nameDef]扮演一名学园学园园艺部员. 她最喜欢的花是星空百合.</Anneli_Gakuen_GardenClub.baseDesc>
+
+  <Anneli_Gakuen_CatCafe.title>安妮莉特丝学园猫咖雇员</Anneli_Gakuen_CatCafe.title>
+  <Anneli_Gakuen_CatCafe.titleShort>学园猫咖雇员</Anneli_Gakuen_CatCafe.titleShort>
+  <Anneli_Gakuen_CatCafe.baseDesc>[PAWN_nameDef]扮演一名学园猫咖雇员.</Anneli_Gakuen_CatCafe.baseDesc>
+
+  <Anneli_Gakuen_SculptureClub.title>安妮莉特丝学园雕刻部部员</Anneli_Gakuen_SculptureClub.title>
+  <Anneli_Gakuen_SculptureClub.titleShort>学园雕刻部部员</Anneli_Gakuen_SculptureClub.titleShort>
+  <Anneli_Gakuen_SculptureClub.baseDesc>[PAWN_nameDef]扮演一名学园雕刻部员. 她最好的作品是《大汗淋漓的No.2VOPN》. 这个作品描绘了一发导弹. 如果你眯眼去看这个雕塑, 不协调的配色展现出了一个葫芦的轮廓.</Anneli_Gakuen_SculptureClub.baseDesc>
+
+  <Anneli_Gakuen_CookingClub.title>安妮莉特丝烹饪部部员</Anneli_Gakuen_CookingClub.title>
+  <Anneli_Gakuen_CookingClub.titleShort>学园烹饪部部员</Anneli_Gakuen_CookingClub.titleShort>
+  <Anneli_Gakuen_CookingClub.baseDesc>[PAWN_nameDef]扮演一名学园烹饪部部员. 每次在情人节之前她都很忙.</Anneli_Gakuen_CookingClub.baseDesc>
+
+  <Anneli_Gakuen_KarateClub.title>安妮莉特丝学园空手部部员</Anneli_Gakuen_KarateClub.title>
+  <Anneli_Gakuen_KarateClub.titleShort>学园空手部部员</Anneli_Gakuen_KarateClub.titleShort>
+  <Anneli_Gakuen_KarateClub.baseDesc>[PAWN_nameDef]扮演一名学园空手部部员. 练习之后一定要来点果汁.</Anneli_Gakuen_KarateClub.baseDesc>
+
+  <Anneli_Gakuen_OutingClub.title>安妮莉特丝户外部部员</Anneli_Gakuen_OutingClub.title>
+  <Anneli_Gakuen_OutingClub.titleShort>学园户外部部员</Anneli_Gakuen_OutingClub.titleShort>
+  <Anneli_Gakuen_OutingClub.baseDesc>[PAWN_nameDef]扮演一名学园户外部部员. 她当时真的应该想办法躲开那个食人族营地.</Anneli_Gakuen_OutingClub.baseDesc>
+
+  <Anneli_Gakuen_StudentAssociation.title>安妮莉特丝学园学生会成员</Anneli_Gakuen_StudentAssociation.title>
+  <Anneli_Gakuen_StudentAssociation.titleShort>学园学生会成员</Anneli_Gakuen_StudentAssociation.titleShort>
+  <Anneli_Gakuen_StudentAssociation.baseDesc>[PAWN_nameDef]扮演一名学园学生会成员. 她的职责就是贯彻学园的风纪.</Anneli_Gakuen_StudentAssociation.baseDesc>
+
+
+</LanguageData>

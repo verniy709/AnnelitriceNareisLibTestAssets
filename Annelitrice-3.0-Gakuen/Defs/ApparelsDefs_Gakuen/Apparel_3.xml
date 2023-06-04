@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Gakuen_3" ParentName="Anneli_3" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+			<CleaningSpeed>0.1</CleaningSpeed>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<SocialImpact>0.1</SocialImpact>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_Blazer-->
+	<ThingDef ParentName="Anneli_Gakuen_3">
+		<defName>Anneli_Gakuen_Blazer</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)3_Blazer</label>
+		<graphicData>
+			<texPath>3/Anneli_Gakuen_Blazer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Gakuen_Blazer</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Kitakubuinn_WesternSuit</li>
+				<li>Anneli_Gakuen_Sabagebuin_WesternSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(60,65,90,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_SweaterVest-->
+	<ThingDef ParentName="Anneli_Gakuen_3">
+		<defName>Anneli_Gakuen_SweaterVest</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)3_SweaterVest</label>
+		<graphicData>
+			<texPath>3/Anneli_Gakuen_SweaterVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Gakuen_SweaterVest</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(240,220,200,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(150,150,160,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_Apron-->
+	<ThingDef ParentName="Anneli_Gakuen_3">
+		<defName>Anneli_Gakuen_Apron</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)3_Apron</label>
+		<graphicData>
+			<texPath>3/Anneli_Gakuen_Apron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Gakuen_Apron</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Kitakubuinn_SailorSuit</li>
+				<li>Anneli_Gakuen_Kitakubuinn_WesternSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,220,210,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(180,225,250,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(215,255,185,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,180,180,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_Coat-->
+	<ThingDef ParentName="Anneli_Gakuen_3">
+		<defName>Anneli_Gakuen_Coat</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)3_Coat</label>
+		<graphicData>
+			<texPath>3/Anneli_Gakuen_Coat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Gakuen_Coat</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(245,215,185,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(60,65,90,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_GakuranCoat-->
+	<ThingDef ParentName="Anneli_Gakuen_3">
+		<defName>Anneli_Gakuen_GakuranCoat</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)3_GakuranCoat</label>
+		<graphicData>
+			<texPath>3/Anneli_Gakuen_GakuranCoat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Gakuen_GakuranCoat</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Tsuppari</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_TiedAroundWaist-->
+	<ThingDef ParentName="Anneli_Gakuen_3">
+		<defName>Anneli_Gakuen_TiedAroundWaist</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)3_TiedAroundWaist</label>
+		<graphicData>
+			<texPath>3/Anneli_Gakuen_TiedAroundWaist</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Gakuen_TiedAroundWaist</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(60,65,90,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_TiedAroundWaist_Red-->
+	<ThingDef ParentName="Anneli_Gakuen_3">
+		<defName>Anneli_Gakuen_TiedAroundWaist_Red</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)3_TiedAroundWaist</label>
+		<graphicData>
+			<texPath>3/Anneli_Gakuen_TiedAroundWaist</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Gakuen_TiedAroundWaist</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingCategories Inherit="False">
+			<li>Category_Annelitrice_Gakuen_Dyed</li>
+		</thingCategories>
+		<recipeMaker Inherit="False">
+			<!--Not makeable-->
+			<useIngredientsForColor>false</useIngredientsForColor>
+    	</recipeMaker>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_TrackJacket-->
+	<ThingDef ParentName="Anneli_Gakuen_3">
+		<defName>Anneli_Gakuen_TrackJacket</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)3_TrackJacket</label>
+		<graphicData>
+			<texPath>3/Anneli_Gakuen_TrackJacket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Gakuen_TrackJacket</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(60,65,90,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_TrackJacket_Red-->
+	<ThingDef ParentName="Anneli_Gakuen_3">
+		<defName>Anneli_Gakuen_TrackJacket_Red</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)3_TrackJacket</label>
+		<graphicData>
+			<texPath>3/Anneli_Gakuen_TrackJacket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Gakuen_TrackJacket</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingCategories Inherit="False">
+			<li>Category_Annelitrice_Gakuen_Dyed</li>
+		</thingCategories>
+		<recipeMaker Inherit="False">
+			<!--Not makeable-->
+			<useIngredientsForColor>false</useIngredientsForColor>
+    	</recipeMaker>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+	
+</Defs>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Gakuen_6B_NonMetal" ParentName="Anneli_6B_NonMetal" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+			<CleaningSpeed>0.1</CleaningSpeed>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<SocialImpact>0.1</SocialImpact>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Gakuen_6B_Metal" ParentName="Anneli_6B_Metal" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+			<CleaningSpeed>0.1</CleaningSpeed>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<SocialImpact>0.1</SocialImpact>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_EyePatchA-->
+	<ThingDef ParentName="Anneli_Gakuen_6B_NonMetal">
+		<defName>Anneli_Gakuen_EyePatchA</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6B_EyePatchA</label>
+		<graphicData>
+			<texPath>6B/Anneli_Gakuen_EyePatchA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6B/Anneli_Gakuen_EyePatchA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.35</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_EyePatchB-->
+	<ThingDef ParentName="Anneli_Gakuen_6B_NonMetal">
+		<defName>Anneli_Gakuen_EyePatchB</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6B_EyePatchB</label>
+		<graphicData>
+			<texPath>6B/Anneli_Gakuen_EyePatchB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6B/Anneli_Gakuen_EyePatchB</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.35</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_RoundGlasses-->
+	<ThingDef ParentName="Anneli_Gakuen_6B_Metal">
+		<defName>Anneli_Gakuen_RoundGlasses</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6B_RoundGlasses</label>
+		<graphicData>
+			<texPath>6B/Anneli_Gakuen_RoundGlasses</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6B/Anneli_Gakuen_RoundGlasses</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180,225,250,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,220,200,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.35</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_SqureGlasses-->
+	<ThingDef ParentName="Anneli_Gakuen_6B_Metal">
+		<defName>Anneli_Gakuen_SqureGlasses</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6B_SqureGlasses</label>
+		<graphicData>
+			<texPath>6B/Anneli_Gakuen_SqureGlasses</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6B/Anneli_Gakuen_SqureGlasses</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Tsuppari</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180,225,250,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,220,200,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.35</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_InvisibleGlasses-->
+	<ThingDef ParentName="Anneli_Gakuen_6B_Metal">
+		<defName>Anneli_Gakuen_InvisibleGlasses</defName>
+		<description>NOT dyeable.</description>
+		<label>(Gakuen)6B_InvisibleGlasses</label>
+		<graphicData>
+			<texPath>6B/Anneli_Gakuen_InvisibleGlasses</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6B/Anneli_Gakuen_InvisibleGlasses</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Suieibuin</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.35</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

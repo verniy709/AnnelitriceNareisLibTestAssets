@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Category_Annelitrice_Jurnizia</defName>
+		<parent>Apparel</parent>
+		<label>Annelitrice Jurnizia Apparels</label>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Category_Annelitrice_Jurnizia_Dyed</defName>
+		<parent>Category_Annelitrice_Jurnizia</parent>
+		<label>Pawn Spawn Jurnizia Apparels</label>
+	</ThingCategoryDef>
+	
+</Defs>

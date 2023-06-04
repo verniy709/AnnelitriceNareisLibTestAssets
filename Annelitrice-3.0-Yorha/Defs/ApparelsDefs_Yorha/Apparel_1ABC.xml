@@ -34,6 +34,7 @@
 		<apparel>
 			<wornGraphicPath>1ABC/Anneli_YoRHa_Zantai</wornGraphicPath>
 			<tags>
+				<li>Anneli_Underwear</li>
 				<li>Anneli_YoRHa_Battler</li>
 				<li>Anneli_YoRHa_Executioner</li>
 				<li>Anneli_YoRHa_Defender</li>
@@ -63,6 +64,7 @@
 		<apparel>
 			<wornGraphicPath>1ABC/Anneli_YoRHa_Zantai</wornGraphicPath>
 			<tags>
+				<li>Anneli_Underwear</li>
 				<li>Anneli_YoRHa_Commander</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->

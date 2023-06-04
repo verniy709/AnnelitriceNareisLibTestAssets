@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_Beret</defName>
+		<originalDef>Anneli_Gakuen_Beret</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_Beret</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_SunHat</defName>
+		<originalDef>Anneli_Gakuen_SunHat</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_SunHat</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Gakuen_SunHat</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<drawOffsetSouth>(0, -0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_Headband</defName>
+		<originalDef>Anneli_Gakuen_Headband</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_Headband</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_MilitaryHat</defName>
+		<originalDef>Anneli_Gakuen_MilitaryHat</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_MilitaryHat</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_BaseballCap</defName>
+		<originalDef>Anneli_Gakuen_BaseballCap</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_BaseballCap</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_VisorCap</defName>
+		<originalDef>Anneli_Gakuen_VisorCap</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_VisorCap</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_BikeHelmet</defName>
+		<originalDef>Anneli_Gakuen_BikeHelmet</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_BikeHelmet</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_TacticalHeadset</defName>
+		<originalDef>Anneli_Gakuen_TacticalHeadset</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_TacticalHeadset</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_CamoTacticalHeadset</defName>
+		<originalDef>Anneli_Gakuen_CamoTacticalHeadset</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_CamoTacticalHeadset</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_CatHeadset</defName>
+		<originalDef>Anneli_Gakuen_CatHeadset</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_CatHeadset</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_Hachimaki</defName>
+		<originalDef>Anneli_Gakuen_Hachimaki</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_Hachimaki</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_HachimakiKanji</defName>
+		<originalDef>Anneli_Gakuen_HachimakiKanji</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/HachimakiKanji</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_HachimakiKanji</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_ChiikawaAccessories</defName>
+		<originalDef>Anneli_Gakuen_ChiikawaAccessories</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/ChiikawaAccessories</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_ChiikawaAccessories</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Jurnizia_2C_NonMetal" ParentName="Anneli_2C_NonMetal" Abstract="True">
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+			<EatingSpeed>0.1</EatingSpeed>			
+			<ConstructionSpeed>0.1</ConstructionSpeed>
+			<HuntingStealth>0.1</HuntingStealth>
+			<MedicalTendSpeed>0.1</MedicalTendSpeed>
+			<MedicalTendQuality>0.1</MedicalTendQuality>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Jurnizia</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Jurnizia_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Jurnizia_2C_Metal" ParentName="Anneli_2C_Metal" Abstract="True">
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+			<EatingSpeed>0.1</EatingSpeed>			
+			<ConstructionSpeed>0.1</ConstructionSpeed>
+			<HuntingStealth>0.1</HuntingStealth>
+			<MedicalTendSpeed>0.1</MedicalTendSpeed>
+			<MedicalTendQuality>0.1</MedicalTendQuality>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Jurnizia</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Jurnizia_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_Heels-->
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
+		<defName>Anneli_Jurnizia_Heels</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2C_Heels</label>
+		<graphicData>
+			<texPath>2C/Anneli_Jurnizia_Heels</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Jurnizia_Heels</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_Officer</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,220,200,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_TieLegHeels-->
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
+		<defName>Anneli_Jurnizia_TieLegHeels</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2C_TieLegHeels</label>
+		<graphicData>
+			<texPath>2C/Anneli_Jurnizia_TieLegHeels</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Jurnizia_TieLegHeels</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_Officer</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(60,65,90,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_Sandals-->
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
+		<defName>Anneli_Jurnizia_Sandals</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2C_Sandals</label>
+		<graphicData>
+			<texPath>2C/Anneli_Jurnizia_Sandals</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Jurnizia_Sandals</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_MockbaSneakers-->
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
+		<defName>Anneli_Jurnizia_MockbaSneakers</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2C_MockbaSneakers</label>
+		<graphicData>
+			<texPath>2C/Anneli_Jurnizia_MockbaSneakers</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Jurnizia_MockbaSneakers</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Civilian_Male</li>
+				<li>Anneli_Jurnizia_Militia_Male</li>
+				<li>Anneli_Jurnizia_Driver</li>
+				<li>Anneli_Jurnizia_InternalTroop_Male</li>
+				<li>Anneli_Jurnizia_Draftee</li>
+				<li>Anneli_Jurnizia_Spetsnaz</li>
+				<li>Anneli_Jurnizia_Sniper</li>
+				<li>Anneli_Jurnizia_HeavyTrooper</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(60,80,130,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(60,65,90,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_HikingBoots-->
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
+		<defName>Anneli_Jurnizia_HikingBoots</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2C_HikingBoots</label>
+		<graphicData>
+			<texPath>2C/Anneli_Jurnizia_HikingBoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Jurnizia_HikingBoots</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Common</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(130,120,100,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(110,90,75,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_WinterBoots-->
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
+		<defName>Anneli_Jurnizia_WinterBoots</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2C_WinterBoots</label>
+		<graphicData>
+			<texPath>2C/Anneli_Jurnizia_WinterBoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Jurnizia_WinterBoots</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Civilian_Male</li>
+				<li>Anneli_Jurnizia_Militia_Male</li>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(220,160,140,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(110,90,75,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_TacticalBoots-->
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
+		<defName>Anneli_Jurnizia_TacticalBoots</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2C_TacticalBoots</label>
+		<graphicData>
+			<texPath>2C/Anneli_Jurnizia_TacticalBoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Jurnizia_TacticalBoots</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Common</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_RidingBoots-->
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
+		<defName>Anneli_Jurnizia_RidingBoots</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2C_RidingBoots</label>
+		<graphicData>
+			<texPath>2C/Anneli_Jurnizia_RidingBoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Jurnizia_RidingBoots</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Common</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_KendoArmor</defName>
+		<originalDef>Anneli_Gakuen_KendoArmor</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>34/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_KendoArmor</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel34</textureLevelsName>
+				<drawOffsetSouth>(0, 0.35, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.35, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.35, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.35, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

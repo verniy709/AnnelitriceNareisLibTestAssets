@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Jurnizia_6ABC_NonMetal" ParentName="Anneli_6ABC_NonMetal" Abstract="True">
+		<equippedStatOffsets>
+			<PainShockThreshold>0.3</PainShockThreshold>
+			<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.15</AimingDelayFactor>
+			<EatingSpeed>0.3</EatingSpeed>			
+			<ConstructionSpeed>0.3</ConstructionSpeed>
+			<HuntingStealth>0.3</HuntingStealth>
+			<MedicalTendSpeed>0.3</MedicalTendSpeed>
+			<MedicalTendQuality>0.3</MedicalTendQuality>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Jurnizia</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Jurnizia_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Jurnizia_6ABC_Metal" ParentName="Anneli_6ABC_Metal" Abstract="True">
+		<equippedStatOffsets>
+			<PainShockThreshold>0.3</PainShockThreshold>
+			<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.15</AimingDelayFactor>
+			<EatingSpeed>0.3</EatingSpeed>			
+			<ConstructionSpeed>0.3</ConstructionSpeed>
+			<HuntingStealth>0.3</HuntingStealth>
+			<MedicalTendSpeed>0.3</MedicalTendSpeed>
+			<MedicalTendQuality>0.3</MedicalTendQuality>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Jurnizia</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Jurnizia_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_MASKASlit-->
+	<ThingDef ParentName="Anneli_Jurnizia_6ABC_Metal">
+		<defName>Anneli_Jurnizia_MASKASlit</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)6ABC_MASKASlit</label>
+		<graphicData>
+			<texPath>6ABC/Anneli_Jurnizia_MASKASlit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/Anneli_Jurnizia_MASKASlit</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_HeavyTrooper</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(105,115,90,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_MASKAVisor-->
+	<ThingDef ParentName="Anneli_Jurnizia_6ABC_Metal">
+		<defName>Anneli_Jurnizia_MASKAVisor</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)6ABC_MASKAVisor</label>
+		<graphicData>
+			<texPath>6ABC/Anneli_Jurnizia_MASKAVisor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/Anneli_Jurnizia_MASKAVisor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_InternalTroop_Male</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+
+</Defs>

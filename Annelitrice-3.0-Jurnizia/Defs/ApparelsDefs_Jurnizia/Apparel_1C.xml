@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Jurnizia_1C" ParentName="Anneli_1C" Abstract="True">
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+			<EatingSpeed>0.1</EatingSpeed>			
+			<ConstructionSpeed>0.1</ConstructionSpeed>
+			<HuntingStealth>0.1</HuntingStealth>
+			<MedicalTendSpeed>0.1</MedicalTendSpeed>
+			<MedicalTendQuality>0.1</MedicalTendQuality>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Jurnizia</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Jurnizia_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_StockingsA-->
+	<ThingDef ParentName="Anneli_Jurnizia_1C">
+		<defName>Anneli_Jurnizia_StockingsA</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)1C_StockingsA</label>
+		<graphicData>
+			<texPath>1C/Anneli_Jurnizia_StockingsA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Jurnizia_StockingsA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_Officer</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>20</weight>
+					<only>(240,205,195,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_StockingsB-->
+	<ThingDef ParentName="Anneli_Jurnizia_1C">
+		<defName>Anneli_Jurnizia_StockingsB</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)1C_StockingsB</label>
+		<graphicData>
+			<texPath>1C/Anneli_Jurnizia_StockingsB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Jurnizia_StockingsB</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_Officer</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>20</weight>
+					<only>(240,205,195,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_GarterStockingsA-->
+	<ThingDef ParentName="Anneli_Jurnizia_1C">
+		<defName>Anneli_Jurnizia_GarterStockingsA</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)1C_GarterStockingsA</label>
+		<graphicData>
+			<texPath>1C/Anneli_Jurnizia_GarterStockingsA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Jurnizia_GarterStockingsA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_Officer</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>20</weight>
+					<only>(240,205,195,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_GarterStockingsB-->
+	<ThingDef ParentName="Anneli_Jurnizia_1C">
+		<defName>Anneli_Jurnizia_GarterStockingsB</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)1C_GarterStockingsB</label>
+		<graphicData>
+			<texPath>1C/Anneli_Jurnizia_GarterStockingsB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Jurnizia_GarterStockingsB</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_Officer</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>20</weight>
+					<only>(240,205,195,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_Footwraps-->
+	<ThingDef ParentName="Anneli_Jurnizia_1C">
+		<defName>Anneli_Jurnizia_Footwraps</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)1C_Footwraps</label>
+		<graphicData>
+			<texPath>1C/Anneli_Jurnizia_Footwraps</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Jurnizia_Footwraps</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Jurnizia_Draftee</li>
+				<li>Anneli_Jurnizia_Driver</li>
+				<li>Anneli_Jurnizia_InternalTroop_Male</li>
+				<li>Anneli_Jurnizia_Spetsnaz</li>
+				<li>Anneli_Jurnizia_Sniper</li>
+				<li>Anneli_Jurnizia_HeavyTrooper</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_Socks-->
+	<ThingDef ParentName="Anneli_Jurnizia_1C">
+		<defName>Anneli_Jurnizia_Socks</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)1C_Socks</label>
+		<graphicData>
+			<texPath>1C/Anneli_Jurnizia_Socks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Jurnizia_Socks</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Jurnizia_Civilian_Male</li>
+				<li>Anneli_Jurnizia_Militia_Male</li>
+				<li>Anneli_Jurnizia_Draftee</li>
+				<li>Anneli_Jurnizia_Driver</li>
+				<li>Anneli_Jurnizia_InternalTroop_Male</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(130,120,100,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_CamoSocks-->
+	<ThingDef ParentName="Anneli_Jurnizia_1C">
+		<defName>Anneli_Jurnizia_CamoSocks</defName>
+		<description>Not dyeable.</description>
+		<label>(Jurnizia)1C_CamoSocks</label>
+		<graphicData>
+			<texPath>1C/Anneli_Jurnizia_CamoSocks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Jurnizia_CamoSocks</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Jurnizia_Spetsnaz</li>
+				<li>Anneli_Jurnizia_Sniper</li>
+				<li>Anneli_Jurnizia_HeavyTrooper</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+		
+</Defs>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Balaclava</defName>
+		<originalDef>Anneli_Jurnizia_Balaclava</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6C/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Balaclava</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6C</textureLevelsName>
+				<drawOffsetSouth>(0, 0.61, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.61, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.61, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.61, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_CamoMask</defName>
+		<originalDef>Anneli_Jurnizia_CamoMask</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6C/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_CamoMask</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6C</textureLevelsName>
+				<drawOffsetSouth>(0, 0.61, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.61, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.61, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.61, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Cigar</defName>
+		<originalDef>Anneli_Jurnizia_Cigar</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6C/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Cigar</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6C</textureLevelsName>
+				<drawOffsetSouth>(0, 0.61, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.61, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.61, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.61, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

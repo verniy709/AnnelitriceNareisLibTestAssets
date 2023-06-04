@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_Blazer -->
+
+  <Anneli_Gakuen_Blazer.label>(学园)3_夹克</Anneli_Gakuen_Blazer.label>
+  <Anneli_Gakuen_Blazer.description>可染色.</Anneli_Gakuen_Blazer.description>
+
+
+  <!-- Anneli_Gakuen_SweaterVest -->
+
+  <Anneli_Gakuen_SweaterVest.label>(学园)3_毛衣背心</Anneli_Gakuen_SweaterVest.label>
+  <Anneli_Gakuen_SweaterVest.description>可染色.</Anneli_Gakuen_SweaterVest.description>
+
+
+  <!-- Anneli_Gakuen_Apron -->
+
+  <Anneli_Gakuen_Apron.label>(学园)3_围裙</Anneli_Gakuen_Apron.label>
+  <Anneli_Gakuen_Apron.description>可染色.</Anneli_Gakuen_Apron.description>
+
+
+  <!-- Anneli_Gakuen_Coat -->
+
+  <Anneli_Gakuen_Coat.label>(学园)3_大衣</Anneli_Gakuen_Coat.label>
+  <Anneli_Gakuen_Coat.description>可染色.</Anneli_Gakuen_Coat.description>
+
+
+  <!-- Anneli_Gakuen_GakuranCoat -->
+
+  <Anneli_Gakuen_GakuranCoat.label>(学园)3_制服外套</Anneli_Gakuen_GakuranCoat.label>
+  <Anneli_Gakuen_GakuranCoat.description>可染色.</Anneli_Gakuen_GakuranCoat.description>
+
+
+  <!-- Anneli_Gakuen_TiedAroundWaist -->
+
+  <Anneli_Gakuen_TiedAroundWaist.label>(学园)3_系腰外套</Anneli_Gakuen_TiedAroundWaist.label>
+  <Anneli_Gakuen_TiedAroundWaist.description>可染色.</Anneli_Gakuen_TiedAroundWaist.description>
+
+
+  <!-- Anneli_Gakuen_TiedAroundWaist_Red -->
+
+  <Anneli_Gakuen_TiedAroundWaist_Red.label>(学园)3_系腰外套</Anneli_Gakuen_TiedAroundWaist_Red.label>
+  <Anneli_Gakuen_TiedAroundWaist_Red.description>可染色.</Anneli_Gakuen_TiedAroundWaist_Red.description>
+
+
+  <!-- Anneli_Gakuen_TrackJacket -->
+
+  <Anneli_Gakuen_TrackJacket.label>(学园)3_田径外套</Anneli_Gakuen_TrackJacket.label>
+  <Anneli_Gakuen_TrackJacket.description>可染色.</Anneli_Gakuen_TrackJacket.description>
+
+
+  <!-- Anneli_Gakuen_TrackJacket_Red -->
+
+  <Anneli_Gakuen_TrackJacket_Red.label>(学园)3_田径外套</Anneli_Gakuen_TrackJacket_Red.label>
+  <Anneli_Gakuen_TrackJacket_Red.description>可染色.</Anneli_Gakuen_TrackJacket_Red.description>
+
+
+</LanguageData>

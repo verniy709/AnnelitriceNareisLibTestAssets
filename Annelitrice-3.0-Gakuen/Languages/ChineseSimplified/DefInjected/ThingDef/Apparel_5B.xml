@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_LegRig -->
+
+  <Anneli_Gakuen_LegRig.label>(学园)5B_腿部战术挂件</Anneli_Gakuen_LegRig.label>
+  <Anneli_Gakuen_LegRig.description>可染色.</Anneli_Gakuen_LegRig.description>
+
+
+  <!-- Anneli_Gakuen_CamoLegRig -->
+
+  <Anneli_Gakuen_CamoLegRig.label>(学园)5B_迷彩腿部战术挂件</Anneli_Gakuen_CamoLegRig.label>
+  <Anneli_Gakuen_CamoLegRig.description>不可染色.</Anneli_Gakuen_CamoLegRig.description>
+
+
+</LanguageData>

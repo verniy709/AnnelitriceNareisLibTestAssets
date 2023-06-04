@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Jurnizia_8B" ParentName="Anneli_8B" Abstract="True">
+		<thingCategories>
+			<li>Category_Annelitrice_Jurnizia</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Jurnizia_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="MoteBase">
+		<defName>Mote_Anneli_Jurnizia_LaserDesignator_Aim</defName>
+		<thingClass>MoteDualAttached</thingClass>
+		<altitudeLayer>MoteLow</altitudeLayer>
+		<mote>
+			<fadeInTime>0.15</fadeInTime>
+			<fadeOutTime>0.3</fadeOutTime>
+			<solidTime>999999</solidTime>
+			<needsMaintenance>True</needsMaintenance>
+			<rotateTowardsTarget>True</rotateTowardsTarget>
+			<scaleToConnectTargets>True</scaleToConnectTargets>
+			<fadeOutUnmaintained>True</fadeOutUnmaintained>
+		</mote>
+		<graphicData>
+			<texPath>Effects/Mote_Anneli_Jurnizia_LaserDesignator_Aim</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<drawSize>(1, 1)</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="MoteBase">
+		<defName>Mote_Anneli_Jurnizia_LaserDesignator_Target</defName>
+		<thingClass>MoteAttached</thingClass>
+		<altitudeLayer>MoteLow</altitudeLayer>
+		<mote>
+			<fadeInTime>0.5</fadeInTime>
+			<fadeOutTime>5.0</fadeOutTime>
+			<solidTime>999999</solidTime>
+			<growthRate>0.05</growthRate>
+			<needsMaintenance>True</needsMaintenance>
+		</mote>
+		<graphicData>
+			<texPath>Effects/Mote_Anneli_Jurnizia_LaserDesignator_Target</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<drawSize>(6, 6)</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Jurnizia_8B">
+		<defName>Anneli_Jurnizia_LaserDesignator</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)8B_LaserDesignator</label>
+		<graphicData>
+			<texPath>8B/Anneli_Jurnizia_LaserDesignator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8B/Anneli_Jurnizia_LaserDesignator</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Officer</li>
+				<li>Anneli_Jurnizia_Spetsnaz</li>
+				<li>Anneli_Jurnizia_Sniper</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(145,165,110,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.05</generateAllowChance><!--Less Spawn-->
+		<costList>
+			<Steel>300</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>5</Mass>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType><!--tickerType-->
+		<verbs>
+			<li>
+				<verbClass>Verb_Bombardment</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<warmupTime>9.5</warmupTime>
+				<ai_AvoidFriendlyFireRadius>23</ai_AvoidFriendlyFireRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<range>44.9</range>
+				<burstShotCount>1</burstShotCount>
+				<soundAiming>OrbitalTargeter_Aiming</soundAiming>
+				<soundCast>OrbitalTargeter_Fire</soundCast>
+				<onlyManualCast>true</onlyManualCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<aimingLineMote>Mote_Anneli_Jurnizia_LaserDesignator_Aim</aimingLineMote>
+				<!-- <aimingLineMoteFixedLength>25.9</aimingLineMoteFixedLength> -->
+				<aimingTargetMote>Mote_Anneli_Jurnizia_LaserDesignator_Target</aimingTargetMote>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>2</maxCharges>
+				<ammoDef>Steel</ammoDef>
+				<ammoCountPerCharge>150</ammoCountPerCharge>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>refill</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

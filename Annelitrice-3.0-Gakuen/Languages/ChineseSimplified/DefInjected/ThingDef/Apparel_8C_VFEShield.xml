@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_BallisticShield -->
+
+  <Anneli_Gakuen_BallisticShield.label>(学园)8C_防弹盾牌</Anneli_Gakuen_BallisticShield.label>
+  <Anneli_Gakuen_BallisticShield.description>可染色. 但是盾牌染色有bug.</Anneli_Gakuen_BallisticShield.description>
+
+
+  <!-- Anneli_Gakuen_RiotShield -->
+
+  <Anneli_Gakuen_RiotShield.label>(学园)8C_防暴盾</Anneli_Gakuen_RiotShield.label>
+  <Anneli_Gakuen_RiotShield.description>可染色. 但是盾牌染色有bug.</Anneli_Gakuen_RiotShield.description>
+
+
+</LanguageData>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_Boots -->
+
+  <Anneli_Gakuen_Boots.label>(学园)2C_短靴</Anneli_Gakuen_Boots.label>
+  <Anneli_Gakuen_Boots.description>可染色.</Anneli_Gakuen_Boots.description>
+
+
+  <!-- Anneli_Gakuen_LeatherShoes -->
+
+  <Anneli_Gakuen_LeatherShoes.label>(学园)2C_皮鞋</Anneli_Gakuen_LeatherShoes.label>
+  <Anneli_Gakuen_LeatherShoes.description>可染色.</Anneli_Gakuen_LeatherShoes.description>
+
+
+  <!-- Anneli_Gakuen_TennisShoes -->
+
+  <Anneli_Gakuen_TennisShoes.label>(学园)2C_网球鞋</Anneli_Gakuen_TennisShoes.label>
+  <Anneli_Gakuen_TennisShoes.description>可染色.</Anneli_Gakuen_TennisShoes.description>
+
+
+  <!-- Anneli_Gakuen_Sneakers -->
+
+  <Anneli_Gakuen_Sneakers.label>(学园)2C_运动鞋</Anneli_Gakuen_Sneakers.label>
+  <Anneli_Gakuen_Sneakers.description>可染色.</Anneli_Gakuen_Sneakers.description>
+
+
+  <!-- Anneli_Gakuen_Geta -->
+
+  <Anneli_Gakuen_Geta.label>(学园)2C_木屐</Anneli_Gakuen_Geta.label>
+  <Anneli_Gakuen_Geta.description>可染色.</Anneli_Gakuen_Geta.description>
+
+
+  <!-- Anneli_Gakuen_Uwabaki -->
+
+  <Anneli_Gakuen_Uwabaki.label>(学园)2C_室内鞋</Anneli_Gakuen_Uwabaki.label>
+  <Anneli_Gakuen_Uwabaki.description>可染色.</Anneli_Gakuen_Uwabaki.description>
+
+
+  <!-- Anneli_Gakuen_Slippers -->
+
+  <Anneli_Gakuen_Slippers.label>(学园)2C_拖鞋</Anneli_Gakuen_Slippers.label>
+  <Anneli_Gakuen_Slippers.description>可染色.</Anneli_Gakuen_Slippers.description>
+
+
+</LanguageData>

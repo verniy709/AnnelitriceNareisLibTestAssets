@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_ChestRig -->
+
+  <Anneli_Gakuen_ChestRig.label>(学园)5A_胸挂</Anneli_Gakuen_ChestRig.label>
+  <Anneli_Gakuen_ChestRig.description>可染色.</Anneli_Gakuen_ChestRig.description>
+
+
+  <!-- Anneli_Gakuen_CamoChestRig -->
+
+  <Anneli_Gakuen_CamoChestRig.label>(学园)5A_迷彩胸挂</Anneli_Gakuen_CamoChestRig.label>
+  <Anneli_Gakuen_CamoChestRig.description>不可染色.</Anneli_Gakuen_CamoChestRig.description>
+
+
+  <!-- Anneli_Gakuen_Scarf -->
+
+  <Anneli_Gakuen_Scarf.label>(学园)5A_围巾</Anneli_Gakuen_Scarf.label>
+  <Anneli_Gakuen_Scarf.description>可染色.</Anneli_Gakuen_Scarf.description>
+
+
+  <!-- Anneli_Gakuen_PlaidScarf -->
+
+  <Anneli_Gakuen_PlaidScarf.label>(学园)5A_格子围巾</Anneli_Gakuen_PlaidScarf.label>
+  <Anneli_Gakuen_PlaidScarf.description>可染色.</Anneli_Gakuen_PlaidScarf.description>
+
+
+  <!-- Anneli_Gakuen_CoatAsCloak -->
+
+  <Anneli_Gakuen_CoatAsCloak.label>(学园)5A_肩披外套</Anneli_Gakuen_CoatAsCloak.label>
+  <Anneli_Gakuen_CoatAsCloak.description>可染色.</Anneli_Gakuen_CoatAsCloak.description>
+
+
+</LanguageData>

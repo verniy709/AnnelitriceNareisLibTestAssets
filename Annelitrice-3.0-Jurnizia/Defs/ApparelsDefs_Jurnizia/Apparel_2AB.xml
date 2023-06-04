@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Anneli_Jurnizia_2AB" ParentName="Anneli_2AB" Abstract="True">
+		<equippedStatOffsets>
+			<PainShockThreshold>0.2</PainShockThreshold>
+			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.1</AimingDelayFactor>
+			<EatingSpeed>0.2</EatingSpeed>			
+			<ConstructionSpeed>0.2</ConstructionSpeed>
+			<HuntingStealth>0.2</HuntingStealth>
+			<MedicalTendSpeed>0.2</MedicalTendSpeed>
+			<MedicalTendQuality>0.2</MedicalTendQuality>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Jurnizia</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Jurnizia_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_Dress-->
+	<ThingDef ParentName="Anneli_Jurnizia_2AB">
+		<defName>Anneli_Jurnizia_Dress</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2AB_Dress</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Jurnizia_Dress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Jurnizia_Dress</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_SunDress-->
+	<ThingDef ParentName="Anneli_Jurnizia_2AB">
+		<defName>Anneli_Jurnizia_SunDress</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2AB_SunDress</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Jurnizia_SunDress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Jurnizia_SunDress</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(60,65,90,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelSecialTex">
+				<replaceTexPathList>	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Parka</apparelDef>
+						<level>1</level>
+						<path>2B/Anneli_Jurnizia_Skirt</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_GorkaParka</apparelDef>
+						<level>1</level>
+						<path>2B/Anneli_Jurnizia_Skirt</path>
+					</li> 	 
+					<li>
+						<apparelDef>Anneli_Jurnizia_CamoParka</apparelDef>
+						<level>1</level>
+						<path>2B/Anneli_Jurnizia_Skirt</path>
+					</li> 
+					<li>
+						<apparelDef>Anneli_Jurnizia_Hoodie</apparelDef>
+						<level>1</level>
+						<path>2B/Anneli_Jurnizia_Skirt</path>
+					</li> 	 
+				</replaceTexPathList>
+			</li>
+		</comps>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_SheathDress-->
+	<ThingDef ParentName="Anneli_Jurnizia_2AB">
+		<defName>Anneli_Jurnizia_SheathDress</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2AB_SheathDress</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Jurnizia_SheathDress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Jurnizia_SheathDress</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>	
+
+</Defs>

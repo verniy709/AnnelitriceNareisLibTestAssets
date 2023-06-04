@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Gakuen_8A" ParentName="Anneli_8A" Abstract="True">
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!-- Anneli_AudioPlayerA-->
+	<SoundDef>
+		<defName>Anneli_AudioPlayerA</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_AudioPlayerA</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!-- Anneli_AudioPlayerB-->
+	<SoundDef>
+		<defName>Anneli_AudioPlayerB</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_AudioPlayerB</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!--Anneli_Gakuen_WALKWOMAN-->
+	<ThingDef ParentName="Anneli_Gakuen_8A">
+		<defName>Anneli_Gakuen_WALKWOMAN</defName>
+		<description>Dyeable. No apparel texture.</description>
+		<label>(Gakuen)8A_WALKWOMAN</label>
+		<graphicData>
+			<texPath>8A/Anneli_Gakuen_WALKWOMAN</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8A/Anneli_Gakuen_WALKWOMAN</wornGraphicPath>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.0</generateAllowChance><!--Less Spawn-->
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>200</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelHediffGiver">
+                <hediffDef>Anneli_Music_Uplifting</hediffDef>        
+                <severityIncrease>0.2</severityIncrease>  
+                <radius>15</radius>                         
+            </li>
+			<li Class="Annelitrice.CompProperties_PlayMusic">
+				<soundDefs>
+					<li>Anneli_AudioPlayerA</li>
+					<li>Anneli_AudioPlayerB</li>
+				</soundDefs>
+				<effecters>
+					<li>Anneli_Effecter_Note1</li>
+					<li>Anneli_Effecter_Note2</li>
+					<li>Anneli_Effecter_Note3</li>
+				</effecters>
+			</li>
+		</comps>
+	</ThingDef>	
+
+	<!-- Anneli_FluteA-->
+	<SoundDef>
+		<defName>Anneli_FluteA</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_FluteA</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!-- Anneli_FluteB-->
+	<SoundDef>
+		<defName>Anneli_FluteB</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_FluteB</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!--Anneli_Gakuen_Flute-->
+	<ThingDef ParentName="Anneli_Gakuen_8A">
+		<defName>Anneli_Gakuen_Flute</defName>
+		<description>Dyeable. No apparel texture.</description>
+		<label>(Gakuen)8A_Flute</label>
+		<graphicData>
+			<texPath>8A/Anneli_Gakuen_Flute</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8A/Anneli_Gakuen_Flute</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,200,155,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.0</generateAllowChance><!--Less Spawn-->
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>200</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelHediffGiver">
+                <hediffDef>Anneli_Music_Amateurish</hediffDef>        
+                <severityIncrease>0.2</severityIncrease>  
+                <radius>15</radius>                         
+            </li>
+			<li Class="Annelitrice.CompProperties_PlayMusic">
+				<soundDefs>
+					<li>Anneli_FluteA</li>
+					<li>Anneli_FluteB</li>
+				</soundDefs>
+				<effecters>
+					<li>Anneli_Effecter_Note1</li>
+					<li>Anneli_Effecter_Note2</li>
+					<li>Anneli_Effecter_Note3</li>
+				</effecters>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_KatanaA-->
+	<ThingDef ParentName="Anneli_Gakuen_8A">
+		<defName>Anneli_Gakuen_KatanaA</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)8A_KatanaA</label>
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>20</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.01</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.01</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>8A/Anneli_Gakuen_KatanaA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8A/Anneli_Gakuen_KatanaA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Tsuppari</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(110,65,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.15</generateAllowChance><!--Less Spawn-->
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelHediffGiver">
+                <hediffDef>Anneli_Aura_Bravery</hediffDef>        
+                <severityIncrease>0.2</severityIncrease>  
+                <radius>15</radius>                         
+            </li>
+		</comps>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_KatanaB-->
+	<ThingDef ParentName="Anneli_Gakuen_8A">
+		<defName>Anneli_Gakuen_KatanaB</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)8A_KatanaB</label>
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.01</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.01</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>8A/Anneli_Gakuen_KatanaB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8A/Anneli_Gakuen_KatanaB</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Tsuppari</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(110,65,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.15</generateAllowChance><!--Less Spawn-->
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelHediffGiver">
+                <hediffDef>Anneli_Aura_Recklessness</hediffDef>        
+                <severityIncrease>0.2</severityIncrease>  
+                <radius>15</radius>                         
+            </li>
+		</comps>
+	</ThingDef>
+
+</Defs>

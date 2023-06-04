@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_SchoolBag -->
+
+  <Anneli_Gakuen_SchoolBag.label>(学园)7_书包</Anneli_Gakuen_SchoolBag.label>
+  <Anneli_Gakuen_SchoolBag.description>可染色.</Anneli_Gakuen_SchoolBag.description>
+
+
+  <!-- Anneli_Gakuen_ShoulderBag -->
+
+  <Anneli_Gakuen_ShoulderBag.label>(学园)7_单肩书包</Anneli_Gakuen_ShoulderBag.label>
+  <Anneli_Gakuen_ShoulderBag.description>可染色.</Anneli_Gakuen_ShoulderBag.description>
+
+
+</LanguageData>

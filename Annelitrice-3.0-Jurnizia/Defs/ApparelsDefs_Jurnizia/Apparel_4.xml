@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Jurnizia_4" ParentName="Anneli_4" Abstract="True">
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+			<EatingSpeed>0.1</EatingSpeed>			
+			<ConstructionSpeed>0.1</ConstructionSpeed>
+			<HuntingStealth>0.1</HuntingStealth>
+			<MedicalTendSpeed>0.1</MedicalTendSpeed>
+			<MedicalTendQuality>0.1</MedicalTendQuality>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Jurnizia</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Jurnizia_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_6B2BodyArmor-->
+	<ThingDef ParentName="Anneli_Jurnizia_4">
+		<defName>Anneli_Jurnizia_6B2BodyArmor</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)4_6B2BodyArmor</label>
+		<graphicData>
+			<texPath>4/Anneli_Jurnizia_6B2BodyArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Jurnizia_6B2BodyArmor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_InternalTroop_Male</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_6B2BodyArmor_Olive-->
+	<ThingDef ParentName="Anneli_Jurnizia_4">
+		<defName>Anneli_Jurnizia_6B2BodyArmor_Olive</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)4_6B2BodyArmor</label>
+		<graphicData>
+			<texPath>4/Anneli_Jurnizia_6B2BodyArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Jurnizia_6B2BodyArmor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Spetsnaz</li>
+				<li>Anneli_Jurnizia_Sniper</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(130,120,100,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingCategories Inherit="False">
+			<li>Category_Annelitrice_Jurnizia_Dyed</li>
+		</thingCategories>
+		<recipeMaker Inherit="False">
+			<!--Not makeable-->
+			<useIngredientsForColor>false</useIngredientsForColor>
+		</recipeMaker>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_Camo6B2BodyArmor-->
+	<ThingDef ParentName="Anneli_Jurnizia_4">
+		<defName>Anneli_Jurnizia_Camo6B2BodyArmor</defName>
+		<description>NOT dyeable.</description>
+		<label>(Jurnizia)4_Camo6B2BodyArmor</label>
+		<graphicData>
+			<texPath>4/Anneli_Jurnizia_Camo6B2BodyArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Jurnizia_Camo6B2BodyArmor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Draftee</li>
+				<li>Anneli_Jurnizia_HeavyTrooper</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_6B3BodyArmor-->
+	<ThingDef ParentName="Anneli_Jurnizia_4">
+		<defName>Anneli_Jurnizia_6B3BodyArmor</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)4_6B3BodyArmor</label>
+		<graphicData>
+			<texPath>4/Anneli_Jurnizia_6B3BodyArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Jurnizia_6B3BodyArmor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_InternalTroop_Male</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_6B3BodyArmor_Olive-->
+	<ThingDef ParentName="Anneli_Jurnizia_4">
+		<defName>Anneli_Jurnizia_6B3BodyArmor_Olive</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)4_6B3BodyArmor</label>
+		<graphicData>
+			<texPath>4/Anneli_Jurnizia_6B3BodyArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Jurnizia_6B3BodyArmor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Spetsnaz</li>
+				<li>Anneli_Jurnizia_Sniper</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(130,120,100,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingCategories Inherit="False">
+			<li>Category_Annelitrice_Jurnizia_Dyed</li>
+		</thingCategories>
+		<recipeMaker Inherit="False">
+			<!--Not makeable-->
+			<useIngredientsForColor>false</useIngredientsForColor>
+		</recipeMaker>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_Camo6B3BodyArmor-->
+	<ThingDef ParentName="Anneli_Jurnizia_4">
+		<defName>Anneli_Jurnizia_Camo6B3BodyArmor</defName>
+		<description>NOT dyeable.</description>
+		<label>(Jurnizia)4_Camo6B3BodyArmor</label>
+		<graphicData>
+			<texPath>4/Anneli_Jurnizia_Camo6B3BodyArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Jurnizia_Camo6B3BodyArmor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Draftee</li>
+				<li>Anneli_Jurnizia_HeavyTrooper</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_6B13BodyArmor-->
+	<ThingDef ParentName="Anneli_Jurnizia_4">
+		<defName>Anneli_Jurnizia_6B13BodyArmor</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)4_6B13BodyArmor</label>
+		<graphicData>
+			<texPath>4/Anneli_Jurnizia_6B13BodyArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Jurnizia_6B13BodyArmor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_InternalTroop_Male</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_6B13BodyArmor_Olive-->
+	<ThingDef ParentName="Anneli_Jurnizia_4">
+		<defName>Anneli_Jurnizia_6B13BodyArmor_Olive</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)4_6B13BodyArmor</label>
+		<graphicData>
+			<texPath>4/Anneli_Jurnizia_6B13BodyArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Jurnizia_6B13BodyArmor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Spetsnaz</li>
+				<li>Anneli_Jurnizia_Sniper</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(130,120,100,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingCategories Inherit="False">
+			<li>Category_Annelitrice_Jurnizia_Dyed</li>
+		</thingCategories>
+		<recipeMaker Inherit="False">
+			<!--Not makeable-->
+			<useIngredientsForColor>false</useIngredientsForColor>
+		</recipeMaker>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Jurnizia_Camo6B13BodyArmor-->
+	<ThingDef ParentName="Anneli_Jurnizia_4">
+		<defName>Anneli_Jurnizia_Camo6B13BodyArmor</defName>
+		<description>NOT dyeable.</description>
+		<label>(Jurnizia)4_Camo6B13BodyArmor</label>
+		<graphicData>
+			<texPath>4/Anneli_Jurnizia_Camo6B13BodyArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Jurnizia_Camo6B13BodyArmor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Draftee</li>
+				<li>Anneli_Jurnizia_HeavyTrooper</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

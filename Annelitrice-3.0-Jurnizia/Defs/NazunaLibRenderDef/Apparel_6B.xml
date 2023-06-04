@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Goggles</defName>
+		<originalDef>Anneli_Jurnizia_Goggles</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Goggles</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.62, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.62, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.62, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.62, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Sunglasses</defName>
+		<originalDef>Anneli_Jurnizia_Sunglasses</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Sunglasses</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.62, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.62, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.62, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.62, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_EyePatchA</defName>
+		<originalDef>Anneli_Jurnizia_EyePatchA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_EyePatchA</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.62, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.62, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.62, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.62, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_EyePatchB</defName>
+		<originalDef>Anneli_Jurnizia_EyePatchB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_EyePatchB</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.62, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.62, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.62, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.62, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="Anneli_FactionBase">
+		<defName>Anneli_Faction_Gakuen</defName>
+		<label>Anneli Faction Gakuen</label>
+		<description>Annelitrice Gakuen is a unique faction of annelitrice who believe that a high school lifestyle provides the most fulfilling existence possible. They embrace the archetypal activities of high school life such as love triangles, tea parties, and school competitions. Their society is built around clubs, which make up every facet of living from hobbies to industry and even law enforcement. The citizens, known as "Students," are expected to join one or more clubs. The leadership is chosen by lottery, and the chosen leader is referred to as the "Great Senpai," ruling as the supreme leader of their settlement, or "School."\n\nWhile this system seems organized, Annelitrice Gakuen is often preyed upon by hostilities from outside the school. Due to their unique ideology, they are either unable or unwilling to build a functional defense. Consequently, their militias and club members are constantly overwhelmed, leaving their schools ransacked. This annihilation has repeated for many generations, yet the system remains unaltered. To this day, the Students of Annelitrice Gakuen remain resolute and continue to rebuild, embracing their odd lifestyles as if nothing happened.</description>
+		<pawnSingular>Annelitrice</pawnSingular>
+		<pawnsPlural>Annelitrice</pawnsPlural>
+		<fixedName>Forged Gakuen</fixedName>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+		</requiredMemes>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<techLevel>Industrial</techLevel>
+		<allowedCultures>
+			<li>Anneli_Cultures_Rustican</li>
+		</allowedCultures>
+		<settlementTexturePath>Anneli_Factions/Anneli_Gakuen</settlementTexturePath>
+		<factionIconPath>Anneli_Factions/Anneli_Gakuen</factionIconPath>
+		<listOrderPriority>30</listOrderPriority>
+		<settlementGenerationWeight>0.5</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>True</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Senpai</leaderTitle>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<backstoryCategories>
+			<li>Anneli_Childhood</li>
+			<li>Anneli_Story_Gakuen</li>
+		</backstoryCategories>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0, 200)</li> 
+				<li>(500, 300)</li> 
+				<li>(2000, 500)</li>
+				<li>(4000, 800)</li>
+				<li>(10000, 1000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_Exotic</li>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_PirateMerchant</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-75</min>
+			<max>75</max>
+		</allowedArrivalTemperatureRange>
+		<pawnGroupMakers>
+			<!-- Idling Youths-->
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Anneli_Gakuen_Leader>1</Anneli_Gakuen_Leader>
+					<Anneli_Gakuen_Kitakubuinn_SailorSuit>5</Anneli_Gakuen_Kitakubuinn_SailorSuit>
+					<Anneli_Gakuen_Kitakubuinn_WesternSuit>5</Anneli_Gakuen_Kitakubuinn_WesternSuit>
+					<Anneli_Gakuen_Sabagebuin_SailorSuit>5</Anneli_Gakuen_Sabagebuin_SailorSuit>
+					<Anneli_Gakuen_Sabagebuin_WesternSuit>5</Anneli_Gakuen_Sabagebuin_WesternSuit>
+					<Anneli_Gakuen_Tsuppari>3</Anneli_Gakuen_Tsuppari>
+					<Anneli_Gakuen_Sukeban>3</Anneli_Gakuen_Sukeban>
+					<Anneli_Gakuen_Undoubuin>3</Anneli_Gakuen_Undoubuin>
+					<Anneli_Gakuen_Suieibuin>3</Anneli_Gakuen_Suieibuin>
+					<Anneli_Gakuen_Ouenbuin_CheerLeader>3</Anneli_Gakuen_Ouenbuin_CheerLeader>
+					<Anneli_Gakuen_Ouenbuin_SailorSuit>3</Anneli_Gakuen_Ouenbuin_SailorSuit>
+					<Anneli_Gakuen_Kendobuin>3</Anneli_Gakuen_Kendobuin>
+				</options>
+			</li>
+			
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<Anneli_Gakuen_Kitakubuinn_SailorSuit>1</Anneli_Gakuen_Kitakubuinn_SailorSuit>
+					<Anneli_Gakuen_Kitakubuinn_WesternSuit>1</Anneli_Gakuen_Kitakubuinn_WesternSuit>
+					<Anneli_Gakuen_Sabagebuin_SailorSuit>1</Anneli_Gakuen_Sabagebuin_SailorSuit>
+					<Anneli_Gakuen_Sabagebuin_WesternSuit>1</Anneli_Gakuen_Sabagebuin_WesternSuit>
+					<Anneli_Gakuen_Undoubuin>1</Anneli_Gakuen_Undoubuin>
+					<Anneli_Gakuen_Suieibuin>1</Anneli_Gakuen_Suieibuin>
+					<Anneli_Gakuen_Ouenbuin_CheerLeader>1</Anneli_Gakuen_Ouenbuin_CheerLeader>
+					<Anneli_Gakuen_Ouenbuin_SailorSuit>1</Anneli_Gakuen_Ouenbuin_SailorSuit>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Anneli_Gakuen_Kitakubuinn_SailorSuit>1</Anneli_Gakuen_Kitakubuinn_SailorSuit>
+				</traders>
+				<carriers>
+					<Muffalo>3</Muffalo>
+					<Dromedary>3</Dromedary>
+					<Alpaca>3</Alpaca>
+					<Elephant>2</Elephant>
+				</carriers>
+				<guards>
+					<Anneli_Gakuen_Kitakubuinn_SailorSuit>1</Anneli_Gakuen_Kitakubuinn_SailorSuit>
+					<Anneli_Gakuen_Kitakubuinn_WesternSuit>1</Anneli_Gakuen_Kitakubuinn_WesternSuit>
+					<Anneli_Gakuen_Sabagebuin_SailorSuit>1</Anneli_Gakuen_Sabagebuin_SailorSuit>
+					<Anneli_Gakuen_Sabagebuin_WesternSuit>1</Anneli_Gakuen_Sabagebuin_WesternSuit>
+					<Anneli_Gakuen_Tsuppari>1</Anneli_Gakuen_Tsuppari>
+					<Anneli_Gakuen_Sukeban>1</Anneli_Gakuen_Sukeban>
+					<Anneli_Gakuen_Undoubuin>1</Anneli_Gakuen_Undoubuin>
+					<Anneli_Gakuen_Suieibuin>1</Anneli_Gakuen_Suieibuin>
+					<Anneli_Gakuen_Ouenbuin_CheerLeader>1</Anneli_Gakuen_Ouenbuin_CheerLeader>
+					<Anneli_Gakuen_Ouenbuin_SailorSuit>1</Anneli_Gakuen_Ouenbuin_SailorSuit>
+					<Anneli_Gakuen_Kendobuin>1</Anneli_Gakuen_Kendobuin>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<Anneli_Gakuen_Leader>1</Anneli_Gakuen_Leader>
+					<Anneli_Gakuen_Kitakubuinn_SailorSuit>5</Anneli_Gakuen_Kitakubuinn_SailorSuit>
+					<Anneli_Gakuen_Kitakubuinn_WesternSuit>5</Anneli_Gakuen_Kitakubuinn_WesternSuit>
+					<Anneli_Gakuen_Sabagebuin_SailorSuit>5</Anneli_Gakuen_Sabagebuin_SailorSuit>
+					<Anneli_Gakuen_Sabagebuin_WesternSuit>5</Anneli_Gakuen_Sabagebuin_WesternSuit>
+					<Anneli_Gakuen_Tsuppari>3</Anneli_Gakuen_Tsuppari>
+					<Anneli_Gakuen_Sukeban>3</Anneli_Gakuen_Sukeban>
+					<Anneli_Gakuen_Undoubuin>3</Anneli_Gakuen_Undoubuin>
+					<Anneli_Gakuen_Suieibuin>3</Anneli_Gakuen_Suieibuin>
+					<Anneli_Gakuen_Ouenbuin_CheerLeader>3</Anneli_Gakuen_Ouenbuin_CheerLeader>
+					<Anneli_Gakuen_Ouenbuin_SailorSuit>3</Anneli_Gakuen_Ouenbuin_SailorSuit>
+					<Anneli_Gakuen_Kendobuin>3</Anneli_Gakuen_Kendobuin>
+				</options>
+			</li>
+		</pawnGroupMakers>
+	</FactionDef>
+
+
+
+</Defs>

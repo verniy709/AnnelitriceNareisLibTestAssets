@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_GasMask</defName>
+		<originalDef>Anneli_Gakuen_GasMask</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6BC/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_GasMask</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6BC</textureLevelsName>
+				<drawOffsetSouth>(0, 0.63, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.63, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.63, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.63, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

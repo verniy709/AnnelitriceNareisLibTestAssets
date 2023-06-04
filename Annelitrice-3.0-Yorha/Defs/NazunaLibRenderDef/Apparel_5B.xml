@@ -18,6 +18,8 @@
 				<drawOffsetNorth>(0, 0.25, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.25, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_EyePatchA -->
+
+  <Anneli_Gakuen_EyePatchA.label>(学园)6B_眼罩A</Anneli_Gakuen_EyePatchA.label>
+  <Anneli_Gakuen_EyePatchA.description>可染色.</Anneli_Gakuen_EyePatchA.description>
+
+
+  <!-- Anneli_Gakuen_EyePatchB -->
+
+  <Anneli_Gakuen_EyePatchB.label>(学园)6B_眼罩B</Anneli_Gakuen_EyePatchB.label>
+  <Anneli_Gakuen_EyePatchB.description>可染色.</Anneli_Gakuen_EyePatchB.description>
+
+
+  <!-- Anneli_Gakuen_RoundGlasses -->
+
+  <Anneli_Gakuen_RoundGlasses.label>(学园)6B_圆眼镜</Anneli_Gakuen_RoundGlasses.label>
+  <Anneli_Gakuen_RoundGlasses.description>可染色.</Anneli_Gakuen_RoundGlasses.description>
+
+
+  <!-- Anneli_Gakuen_SqureGlasses -->
+
+  <Anneli_Gakuen_SqureGlasses.label>(学园)6B_方眼镜</Anneli_Gakuen_SqureGlasses.label>
+  <Anneli_Gakuen_SqureGlasses.description>可染色.</Anneli_Gakuen_SqureGlasses.description>
+
+
+  <!-- Anneli_Gakuen_InvisibleGlasses -->
+
+  <Anneli_Gakuen_InvisibleGlasses.label>(学园)6B_隐形眼镜</Anneli_Gakuen_InvisibleGlasses.label>
+  <Anneli_Gakuen_InvisibleGlasses.description>不可染色. 无服装贴图.</Anneli_Gakuen_InvisibleGlasses.description>
+
+
+</LanguageData>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Gakuen_5B_NonMetal" ParentName="Anneli_5B_NonMetal" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+			<CleaningSpeed>0.1</CleaningSpeed>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<SocialImpact>0.1</SocialImpact>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Gakuen_5B_Metal" ParentName="Anneli_5B_Metal" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+			<CleaningSpeed>0.1</CleaningSpeed>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<SocialImpact>0.1</SocialImpact>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_LegRig-->
+	<ThingDef ParentName="Anneli_Gakuen_5B_Metal">
+		<defName>Anneli_Gakuen_LegRig</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)5B_LegRig</label>
+		<graphicData>
+			<texPath>5B/Anneli_Gakuen_LegRig</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>5B/Anneli_Gakuen_LegRig</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Kitakubuinn_SailorSuit</li>
+				<li>Anneli_Gakuen_Kitakubuinn_WesternSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.35</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_CamoLegRig-->
+	<ThingDef ParentName="Anneli_Gakuen_5B_Metal">
+		<defName>Anneli_Gakuen_CamoLegRig</defName>
+		<description>Not dyeable.</description>
+		<label>(Gakuen)5B_CamoLegRig</label>
+		<graphicData>
+			<texPath>5B/Anneli_Gakuen_CamoLegRig</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>5B/Anneli_Gakuen_CamoLegRig</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Sabagebuin_SailorSuit</li>
+				<li>Anneli_Gakuen_Sabagebuin_WesternSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.35</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

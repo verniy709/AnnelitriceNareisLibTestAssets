@@ -30,7 +30,7 @@
 			<li>Anneli_Story</li>
 		</backstoryCategories>
 		<apparelTags>
-			<li>Anneli</li>
+			<li>Anneli_Underwear</li>
 		</apparelTags>
 	</PawnKindDef>
 
@@ -38,13 +38,13 @@
 		<defName>Anneli_Wild</defName>
 		<label>Annelitrice Wild</label>
 		<defaultFactionType>Anneli_Faction_Wild</defaultFactionType>
-		<apparelMoney>0</apparelMoney>
+		<apparelMoney>100~150</apparelMoney>
 		<isFighter>false</isFighter>
 		<backstoryCategories>
 			<li>Anneli_Story</li>
 		</backstoryCategories>
 		<apparelTags>
-			<li>Anneli</li>
+			<li>Anneli_Underwear</li>
 		</apparelTags>
 	</PawnKindDef>
 

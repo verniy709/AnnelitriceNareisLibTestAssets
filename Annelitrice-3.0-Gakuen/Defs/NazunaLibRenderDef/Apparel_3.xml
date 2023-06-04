@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_Blazer</defName>
+		<originalDef>Anneli_Gakuen_Blazer</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>3/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_Blazer</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
+				<drawOffsetSouth>(0, 0.31, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.31, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.31, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.31, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_SweaterVest</defName>
+		<originalDef>Anneli_Gakuen_SweaterVest</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>3/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_SweaterVest</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
+				<drawOffsetSouth>(0, 0.31, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.31, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.31, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.31, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_Apron</defName>
+		<originalDef>Anneli_Gakuen_Apron</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>3/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_Apron</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
+				<drawOffsetSouth>(0, 0.33, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.33, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.33, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.33, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_Coat</defName>
+		<originalDef>Anneli_Gakuen_Coat</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>3/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_Coat</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
+				<drawOffsetSouth>(0, 0.33, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.33, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.33, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.33, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_GakuranCoat</defName>
+		<originalDef>Anneli_Gakuen_GakuranCoat</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>3/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_GakuranCoat</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
+				<drawOffsetSouth>(0, 0.31, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.31, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.31, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.31, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_TiedAroundWaist</defName>
+		<originalDef>Anneli_Gakuen_TiedAroundWaist</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>3/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_TiedAroundWaist</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
+				<drawOffsetSouth>(0, 0.33, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.33, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.33, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.33, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_TiedAroundWaist_Red</defName>
+		<originalDef>Anneli_Gakuen_TiedAroundWaist_Red</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>3/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_TiedAroundWaist_Red</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
+				<drawOffsetSouth>(0, 0.33, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.33, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.33, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.33, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_TrackJacket</defName>
+		<originalDef>Anneli_Gakuen_TrackJacket</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>3/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_TrackJacket</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
+				<drawOffsetSouth>(0, 0.31, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.31, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.31, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.31, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_TrackJacket_Red</defName>
+		<originalDef>Anneli_Gakuen_TrackJacket_Red</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>3/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_TrackJacket_Red</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
+				<drawOffsetSouth>(0, 0.31, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.31, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.31, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.31, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="Anneli_FactionBase">
+		<defName>Anneli_Faction_Jurnizia</defName>
+		<label>Anneli Faction Republic of Jurnizia</label>
+		<description>In the distant past, a powerful annelitrice faction sought to impose order on a chaotic planet through their own rule, creating the "Confederacy". However, a group of dissident annelitrice disagreed with the rule and formed the "Rebels" to wage war against the Confederacy. The two factions engaged in a strangely never-ending cycle of battles, with the superior Confederates always emerging victorious and exterminating every single Rebel.\n\nUnbeknownst to outsiders, both the Confederates and Rebels were made up of the same annelitrice. Both sides are attempting to create the ultimate war movie by repeating the same conflict over and over. However, after thousands of cycles, something went awry and the Confederates suffered a crushing defeat against the weaker Rebels. Against all odds, the Rebels emerged victorious and assimilated the remaining Confederates under a new branding called "Jurnizia".\n\nAlthough not inherently evil, the Jurnizia’s desire to create the perfect war movie has led them to cause immense destruction and countless deaths. They are a feared and notorious faction, known for their brutal tactics,audaciousness and strange accent. Their true origins and motivations are known only to themselves. Now, they continue to roam the planet as a reminder of the power of chaos and the dangers of obsession.</description>
+		<pawnSingular>Annelitrice</pawnSingular>
+		<pawnsPlural>Annelitrice</pawnsPlural>
+		<fixedName>Forged Republic of Jurnizia</fixedName>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+		</requiredMemes>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<naturalEnemy>true</naturalEnemy>
+		<techLevel>Industrial</techLevel>
+		<allowedCultures>
+			<li>Anneli_Cultures_Kriminul</li>
+		</allowedCultures>
+		<settlementTexturePath>Anneli_Factions/Anneli_Jurnizia</settlementTexturePath>
+		<factionIconPath>Anneli_Factions/Anneli_Jurnizia</factionIconPath>
+		<listOrderPriority>30</listOrderPriority>
+		<settlementGenerationWeight>0.5</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>True</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Chief</leaderTitle>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<backstoryCategories>
+			<li>Anneli_Childhood</li>
+			<li>Anneli_Story_Jurnizia</li>
+		</backstoryCategories>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0, 200)</li> 
+				<li>(500, 300)</li> 
+				<li>(2000, 500)</li>
+				<li>(4000, 800)</li>
+				<li>(10000, 1000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_Exotic</li>
+			<li>Caravan_Outlander_PirateMerchant</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-75</min>
+			<max>75</max>
+		</allowedArrivalTemperatureRange>
+		<pawnGroupMakers>
+			<!-- War Band -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>60</commonality>
+				<options>
+					<Anneli_Jurnizia_Leader>1</Anneli_Jurnizia_Leader>
+					<Anneli_Jurnizia_Civilian_Male>5</Anneli_Jurnizia_Civilian_Male>
+					<Anneli_Jurnizia_Civilian_Female>10</Anneli_Jurnizia_Civilian_Female>
+					<Anneli_Jurnizia_Militia_Male>6</Anneli_Jurnizia_Militia_Male>
+					<Anneli_Jurnizia_Militia_Female>3</Anneli_Jurnizia_Militia_Female>
+					<Anneli_Jurnizia_Draftee>5</Anneli_Jurnizia_Draftee>
+					<Anneli_Jurnizia_Officer>3</Anneli_Jurnizia_Officer>
+					<Anneli_Jurnizia_Driver>3</Anneli_Jurnizia_Driver>
+					<Anneli_Jurnizia_Spetsnaz>3</Anneli_Jurnizia_Spetsnaz>
+					<Anneli_Jurnizia_Sniper>3</Anneli_Jurnizia_Sniper>
+					<Anneli_Jurnizia_InternalTroop_Male>5</Anneli_Jurnizia_InternalTroop_Male>
+					<Anneli_Jurnizia_InternalTroop_Female>5</Anneli_Jurnizia_InternalTroop_Female>
+					<Anneli_Jurnizia_HeavyTrooper>5</Anneli_Jurnizia_HeavyTrooper>
+				</options>
+			</li>
+			<!-- Regular Army -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>40</commonality>
+				<options>
+					<Anneli_Jurnizia_Leader>1</Anneli_Jurnizia_Leader>
+					<Anneli_Jurnizia_Civilian_Male>3</Anneli_Jurnizia_Civilian_Male>
+					<Anneli_Jurnizia_Civilian_Female>6</Anneli_Jurnizia_Civilian_Female>
+					<Anneli_Jurnizia_Militia_Male>6</Anneli_Jurnizia_Militia_Male>
+					<Anneli_Jurnizia_Militia_Female>3</Anneli_Jurnizia_Militia_Female>
+					<Anneli_Jurnizia_Draftee>10</Anneli_Jurnizia_Draftee>
+					<Anneli_Jurnizia_Officer>3</Anneli_Jurnizia_Officer>
+					<Anneli_Jurnizia_Driver>3</Anneli_Jurnizia_Driver>
+					<Anneli_Jurnizia_Spetsnaz>3</Anneli_Jurnizia_Spetsnaz>
+					<Anneli_Jurnizia_Sniper>3</Anneli_Jurnizia_Sniper>
+					<Anneli_Jurnizia_InternalTroop_Male>5</Anneli_Jurnizia_InternalTroop_Male>
+					<Anneli_Jurnizia_InternalTroop_Female>5</Anneli_Jurnizia_InternalTroop_Female>
+					<Anneli_Jurnizia_HeavyTrooper>10</Anneli_Jurnizia_HeavyTrooper>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<Anneli_Jurnizia_Civilian_Male>1</Anneli_Jurnizia_Civilian_Male>
+					<Anneli_Jurnizia_Civilian_Female>1</Anneli_Jurnizia_Civilian_Female>
+					<Anneli_Jurnizia_InternalTroop_Male>1</Anneli_Jurnizia_InternalTroop_Male>
+					<Anneli_Jurnizia_InternalTroop_Female>1</Anneli_Jurnizia_InternalTroop_Female>
+					<Anneli_Jurnizia_Draftee>1</Anneli_Jurnizia_Draftee>
+					<Anneli_Jurnizia_Officer>1</Anneli_Jurnizia_Officer>
+					<Anneli_Jurnizia_Driver>1</Anneli_Jurnizia_Driver>
+					<Anneli_Jurnizia_Spetsnaz>1</Anneli_Jurnizia_Spetsnaz>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Anneli_Jurnizia_Officer>1</Anneli_Jurnizia_Officer>
+				</traders>
+				<carriers>
+					<Muffalo>3</Muffalo>
+					<Dromedary>3</Dromedary>
+					<Alpaca>3</Alpaca>
+					<Elephant>2</Elephant>
+				</carriers>
+				<guards>
+					<Anneli_Jurnizia_Civilian_Male>1</Anneli_Jurnizia_Civilian_Male>
+					<Anneli_Jurnizia_Civilian_Female>1</Anneli_Jurnizia_Civilian_Female>
+					<Anneli_Jurnizia_Militia_Male>1</Anneli_Jurnizia_Militia_Male>
+					<Anneli_Jurnizia_Militia_Female>1</Anneli_Jurnizia_Militia_Female>
+					<Anneli_Jurnizia_Draftee>1</Anneli_Jurnizia_Draftee>
+					<Anneli_Jurnizia_Officer>1</Anneli_Jurnizia_Officer>
+					<Anneli_Jurnizia_Driver>1</Anneli_Jurnizia_Driver>
+					<Anneli_Jurnizia_Spetsnaz>1</Anneli_Jurnizia_Spetsnaz>
+					<Anneli_Jurnizia_Sniper>1</Anneli_Jurnizia_Sniper>
+					<Anneli_Jurnizia_InternalTroop_Male>1</Anneli_Jurnizia_InternalTroop_Male>
+					<Anneli_Jurnizia_InternalTroop_Female>1</Anneli_Jurnizia_InternalTroop_Female>
+					<Anneli_Jurnizia_HeavyTrooper>1</Anneli_Jurnizia_HeavyTrooper>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<Anneli_Jurnizia_Leader>1</Anneli_Jurnizia_Leader>
+					<Anneli_Jurnizia_Civilian_Male>3</Anneli_Jurnizia_Civilian_Male>
+					<Anneli_Jurnizia_Civilian_Female>6</Anneli_Jurnizia_Civilian_Female>
+					<Anneli_Jurnizia_Militia_Male>6</Anneli_Jurnizia_Militia_Male>
+					<Anneli_Jurnizia_Militia_Female>3</Anneli_Jurnizia_Militia_Female>
+					<Anneli_Jurnizia_Draftee>10</Anneli_Jurnizia_Draftee>
+					<Anneli_Jurnizia_Officer>3</Anneli_Jurnizia_Officer>
+					<Anneli_Jurnizia_Driver>3</Anneli_Jurnizia_Driver>
+					<Anneli_Jurnizia_Spetsnaz>3</Anneli_Jurnizia_Spetsnaz>
+					<Anneli_Jurnizia_Sniper>3</Anneli_Jurnizia_Sniper>
+					<Anneli_Jurnizia_InternalTroop_Male>5</Anneli_Jurnizia_InternalTroop_Male>
+					<Anneli_Jurnizia_InternalTroop_Female>5</Anneli_Jurnizia_InternalTroop_Female>
+					<Anneli_Jurnizia_HeavyTrooper>10</Anneli_Jurnizia_HeavyTrooper>
+				</options>
+			</li>
+		</pawnGroupMakers>
+	</FactionDef>
+
+</Defs>

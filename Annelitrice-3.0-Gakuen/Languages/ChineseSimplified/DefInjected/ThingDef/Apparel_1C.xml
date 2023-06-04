@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_LooseSocks -->
+
+  <Anneli_Gakuen_LooseSocks.label>(学园)1C_泡泡袜</Anneli_Gakuen_LooseSocks.label>
+  <Anneli_Gakuen_LooseSocks.description>可染色.</Anneli_Gakuen_LooseSocks.description>
+
+
+  <!-- Anneli_Gakuen_Pantyhose -->
+
+  <Anneli_Gakuen_Pantyhose.label>(学园)1C_裤袜</Anneli_Gakuen_Pantyhose.label>
+  <Anneli_Gakuen_Pantyhose.description>可染色.</Anneli_Gakuen_Pantyhose.description>
+
+
+  <!-- Anneli_Gakuen_Socks -->
+
+  <Anneli_Gakuen_Socks.label>(学园)1C_长袜</Anneli_Gakuen_Socks.label>
+  <Anneli_Gakuen_Socks.description>可染色.</Anneli_Gakuen_Socks.description>
+
+
+  <!-- Anneli_Gakuen_Stockings -->
+
+  <Anneli_Gakuen_Stockings.label>(学园)1C_过膝袜</Anneli_Gakuen_Stockings.label>
+  <Anneli_Gakuen_Stockings.description>可染色.</Anneli_Gakuen_Stockings.description>
+
+
+  <!-- Anneli_Gakuen_SoccerSocks -->
+
+  <Anneli_Gakuen_SoccerSocks.label>(学园)1C_运动袜</Anneli_Gakuen_SoccerSocks.label>
+  <Anneli_Gakuen_SoccerSocks.description>可染色.</Anneli_Gakuen_SoccerSocks.description>
+
+
+  <!-- Anneli_Gakuen_Tabi -->
+
+  <Anneli_Gakuen_Tabi.label>(学园)1C_足袜</Anneli_Gakuen_Tabi.label>
+  <Anneli_Gakuen_Tabi.description>可染色.</Anneli_Gakuen_Tabi.description>
+
+
+</LanguageData>

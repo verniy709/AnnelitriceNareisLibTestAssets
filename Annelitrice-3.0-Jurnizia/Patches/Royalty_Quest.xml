@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- Guests -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+                    <value>
+                        <li>
+                            <factionDef>Anneli_Faction_Jurnizia</factionDef>
+                            <pawnKinds>
+                                <li>Anneli_Jurnizia_Civilian_Male</li>
+                                <li>Anneli_Jurnizia_Civilian_Female</li>
+                                <li>Anneli_Jurnizia_Militia_Male</li>
+                                <li>Anneli_Jurnizia_Militia_Female</li>
+                                <li>Anneli_Jurnizia_Draftee</li>
+                                <li>Anneli_Jurnizia_Officer</li>
+                                <li>Anneli_Jurnizia_Driver</li>
+                                <li>Anneli_Jurnizia_Spetsnaz</li>
+                                <li>Anneli_Jurnizia_Sniper</li>
+                                <li>Anneli_Jurnizia_InternalTroop_Male</li>
+                                <li>Anneli_Jurnizia_InternalTroop_Female</li>
+                                <li>Anneli_Jurnizia_HeavyTrooper</li>
+                            </pawnKinds>
+                        </li>  
+                    </value>
+                </li>
+                <!-- Mercenaries -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+                    <value>
+                        <li>
+                            <factionDef>Anneli_Faction_Jurnizia</factionDef>
+                            <pawnKinds>
+                                <li>Anneli_Jurnizia_Civilian_Male</li>
+                                <li>Anneli_Jurnizia_Civilian_Female</li>
+                                <li>Anneli_Jurnizia_Militia_Male</li>
+                                <li>Anneli_Jurnizia_Militia_Female</li>
+                                <li>Anneli_Jurnizia_Draftee</li>
+                                <li>Anneli_Jurnizia_Officer</li>
+                                <li>Anneli_Jurnizia_Driver</li>
+                                <li>Anneli_Jurnizia_Spetsnaz</li>
+                                <li>Anneli_Jurnizia_Sniper</li>
+                                <li>Anneli_Jurnizia_InternalTroop_Male</li>
+                                <li>Anneli_Jurnizia_InternalTroop_Female</li>
+                                <li>Anneli_Jurnizia_HeavyTrooper</li>
+                            </pawnKinds>
+                        </li>  
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Guitar</defName>
+		<originalDef>Anneli_Jurnizia_Guitar</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>8A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Guitar</li>
+				</prefix>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>Anneli_Apparel8A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Accordion</defName>
+		<originalDef>Anneli_Jurnizia_Accordion</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>8A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Accordion</li>
+				</prefix>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>Anneli_Apparel8A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

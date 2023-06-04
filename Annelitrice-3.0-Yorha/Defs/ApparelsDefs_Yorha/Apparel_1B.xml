@@ -34,6 +34,7 @@
 		<apparel>
 			<wornGraphicPath>1B/Anneli_YoRHa_Underwear</wornGraphicPath>
 			<tags>
+				<li>Anneli_Underwear</li>
 				<li>Anneli_YoRHa_Attacker</li>
 				<li>Anneli_YoRHa_Gunner</li>
 				<li>Anneli_YoRHa_Scanner</li>
@@ -62,6 +63,7 @@
 		<apparel>
 			<wornGraphicPath>1B/Anneli_YoRHa_Thong</wornGraphicPath>
 			<tags>
+				<li>Anneli_Underwear</li>
 				<li>Anneli_YoRHa_Attacker</li>
 				<li>Anneli_YoRHa_Gunner</li>
 				<li>Anneli_YoRHa_Scanner</li>
@@ -90,6 +92,7 @@
 		<apparel>
 			<wornGraphicPath>1B/Anneli_YoRHa_Hipster</wornGraphicPath>
 			<tags>
+				<li>Anneli_Underwear</li>
 				<li>Anneli_YoRHa_Attacker</li>
 				<li>Anneli_YoRHa_Gunner</li>
 				<li>Anneli_YoRHa_Scanner</li>

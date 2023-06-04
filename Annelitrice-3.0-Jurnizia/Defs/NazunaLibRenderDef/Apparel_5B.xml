@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_KneePads</defName>
+		<originalDef>Anneli_Jurnizia_KneePads</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_KneePads</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.25, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.25, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.25, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.25, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_KneePads_Green</defName>
+		<originalDef>Anneli_Jurnizia_KneePads_Green</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_KneePads_Green</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.25, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.25, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.25, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.25, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

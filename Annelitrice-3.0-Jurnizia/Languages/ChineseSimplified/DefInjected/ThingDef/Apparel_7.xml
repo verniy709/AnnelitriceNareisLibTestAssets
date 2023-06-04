@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Jurnizia_ATAKA -->
+
+  <Anneli_Jurnizia_ATAKA.label>(切尼亚)7_ATAKA背包</Anneli_Jurnizia_ATAKA.label>
+  <Anneli_Jurnizia_ATAKA.description>可染色.</Anneli_Jurnizia_ATAKA.description>
+
+
+  <!-- Anneli_Jurnizia_ATAKA_Olive -->
+
+  <Anneli_Jurnizia_ATAKA_Olive.label>(切尼亚)7_ATAKA背包</Anneli_Jurnizia_ATAKA_Olive.label>
+  <Anneli_Jurnizia_ATAKA_Olive.description>可染色.</Anneli_Jurnizia_ATAKA_Olive.description>
+
+
+  <!-- Anneli_Jurnizia_CamoATAKA -->
+
+  <Anneli_Jurnizia_CamoATAKA.label>(切尼亚)7_迷彩ATAKA背包</Anneli_Jurnizia_CamoATAKA.label>
+  <Anneli_Jurnizia_CamoATAKA.description>NOT 可染色.</Anneli_Jurnizia_CamoATAKA.description>
+
+
+  <!-- Anneli_Jurnizia_Backpack -->
+
+  <Anneli_Jurnizia_Backpack.label>(切尼亚)7_书包</Anneli_Jurnizia_Backpack.label>
+  <Anneli_Jurnizia_Backpack.description>可染色.</Anneli_Jurnizia_Backpack.description>
+
+
+  <!-- Anneli_Jurnizia_Sack -->
+
+  <Anneli_Jurnizia_Sack.label>(切尼亚)7_帆布袋</Anneli_Jurnizia_Sack.label>
+  <Anneli_Jurnizia_Sack.description>可染色.</Anneli_Jurnizia_Sack.description>
+
+
+</LanguageData>

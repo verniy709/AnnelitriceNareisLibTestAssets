@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_SailorSuitA -->
+
+  <Anneli_Gakuen_SailorSuitA.label>(学园)2A_水手服A</Anneli_Gakuen_SailorSuitA.label>
+  <Anneli_Gakuen_SailorSuitA.description>可染色. 领子染色.</Anneli_Gakuen_SailorSuitA.description>
+
+
+  <!-- Anneli_Gakuen_SailorSuitB -->
+
+  <Anneli_Gakuen_SailorSuitB.label>(学园)2A_水手服B</Anneli_Gakuen_SailorSuitB.label>
+  <Anneli_Gakuen_SailorSuitB.description>可染色. 全部染色.</Anneli_Gakuen_SailorSuitB.description>
+
+
+  <!-- Anneli_Gakuen_SailorCropTopA -->
+
+  <Anneli_Gakuen_SailorCropTopA.label>(学园)2A_短水手服A</Anneli_Gakuen_SailorCropTopA.label>
+  <Anneli_Gakuen_SailorCropTopA.description>可染色. 领子染色.</Anneli_Gakuen_SailorCropTopA.description>
+
+
+  <!-- Anneli_Gakuen_SailorCropTopB -->
+
+  <Anneli_Gakuen_SailorCropTopB.label>(学园)2A_短水手服B</Anneli_Gakuen_SailorCropTopB.label>
+  <Anneli_Gakuen_SailorCropTopB.description>可染色. 全部染色.</Anneli_Gakuen_SailorCropTopB.description>
+
+
+  <!-- Anneli_Gakuen_ShirtBowTie -->
+
+  <Anneli_Gakuen_ShirtBowTie.label>(学园)2A_领绳衬衫</Anneli_Gakuen_ShirtBowTie.label>
+  <Anneli_Gakuen_ShirtBowTie.description>可染色. 领绳染色.</Anneli_Gakuen_ShirtBowTie.description>
+
+
+  <!-- Anneli_Gakuen_ShirtNecktie -->
+
+  <Anneli_Gakuen_ShirtNecktie.label>(学园)2A_领结衬衫</Anneli_Gakuen_ShirtNecktie.label>
+  <Anneli_Gakuen_ShirtNecktie.description>可染色. 领结染色.</Anneli_Gakuen_ShirtNecktie.description>
+
+
+  <!-- Anneli_Gakuen_ShirtOpen -->
+
+  <Anneli_Gakuen_ShirtOpen.label>(学园)2A_敞开衬衫</Anneli_Gakuen_ShirtOpen.label>
+  <Anneli_Gakuen_ShirtOpen.description>可染色. 全部染色.</Anneli_Gakuen_ShirtOpen.description>
+
+
+  <!-- Anneli_Gakuen_KendoTop -->
+
+  <Anneli_Gakuen_KendoTop.label>(学园)2A_剑道上衣</Anneli_Gakuen_KendoTop.label>
+  <Anneli_Gakuen_KendoTop.description>可染色.</Anneli_Gakuen_KendoTop.description>
+
+
+  <!-- Anneli_Gakuen_CheerCropTop -->
+
+  <Anneli_Gakuen_CheerCropTop.label>(学园)2A_啦啦队短上衣</Anneli_Gakuen_CheerCropTop.label>
+  <Anneli_Gakuen_CheerCropTop.description>可染色.</Anneli_Gakuen_CheerCropTop.description>
+
+
+  <!-- Anneli_Gakuen_GymShirt -->
+
+  <Anneli_Gakuen_GymShirt.label>(学园)2A_运动衬衫</Anneli_Gakuen_GymShirt.label>
+  <Anneli_Gakuen_GymShirt.description>可染色.</Anneli_Gakuen_GymShirt.description>
+
+
+</LanguageData>

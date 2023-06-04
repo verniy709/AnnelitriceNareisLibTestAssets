@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Jurnizia_PeakCap -->
+
+  <Anneli_Jurnizia_PeakCap.label>(切尼亚)6A_大檐帽</Anneli_Jurnizia_PeakCap.label>
+  <Anneli_Jurnizia_PeakCap.description>可染色.</Anneli_Jurnizia_PeakCap.description>
+
+
+  <!-- Anneli_Jurnizia_Shlemofon -->
+
+  <Anneli_Jurnizia_Shlemofon.label>(切尼亚)6A_坦克兵帽</Anneli_Jurnizia_Shlemofon.label>
+  <Anneli_Jurnizia_Shlemofon.description>可染色.</Anneli_Jurnizia_Shlemofon.description>
+
+
+  <!-- Anneli_Jurnizia_Beanie -->
+
+  <Anneli_Jurnizia_Beanie.label>(切尼亚)6A_御寒帽</Anneli_Jurnizia_Beanie.label>
+  <Anneli_Jurnizia_Beanie.description>可染色.</Anneli_Jurnizia_Beanie.description>
+
+    <!-- Anneli_Jurnizia_FlatCap -->
+
+  <Anneli_Jurnizia_FlatCap.label>(切尼亚)6A_平顶帽</Anneli_Jurnizia_FlatCap.label>
+  <Anneli_Jurnizia_FlatCap.description>可染色.</Anneli_Jurnizia_FlatCap.description>
+
+
+  <!-- Anneli_Jurnizia_Bandana -->
+
+  <Anneli_Jurnizia_Bandana.label>(切尼亚)6A_头巾</Anneli_Jurnizia_Bandana.label>
+  <Anneli_Jurnizia_Bandana.description>可染色.</Anneli_Jurnizia_Bandana.description>
+
+
+  <!-- Anneli_Jurnizia_CamoBandana -->
+
+  <Anneli_Jurnizia_CamoBandana.label>(切尼亚)6A_迷彩头巾</Anneli_Jurnizia_CamoBandana.label>
+  <Anneli_Jurnizia_CamoBandana.description>不可染色.</Anneli_Jurnizia_CamoBandana.description>
+
+
+  <!-- Anneli_Jurnizia_Hood -->
+
+  <Anneli_Jurnizia_Hood.label>(切尼亚)6A_兜帽</Anneli_Jurnizia_Hood.label>
+  <Anneli_Jurnizia_Hood.description>可染色.</Anneli_Jurnizia_Hood.description>
+
+
+  <!-- Anneli_Jurnizia_CamoHood -->
+
+  <Anneli_Jurnizia_CamoHood.label>(切尼亚)6A_迷彩兜帽</Anneli_Jurnizia_CamoHood.label>
+  <Anneli_Jurnizia_CamoHood.description>不可染色.</Anneli_Jurnizia_CamoHood.description>
+
+
+  <!-- Anneli_Jurnizia_GorkaHood -->
+
+  <Anneli_Jurnizia_GorkaHood.label>(切尼亚)6A_郭卡兜帽</Anneli_Jurnizia_GorkaHood.label>
+  <Anneli_Jurnizia_GorkaHood.description>不可染色.</Anneli_Jurnizia_GorkaHood.description>
+
+
+  <!-- Anneli_Jurnizia_GhillieHood -->
+
+  <Anneli_Jurnizia_GhillieHood.label>(切尼亚)6A_吉利服兜帽</Anneli_Jurnizia_GhillieHood.label>
+  <Anneli_Jurnizia_GhillieHood.description>不可染色.</Anneli_Jurnizia_GhillieHood.description>
+
+
+  <!-- Anneli_Jurnizia_PatrolCap -->
+
+  <Anneli_Jurnizia_PatrolCap.label>(切尼亚)6A_巡逻帽</Anneli_Jurnizia_PatrolCap.label>
+  <Anneli_Jurnizia_PatrolCap.description>可染色.</Anneli_Jurnizia_PatrolCap.description>
+
+
+  <!-- Anneli_Jurnizia_CamoPatrolCap -->
+
+  <Anneli_Jurnizia_CamoPatrolCap.label>(切尼亚)6A_迷彩巡逻帽</Anneli_Jurnizia_CamoPatrolCap.label>
+  <Anneli_Jurnizia_CamoPatrolCap.description>不可染色.</Anneli_Jurnizia_CamoPatrolCap.description>
+
+
+  <!-- Anneli_Jurnizia_Ushanka -->
+
+  <Anneli_Jurnizia_Ushanka.label>(切尼亚)6A_军用乌桑卡</Anneli_Jurnizia_Ushanka.label>
+  <Anneli_Jurnizia_Ushanka.description>可染色.</Anneli_Jurnizia_Ushanka.description>
+  
+
+  <!-- Anneli_Jurnizia_ShapkaUshanka -->
+
+  <Anneli_Jurnizia_ShapkaUshanka.label>(切尼亚)6A_乌桑卡</Anneli_Jurnizia_ShapkaUshanka.label>
+  <Anneli_Jurnizia_ShapkaUshanka.description>可染色.</Anneli_Jurnizia_ShapkaUshanka.description>
+
+
+  <!-- Anneli_Jurnizia_SSH68Helmet -->
+
+  <Anneli_Jurnizia_SSH68Helmet.label>(切尼亚)6A_SSH68头盔</Anneli_Jurnizia_SSH68Helmet.label>
+  <Anneli_Jurnizia_SSH68Helmet.description>可染色.</Anneli_Jurnizia_SSH68Helmet.description>
+
+
+  <!-- Anneli_Jurnizia_CamoSSH68Helmet -->
+
+  <Anneli_Jurnizia_CamoSSH68Helmet.label>(切尼亚)6A_迷彩SSH68头盔</Anneli_Jurnizia_CamoSSH68Helmet.label>
+  <Anneli_Jurnizia_CamoSSH68Helmet.description>不可染色.</Anneli_Jurnizia_CamoSSH68Helmet.description>
+
+
+  <!-- Anneli_Jurnizia_MASKAHelmet -->
+
+  <Anneli_Jurnizia_MASKAHelmet.label>(切尼亚)6A_MASKA头盔</Anneli_Jurnizia_MASKAHelmet.label>
+  <Anneli_Jurnizia_MASKAHelmet.description>可染色.</Anneli_Jurnizia_MASKAHelmet.description>
+
+
+  <!-- Anneli_Jurnizia_CamoMASKAHelmet -->
+
+  <Anneli_Jurnizia_CamoMASKAHelmet.label>(切尼亚)6A_迷彩MASKA头盔</Anneli_Jurnizia_CamoMASKAHelmet.label>
+  <Anneli_Jurnizia_CamoMASKAHelmet.description>不可染色.</Anneli_Jurnizia_CamoMASKAHelmet.description>
+
+
+</LanguageData>

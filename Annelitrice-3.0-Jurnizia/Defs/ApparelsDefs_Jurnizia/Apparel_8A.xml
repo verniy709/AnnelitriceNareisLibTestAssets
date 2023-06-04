@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Jurnizia_8A" ParentName="Anneli_8A" Abstract="True">
+		<thingCategories>
+			<li>Category_Annelitrice_Jurnizia</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Jurnizia_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!-- Anneli_GuitarA-->
+	<SoundDef>
+		<defName>Anneli_GuitarA</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_GuitarA</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!-- Anneli_GuitarB-->
+	<SoundDef>
+		<defName>Anneli_GuitarB</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_GuitarB</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!--Anneli_Jurnizia_Guitar-->
+	<ThingDef ParentName="Anneli_Jurnizia_8A">
+		<defName>Anneli_Jurnizia_Guitar</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)8A_Guitar</label>
+		<graphicData>
+			<texPath>8A/Anneli_Jurnizia_Guitar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8A/Anneli_Jurnizia_Guitar</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180,115,50,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,200,155,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.0</generateAllowChance><!--Less Spawn-->
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>200</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelHediffGiver">
+                <hediffDef>Anneli_Music_Melancholic</hediffDef>        
+                <severityIncrease>0.2</severityIncrease>  
+                <radius>15</radius>                         
+            </li>
+			<li Class="Annelitrice.CompProperties_PlayMusic">
+				<soundDefs>
+					<li>Anneli_GuitarA</li>
+					<li>Anneli_GuitarB</li>
+				</soundDefs>
+				<effecters>
+					<li>Anneli_Effecter_Note1</li>
+					<li>Anneli_Effecter_Note2</li>
+					<li>Anneli_Effecter_Note3</li>
+				</effecters>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- Anneli_AccordionA-->
+	<SoundDef>
+		<defName>Anneli_AccordionA</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_AccordionA</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!-- Anneli_AccordionB-->
+	<SoundDef>
+		<defName>Anneli_AccordionB</defName>
+		<context>MapOnly</context>
+		<sustain>True</sustain>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_AccordionB</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!--Anneli_Jurnizia_Accordion-->
+	<ThingDef ParentName="Anneli_Jurnizia_8A">
+		<defName>Anneli_Jurnizia_Accordion</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)8A_Accordion</label>
+		<graphicData>
+			<texPath>8A/Anneli_Jurnizia_Accordion</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8A/Anneli_Jurnizia_Accordion</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(110,90,75,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.0</generateAllowChance><!--Less Spawn-->
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>200</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelHediffGiver">
+                <hediffDef>Anneli_Music_Intense</hediffDef>        
+                <severityIncrease>0.2</severityIncrease>  
+                <radius>15</radius>                         
+            </li>
+			<li Class="Annelitrice.CompProperties_PlayMusic">
+				<soundDefs>
+					<li>Anneli_AccordionA</li>
+					<li>Anneli_AccordionB</li>
+				</soundDefs>
+				<effecters>
+					<li>Anneli_Effecter_Note1</li>
+					<li>Anneli_Effecter_Note2</li>
+					<li>Anneli_Effecter_Note3</li>
+				</effecters>
+			</li>
+		</comps>
+	</ThingDef>
+
+			
+</Defs>

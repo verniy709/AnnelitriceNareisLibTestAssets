@@ -18,6 +18,8 @@
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -40,6 +42,8 @@
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -62,6 +66,8 @@
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -84,6 +90,8 @@
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -106,6 +114,8 @@
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 			<li>
 				<prefix>
@@ -118,6 +128,8 @@
 				<drawOffsetNorth>(0, -0.29, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, -0.29, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -140,6 +152,8 @@
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -162,6 +176,8 @@
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -184,6 +200,8 @@
 				<drawOffsetNorth>(0, 0.29, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.29, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -206,6 +224,8 @@
 				<drawOffsetNorth>(0, 0.22, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.22, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>

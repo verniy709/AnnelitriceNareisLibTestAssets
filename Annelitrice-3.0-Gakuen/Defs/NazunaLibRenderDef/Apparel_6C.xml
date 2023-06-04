@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_WoolMask</defName>
+		<originalDef>Anneli_Gakuen_WoolMask</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6C/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_WoolMask</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6C</textureLevelsName>
+				<drawOffsetSouth>(0, 0.61, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.61, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.61, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.61, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_MedicalMask</defName>
+		<originalDef>Anneli_Gakuen_MedicalMask</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6C/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_MedicalMask</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6C</textureLevelsName>
+				<drawOffsetSouth>(0, 0.61, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.61, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.61, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.61, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_Toast</defName>
+		<originalDef>Anneli_Gakuen_Toast</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6C/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_Toast</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6C</textureLevelsName>
+				<drawOffsetSouth>(0, 0.61, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.61, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.61, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.61, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Gakuen_1AB" ParentName="Anneli_1AB" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.2</FoodPoisonChance>
+			<CleaningSpeed>0.2</CleaningSpeed>
+			<NegotiationAbility>0.2</NegotiationAbility>
+			<TradePriceImprovement>0.2</TradePriceImprovement>
+			<SocialImpact>0.2</SocialImpact>
+			<GlobalLearningFactor>0.2</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+<!--Anneli_Gakuen_SchoolSwimsuit-->
+	<ThingDef ParentName="Anneli_Gakuen_1AB">
+		<defName>Anneli_Gakuen_SchoolSwimsuit</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)1AB_SchoolSwimsuit</label>
+		<graphicData>
+			<texPath>1AB/Anneli_Gakuen_SchoolSwimsuit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_Gakuen_SchoolSwimsuit</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(60,65,90,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_CowPrintSwimsuit-->
+	<ThingDef ParentName="Anneli_Gakuen_1AB">
+		<defName>Anneli_Gakuen_CowPrintSwimsuit</defName>
+		<description>NOT dyeable.</description>
+		<label>(Gakuen)1AB_CowPrintSwimsuit</label>
+		<graphicData>
+			<texPath>1AB/Anneli_Gakuen_CowPrintSwimsuit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_Gakuen_CowPrintSwimsuit</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.5</generateCommonality><!--Less chance-->
+	</ThingDef>
+
+</Defs>

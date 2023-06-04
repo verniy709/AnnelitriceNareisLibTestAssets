@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Jurnizia_Balaclava -->
+
+  <Anneli_Jurnizia_Balaclava.label>(切尼亚)6C_头套</Anneli_Jurnizia_Balaclava.label>
+  <Anneli_Jurnizia_Balaclava.description>可染色.</Anneli_Jurnizia_Balaclava.description>
+
+
+  <!-- Anneli_Jurnizia_CamoMask -->
+
+  <Anneli_Jurnizia_CamoMask.label>(切尼亚)6C_迷彩口罩</Anneli_Jurnizia_CamoMask.label>
+  <Anneli_Jurnizia_CamoMask.description>不可染色.</Anneli_Jurnizia_CamoMask.description>
+
+
+  <!-- Anneli_Jurnizia_Cigar -->
+
+  <Anneli_Jurnizia_Cigar.label>(切尼亚)6C_雪茄</Anneli_Jurnizia_Cigar.label>
+  <Anneli_Jurnizia_Cigar.description>不可染色.</Anneli_Jurnizia_Cigar.description>
+
+
+</LanguageData>

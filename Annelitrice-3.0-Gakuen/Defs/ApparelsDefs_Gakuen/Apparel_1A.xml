@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Gakuen_1A" ParentName="Anneli_1A" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+			<CleaningSpeed>0.1</CleaningSpeed>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<SocialImpact>0.1</SocialImpact>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+<!--Anneli_Gakuen_Bra-->
+	<ThingDef ParentName="Anneli_Gakuen_1A">
+		<defName>Anneli_Gakuen_Bra</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)1A_Bra</label>
+		<graphicData>
+			<texPath>1A/Anneli_Gakuen_Bra</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1A/Anneli_Gakuen_Bra</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240,225)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Gakuen_CatBra-->
+	<ThingDef ParentName="Anneli_Gakuen_1A">
+		<defName>Anneli_Gakuen_CatBra</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)1A_CatBra</label>
+		<graphicData>
+			<texPath>1A/Anneli_Gakuen_CatBra</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1A/Anneli_Gakuen_CatBra</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Gakuen_HalterNeckBra-->
+	<ThingDef ParentName="Anneli_Gakuen_1A">
+		<defName>Anneli_Gakuen_HalterNeckBra</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)1A_HalterNeckBra</label>
+		<graphicData>
+			<texPath>1A/Anneli_Gakuen_HalterNeckBra</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1A/Anneli_Gakuen_HalterNeckBra</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240,225)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Gakuen_ChestWrap-->
+	<ThingDef ParentName="Anneli_Gakuen_1A">
+		<defName>Anneli_Gakuen_ChestWrap</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)1A_ChestWrap</label>
+		<graphicData>
+			<texPath>1A/Anneli_Gakuen_ChestWrap</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1A/Anneli_Gakuen_ChestWrap</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Kendobuin</li>
+				<li>Anneli_Gakuen_Tsuppari</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240,225)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>	
+
+</Defs>

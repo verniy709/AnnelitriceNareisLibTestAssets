@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Jeans</defName>
+		<originalDef>Anneli_Jurnizia_Jeans</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Jeans</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.24, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.24, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.24, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.24, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_DenimShorts</defName>
+		<originalDef>Anneli_Jurnizia_DenimShorts</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_DenimShorts</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.24, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.24, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.24, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.24, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Leggings</defName>
+		<originalDef>Anneli_Jurnizia_Leggings</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Leggings</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.21, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.21, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.21, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.21, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Skirt</defName>
+		<originalDef>Anneli_Jurnizia_Skirt</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Skirt</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.24, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.24, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.24, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.24, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_LeatherSkirt</defName>
+		<originalDef>Anneli_Jurnizia_LeatherSkirt</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_LeatherSkirt</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.24, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.24, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.24, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.24, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_SportPants</defName>
+		<originalDef>Anneli_Jurnizia_SportPants</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_SportPants</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.24, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.24, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.24, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.24, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_BaggyPants</defName>
+		<originalDef>Anneli_Jurnizia_BaggyPants</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_BaggyPants</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.24, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.24, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.24, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.24, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_CamoPants</defName>
+		<originalDef>Anneli_Jurnizia_CamoPants</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_CamoPants</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.24, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.24, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.24, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.24, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_GorkaPants</defName>
+		<originalDef>Anneli_Jurnizia_GorkaPants</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_GorkaPants</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.24, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.24, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.24, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.24, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+	
+</Defs>

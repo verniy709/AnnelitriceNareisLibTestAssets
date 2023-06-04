@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_PeakCap</defName>
+		<originalDef>Anneli_Jurnizia_PeakCap</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_PeakCap</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Shlemofon</defName>
+		<originalDef>Anneli_Jurnizia_Shlemofon</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Shlemofon</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Beanie</defName>
+		<originalDef>Anneli_Jurnizia_Beanie</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Beanie</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_FlatCap</defName>
+		<originalDef>Anneli_Jurnizia_FlatCap</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_FlatCap</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Bandana</defName>
+		<originalDef>Anneli_Jurnizia_Bandana</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Bandana</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_CamoBandana</defName>
+		<originalDef>Anneli_Jurnizia_CamoBandana</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_CamoBandana</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Hood</defName>
+		<originalDef>Anneli_Jurnizia_Hood</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Hood</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_CamoHood</defName>
+		<originalDef>Anneli_Jurnizia_CamoHood</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_CamoHood</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_GorkaHood</defName>
+		<originalDef>Anneli_Jurnizia_GorkaHood</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_GorkaHood</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_GhillieHood</defName>
+		<originalDef>Anneli_Jurnizia_GhillieHood</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_GhillieHood</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_PatrolCap</defName>
+		<originalDef>Anneli_Jurnizia_PatrolCap</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_PatrolCap</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_CamoPatrolCap</defName>
+		<originalDef>Anneli_Jurnizia_CamoPatrolCap</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_CamoPatrolCap</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Ushanka</defName>
+		<originalDef>Anneli_Jurnizia_Ushanka</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Ushanka</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_ShapkaUshanka</defName>
+		<originalDef>Anneli_Jurnizia_ShapkaUshanka</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_ShapkaUshanka</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_SSH68Helmet</defName>
+		<originalDef>Anneli_Jurnizia_SSH68Helmet</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_SSH68Helmet</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_CamoSSH68Helmet</defName>
+		<originalDef>Anneli_Jurnizia_CamoSSH68Helmet</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_CamoSSH68Helmet</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_MASKAHelmet</defName>
+		<originalDef>Anneli_Jurnizia_MASKAHelmet</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_MASKAHelmet</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_CamoMASKAHelmet</defName>
+		<originalDef>Anneli_Jurnizia_CamoMASKAHelmet</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_CamoMASKAHelmet</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

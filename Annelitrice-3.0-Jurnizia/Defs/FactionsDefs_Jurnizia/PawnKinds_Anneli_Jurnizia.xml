@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="Anneli_Jurnizia_KindBase" ParentName="Anneli_KindBase" Abstract="True">
+		<label>Anneli_Jurnizia_KindBase</label>
+		<itemQuality>Masterwork</itemQuality>
+		<defaultFactionType>Anneli_Faction_Jurnizia</defaultFactionType>
+		<isFighter>true</isFighter>
+		<combatPower>170</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<backstoryCategories>
+			<li>Anneli_Childhood</li>
+			<li>Anneli_Story_Jurnizia</li>
+		</backstoryCategories>
+		<weaponMoney>1500</weaponMoney>
+		<techHediffsChance>0.1</techHediffsChance>
+		<techHediffsMoney>1000</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<inventoryOptions>
+			<skipChance>0.1</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>300</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+
+	<!-- <li>Anneli_Jurnizia_Civilian_Male</li>
+	<li>Anneli_Jurnizia_Civilian_Female</li>
+	<li>Anneli_Jurnizia_Militia_Male</li>
+	<li>Anneli_Jurnizia_Militia_Female</li>
+	<li>Anneli_Jurnizia_Draftee</li>
+	<li>Anneli_Jurnizia_Officer</li>
+	<li>Anneli_Jurnizia_Driver</li>
+	<li>Anneli_Jurnizia_Spetsnaz</li>
+	<li>Anneli_Jurnizia_Sniper</li>
+	<li>Anneli_Jurnizia_InternalTroop_Male</li>
+	<li>Anneli_Jurnizia_InternalTroop_Female</li>
+	<li>Anneli_Jurnizia_HeavyTrooper</li> -->
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_Leader</defName>
+		<label>Jurnizia_Chief</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<factionLeader>true</factionLeader>
+		<apparelTags>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_HeavyTrooper</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>GunHeavy</li>
+		</weaponTags>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.PawnKindDefExtension">
+				<shieldMoney>
+					<min>100</min>
+					<max>400</max>
+				</shieldMoney>
+				<shieldTags>
+					<li>Jurnizia_CamoBZT75Shield</li>
+					<li>Jurnizia_CamoVantVMShield</li>
+				</shieldTags>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_Civilian_Male</defName>
+		<label>Jurnizia_Civilian</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_Civilian_Male</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_Civilian_Female</defName>
+		<label>Jurnizia_Civilian</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_Civilian_Female</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_Militia_Male</defName>
+		<label>Jurnizia_Militia</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_Militia_Male</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_Militia_Female</defName>
+		<label>Jurnizia_Militia</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_Militia_Female</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_Draftee</defName>
+		<label>Jurnizia_Draftee</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_Draftee</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_Officer</defName>
+		<label>Jurnizia_Officer</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_Officer</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_Driver</defName>
+		<label>Jurnizia_Driver</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_Driver</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_Spetsnaz</defName>
+		<label>Jurnizia_Spetsnaz</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_Spetsnaz</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>SniperRifle</li>
+		</weaponTags>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.PawnKindDefExtension">
+				<shieldMoney>
+					<min>100</min>
+					<max>400</max>
+				</shieldMoney>
+				<shieldTags>
+					<li>Jurnizia_CamoBZT75Shield</li>
+					<li>Jurnizia_CamoVantVMShield</li>
+				</shieldTags>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_Sniper</defName>
+		<label>Jurnizia_Sniper</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_Sniper</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>SniperRifle</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_InternalTroop_Male</defName>
+		<label>Jurnizia_InternalTroop</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_InternalTroop_Male</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>SniperRifle</li>
+		</weaponTags>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.PawnKindDefExtension">
+				<shieldMoney>
+					<min>100</min>
+					<max>400</max>
+				</shieldMoney>
+				<shieldTags>
+					<li>Jurnizia_BZT75Shield</li>
+					<li>Jurnizia_VantVMShield</li>
+				</shieldTags>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_InternalTroop_Female</defName>
+		<label>Jurnizia_InternalTroop</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_InternalTroop_Female</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>SniperRifle</li>
+		</weaponTags>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.PawnKindDefExtension">
+				<shieldMoney>
+					<min>100</min>
+					<max>400</max>
+				</shieldMoney>
+				<shieldTags>
+					<li>Jurnizia_BZT75Shield</li>
+					<li>Jurnizia_VantVMShield</li>
+				</shieldTags>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Jurnizia_KindBase">
+		<defName>Anneli_Jurnizia_HeavyTrooper</defName>
+		<label>Jurnizia_HeavyTrooper</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Jurnizia_Common</li>
+			<li>Anneli_Jurnizia_HeavyTrooper</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GunHeavy</li>
+		</weaponTags>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.PawnKindDefExtension">
+				<shieldMoney>
+					<min>100</min>
+					<max>400</max>
+				</shieldMoney>
+				<shieldTags>
+					<li>Jurnizia_CamoBZT75Shield</li>
+					<li>Jurnizia_CamoVantVMShield</li>
+				</shieldTags>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+</Defs>

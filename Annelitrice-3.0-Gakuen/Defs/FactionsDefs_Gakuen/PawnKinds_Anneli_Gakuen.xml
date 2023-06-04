@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="Anneli_Gakuen_KindBase" ParentName="Anneli_KindBase" Abstract="True">
+		<label>Anneli_Gakuen_KindBase</label>
+		<itemQuality>Good</itemQuality>
+		<defaultFactionType>Anneli_Faction_Gakuen</defaultFactionType>
+		<isFighter>true</isFighter>
+		<combatPower>150</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<backstoryCategories>
+			<li>Anneli_Childhood</li>
+			<li>Anneli_Story_Gakuen</li>
+		</backstoryCategories>
+		<weaponMoney>1000</weaponMoney>
+		<techHediffsChance>0.1</techHediffsChance>
+		<techHediffsMoney>1000</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<inventoryOptions>
+			<skipChance>0.1</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>300</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>	
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Leader</defName>
+		<label>Gakuen_Senpai</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<factionLeader>true</factionLeader>
+		<apparelTags>
+			<li>Anneli_Gakuen_Common</li>
+			<li>Anneli_Gakuen_Kitakubuinn_SailorSuit</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.PawnKindDefExtension">
+				<shieldMoney>
+					<min>100</min>
+					<max>400</max>
+				</shieldMoney>
+				<shieldTags>
+					<li>Gakuen_RiotShield</li>
+				</shieldTags>
+			</li>
+		</modExtensions>
+	</PawnKindDef>	
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Kitakubuinn_SailorSuit</defName>
+		<label>Gakuen_Kitakubuinn</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Gakuen_Common</li>
+			<li>Anneli_Gakuen_Kitakubuinn_SailorSuit</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.PawnKindDefExtension">
+				<shieldMoney>
+					<min>100</min>
+					<max>400</max>
+				</shieldMoney>
+				<shieldTags>
+					<li>Gakuen_RiotShield</li>
+				</shieldTags>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Kitakubuinn_WesternSuit</defName>
+		<label>Gakuen_Kitakubuinn</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Gakuen_Common</li>
+			<li>Anneli_Gakuen_Kitakubuinn_WesternSuit</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.PawnKindDefExtension">
+				<shieldMoney>
+					<min>100</min>
+					<max>400</max>
+				</shieldMoney>
+				<shieldTags>
+					<li>Gakuen_RiotShield</li>
+				</shieldTags>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Sabagebuin_SailorSuit</defName>
+		<label>Gakuen_Sabagebuin</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+			<li>Anneli_Gakuen_Common</li>
+			<li>Anneli_Gakuen_Sabagebuin_SailorSuit</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+			<li>GrenadeEMP</li>
+			<li>GrenadeSmoke</li>
+		</weaponTags>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.PawnKindDefExtension">
+				<shieldMoney>
+					<min>100</min>
+					<max>400</max>
+				</shieldMoney>
+				<shieldTags>
+					<li>Gakuen_BallisticShield</li>
+				</shieldTags>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Sabagebuin_WesternSuit</defName>
+		<label>Gakuen_Sabagebuin</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+			<li>Anneli_Gakuen_Common</li>
+			<li>Anneli_Gakuen_Sabagebuin_WesternSuit</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+			<li>GrenadeEMP</li>
+			<li>GrenadeSmoke</li>
+		</weaponTags>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.PawnKindDefExtension">
+				<shieldMoney>
+					<min>100</min>
+					<max>400</max>
+				</shieldMoney>
+				<shieldTags>
+					<li>Gakuen_BallisticShield</li>
+				</shieldTags>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Tsuppari</defName>
+		<label>Gakuen_Tsuppari</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>BeltDefense</li>
+			<li>Anneli_Gakuen_Tsuppari</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+			<li>SpacerMelee</li>
+			<li>UltratechMelee</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Sukeban</defName>
+		<label>Gakuen_Sukeban</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>BeltDefense</li>
+			<li>Anneli_Gakuen_Sukeban</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+			<li>SpacerMelee</li>
+			<li>UltratechMelee</li>
+		</weaponTags>
+		<modExtensions Inherit="False">
+			<li Class="VFECore.PawnKindDefExtension">
+				<shieldMoney>
+					<min>100</min>
+					<max>400</max>
+				</shieldMoney>
+				<shieldTags>
+					<li>Gakuen_RiotShield</li>
+				</shieldTags>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Undoubuin</defName>
+		<label>Gakuen_Undoubuin</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Gakuen_Undoubuin</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Suieibuin</defName>
+		<label>Gakuen_Suieibuin</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Gakuen_Suieibuin</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Ouenbuin_CheerLeader</defName>
+		<label>Gakuen_Ouenbuin</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Ouenbuin_SailorSuit</defName>
+		<label>Gakuen_Ouenbuin</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Revolver</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>GrenadeDestructive</li>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Gakuen_KindBase">
+		<defName>Anneli_Gakuen_Kendobuin</defName>
+		<label>Gakuen_Kendobuin</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>BeltDefense</li>
+			<li>Anneli_Gakuen_Kendobuin</li>
+		</apparelTags>
+		<apparelMoney>2000~4000</apparelMoney>
+		<weaponTags>
+			<li>MedievalMeleeBasic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+			<li>SpacerMelee</li>
+			<li>UltratechMelee</li>
+		</weaponTags>
+	</PawnKindDef>
+
+</Defs>

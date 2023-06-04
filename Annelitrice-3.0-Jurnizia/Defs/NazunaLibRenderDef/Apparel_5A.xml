@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Lifchik</defName>
+		<originalDef>Anneli_Jurnizia_Lifchik</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Lifchik</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.41, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.41, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.41, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.41, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Lifchik_Olive</defName>
+		<originalDef>Anneli_Jurnizia_Lifchik_Olive</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Lifchik_Olive</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.41, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.41, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.41, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.41, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_CamoLifchik</defName>
+		<originalDef>Anneli_Jurnizia_CamoLifchik</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_CamoLifchik</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.41, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.41, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.41, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.41, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_TacticalBelt</defName>
+		<originalDef>Anneli_Jurnizia_TacticalBelt</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_TacticalBelt</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.41, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.41, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.41, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.41, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_TacticalBelt_Olive</defName>
+		<originalDef>Anneli_Jurnizia_TacticalBelt_Olive</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_TacticalBelt_Olive</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.41, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.41, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.41, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.41, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_CamoTacticalBelt</defName>
+		<originalDef>Anneli_Jurnizia_CamoTacticalBelt</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_CamoTacticalBelt</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.41, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.41, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.41, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.41, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Bandolier</defName>
+		<originalDef>Anneli_Jurnizia_Bandolier</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Bandolier</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.41, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.41, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.41, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.41, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_GhillieSuit</defName>
+		<originalDef>Anneli_Jurnizia_GhillieSuit</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>5A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_GhillieSuit</li>
+				</prefix>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.43, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.43, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.43, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.43, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

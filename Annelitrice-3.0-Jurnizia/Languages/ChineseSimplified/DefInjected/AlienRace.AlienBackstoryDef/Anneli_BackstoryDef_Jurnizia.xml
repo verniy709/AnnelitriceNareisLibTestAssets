@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Adulthood -->
+
+  <Anneli_Jurnizia_Homesteader.title>安妮莉特丝切尼亚自耕农</Anneli_Jurnizia_Homesteader.title>
+  <Anneli_Jurnizia_Homesteader.titleShort>切尼亚自耕农</Anneli_Jurnizia_Homesteader.titleShort>
+  <Anneli_Jurnizia_Homesteader.baseDesc>[PAWN_nameDef]扮演一名切尼亚自耕农. 她被本地军阀强征入伍.</Anneli_Jurnizia_Homesteader.baseDesc>
+
+  <Anneli_Jurnizia_Youth.title>安妮莉特丝切尼亚Youth</Anneli_Jurnizia_Youth.title>
+  <Anneli_Jurnizia_Youth.titleShort>切尼亚Youth</Anneli_Jurnizia_Youth.titleShort>
+  <Anneli_Jurnizia_Youth.baseDesc>[PAWN_nameDef]扮演一名切尼亚青年, 她希望在战争中感受刺激和荣誉.</Anneli_Jurnizia_Youth.baseDesc>
+
+  <Anneli_Jurnizia_ArmyReserve.title>安妮莉特丝切尼亚后备役</Anneli_Jurnizia_ArmyReserve.title>
+  <Anneli_Jurnizia_ArmyReserve.titleShort>切尼亚后备役</Anneli_Jurnizia_ArmyReserve.titleShort>
+  <Anneli_Jurnizia_ArmyReserve.baseDesc>[PAWN_nameDef]扮演一名切尼亚后备役. 她受到了良好的训练来应对这场战争.</Anneli_Jurnizia_ArmyReserve.baseDesc>
+
+  <Anneli_Jurnizia_Officer.title>安妮莉特丝切尼亚军官</Anneli_Jurnizia_Officer.title>
+  <Anneli_Jurnizia_Officer.titleShort>切尼亚军官</Anneli_Jurnizia_Officer.titleShort>
+  <Anneli_Jurnizia_Officer.baseDesc>[PAWN_nameDef]扮演一名切尼亚军官. 她家里世世代代都是军人.</Anneli_Jurnizia_Officer.baseDesc>
+
+  <Anneli_Jurnizia_Laborer.title>安妮莉特丝切尼亚劳工</Anneli_Jurnizia_Laborer.title>
+  <Anneli_Jurnizia_Laborer.titleShort>切尼亚Laborer</Anneli_Jurnizia_Laborer.titleShort>
+  <Anneli_Jurnizia_Laborer.baseDesc>[PAWN_nameDef]扮演一名切尼亚石油公司的劳工.</Anneli_Jurnizia_Laborer.baseDesc>
+
+  <Anneli_Jurnizia_ArtStudent.title>安妮莉特丝切尼亚艺术生</Anneli_Jurnizia_ArtStudent.title>
+  <Anneli_Jurnizia_ArtStudent.titleShort>切尼亚艺术生</Anneli_Jurnizia_ArtStudent.titleShort>
+  <Anneli_Jurnizia_ArtStudent.baseDesc>[PAWN_nameDef]扮演一名切尼亚艺术生. 她被本地的艺术学院录取了，但是战争摧毁了一切.</Anneli_Jurnizia_ArtStudent.baseDesc>
+
+  <Anneli_Jurnizia_Veteran.title>安妮莉特丝切尼亚老兵</Anneli_Jurnizia_Veteran.title>
+  <Anneli_Jurnizia_Veteran.titleShort>切尼亚老兵</Anneli_Jurnizia_Veteran.titleShort>
+  <Anneli_Jurnizia_Veteran.baseDesc>[PAWN_nameDef]扮演一名切尼亚老兵. 她重新加入军队，因为她的养老金已经有几个月没发放了.</Anneli_Jurnizia_Veteran.baseDesc>
+
+  <Anneli_Jurnizia_SpecialForce.title>安妮莉特丝切尼亚特种部队</Anneli_Jurnizia_SpecialForce.title>
+  <Anneli_Jurnizia_SpecialForce.titleShort>切尼亚特种部队</Anneli_Jurnizia_SpecialForce.titleShort>
+  <Anneli_Jurnizia_SpecialForce.baseDesc>[PAWN_nameDef]扮演一名切尼亚特种部队的成员. 她有着完美的战斗技巧，和一些不可告人的过去.</Anneli_Jurnizia_SpecialForce.baseDesc>
+
+  <Anneli_Jurnizia_Warlord.title>安妮莉特丝切尼亚军阀</Anneli_Jurnizia_Warlord.title>
+  <Anneli_Jurnizia_Warlord.titleShort>切尼亚军阀</Anneli_Jurnizia_Warlord.titleShort>
+  <Anneli_Jurnizia_Warlord.baseDesc>[PAWN_nameDef]扮演一名切尼亚军阀. 她拥有一切, 因此总是担心有别人来抢走她的财产.</Anneli_Jurnizia_Warlord.baseDesc>
+
+  <Anneli_Jurnizia_Spokesperson.title>安妮莉特丝切尼亚发言人</Anneli_Jurnizia_Spokesperson.title>
+  <Anneli_Jurnizia_Spokesperson.titleShort>切尼亚发言人</Anneli_Jurnizia_Spokesperson.titleShort>
+  <Anneli_Jurnizia_Spokesperson.baseDesc>[PAWN_nameDef]扮演一名切尼亚发言人. 她的工作就是吹嘘胜利和否认战败.</Anneli_Jurnizia_Spokesperson.baseDesc>
+
+
+</LanguageData>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_MASKASlit</defName>
+		<originalDef>Anneli_Jurnizia_MASKASlit</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_MASKASlit</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6ABC</textureLevelsName>
+				<drawOffsetSouth>(0, 0.66, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.66, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.66, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.66, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_MASKAVisor</defName>
+		<originalDef>Anneli_Jurnizia_MASKAVisor</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_MASKAVisor</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel6ABC</textureLevelsName>
+				<drawOffsetSouth>(0, 0.66, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.66, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.66, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.66, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

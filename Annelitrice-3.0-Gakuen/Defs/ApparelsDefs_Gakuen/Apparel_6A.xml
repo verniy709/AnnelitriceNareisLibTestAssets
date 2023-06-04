@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Gakuen_6A_NonMetal" ParentName="Anneli_6A_NonMetal" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+			<CleaningSpeed>0.1</CleaningSpeed>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<SocialImpact>0.1</SocialImpact>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Gakuen_6A_Metal" ParentName="Anneli_6A_Metal" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+			<CleaningSpeed>0.1</CleaningSpeed>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<SocialImpact>0.1</SocialImpact>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_Beret-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_NonMetal">
+		<defName>Anneli_Gakuen_Beret</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6A_Beret</label>
+		<graphicData>
+			<texPath>6A/Anneli_Gakuen_Beret</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Gakuen_Beret</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>20</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_SunHat-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_NonMetal">
+		<defName>Anneli_Gakuen_SunHat</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6A_SunHat</label>
+		<graphicData>
+			<texPath>6A/Anneli_Gakuen_SunHat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Gakuen_SunHat</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180,225,250,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,220,200,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_Headband-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_NonMetal">
+		<defName>Anneli_Gakuen_Headband</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6A_Headband</label>
+		<graphicData>
+			<texPath>6A/Anneli_Gakuen_Headband</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Gakuen_Headband</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,180,180,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_MilitaryHat-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_NonMetal">
+		<defName>Anneli_Gakuen_MilitaryHat</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6A_MilitaryHat</label>
+		<graphicData>
+			<texPath>6A/Anneli_Gakuen_MilitaryHat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Gakuen_MilitaryHat</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Tsuppari</li>
+				<li>Anneli_Gakuen_Kendobuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_BaseballCap-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_NonMetal">
+		<defName>Anneli_Gakuen_BaseballCap</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6A_BaseballCap</label>
+		<graphicData>
+			<texPath>6A/Anneli_Gakuen_BaseballCap</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Gakuen_BaseballCap</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(60,65,90,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_VisorCap-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_NonMetal">
+		<defName>Anneli_Gakuen_VisorCap</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6A_VisorCap</label>
+		<graphicData>
+			<texPath>6A/Anneli_Gakuen_VisorCap</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Gakuen_VisorCap</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_BikeHelmet-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_Metal">
+		<defName>Anneli_Gakuen_BikeHelmet</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6A_BikeHelmet</label>
+		<graphicData>
+			<texPath>6A/Anneli_Gakuen_BikeHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Gakuen_BikeHelmet</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(255,220,65,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.5</generateCommonality><!--Less chance-->
+	</ThingDef>	
+
+	<!--Anneli_Gakuen_TacticalHeadset-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_Metal">
+		<defName>Anneli_Gakuen_TacticalHeadset</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6A_TacticalHeadset</label>
+		<graphicData>
+			<texPath>6A/Anneli_Gakuen_TacticalHeadset</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Gakuen_TacticalHeadset</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Kitakubuinn_SailorSuit</li>
+				<li>Anneli_Gakuen_Kitakubuinn_WesternSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>	
+
+	<!--Anneli_Gakuen_CamoTacticalHeadset-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_Metal">
+		<defName>Anneli_Gakuen_CamoTacticalHeadset</defName>
+		<description>NOT dyeable.</description>
+		<label>(Gakuen)6A_CamoTacticalHeadset</label>
+		<graphicData>
+			<texPath>6A/Anneli_Gakuen_CamoTacticalHeadset</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Gakuen_CamoTacticalHeadset</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Sabagebuin_SailorSuit</li>
+				<li>Anneli_Gakuen_Sabagebuin_WesternSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>	
+
+	<!--Anneli_Gakuen_CatHeadset-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_Metal">
+		<defName>Anneli_Gakuen_CatHeadset</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6A_CatHeadset</label>
+		<graphicData>
+			<texPath>6A/Anneli_Gakuen_CatHeadset</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Gakuen_CatHeadset</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,180,180,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,60,60,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>	
+
+	<!--Anneli_Gakuen_Hachimaki-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_NonMetal">
+		<defName>Anneli_Gakuen_Hachimaki</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6A_Hachimaki</label>
+		<graphicData>
+			<texPath>6A/Anneli_Gakuen_Hachimaki</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Gakuen_Hachimaki</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Tsuppari</li>
+				<li>Anneli_Gakuen_Kendobuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.5</generateCommonality><!--Less chance-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_HachimakiKanji-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_NonMetal">
+		<defName>Anneli_Gakuen_HachimakiKanji</defName>
+		<description>NOT dyeable.</description>
+		<label>(Gakuen)6A_HachimakiKanji</label>
+		<graphicData>
+			<texPath>6A/HachimakiKanji/Anneli_Gakuen_HachimakiKanji_Gokaku</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/HachimakiKanji/Anneli_Gakuen_HachimakiKanji_Gokaku</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Tsuppari</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.5</generateCommonality><!--Less chance-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_ChiikawaAccessories-->
+	<ThingDef ParentName="Anneli_Gakuen_6A_NonMetal">
+		<defName>Anneli_Gakuen_ChiikawaAccessories</defName>
+		<description>NOT dyeable.</description>
+		<label>(Gakuen)6A_ChiikawaAccessories</label>
+		<graphicData>
+			<texPath>6A/ChiikawaAccessories/Anneli_Gakuen_ChiikawaAccessories_C</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/ChiikawaAccessories/Anneli_Gakuen_ChiikawaAccessories_C</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.25</generateCommonality><!--Less chance-->
+	</ThingDef>
+
+</Defs>

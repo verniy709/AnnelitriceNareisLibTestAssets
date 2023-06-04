@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Gakuen_6C" ParentName="Anneli_6C" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+			<CleaningSpeed>0.1</CleaningSpeed>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<SocialImpact>0.1</SocialImpact>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_WoolMask-->
+	<ThingDef ParentName="Anneli_Gakuen_6C">
+		<defName>Anneli_Gakuen_WoolMask</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6C_WoolMask</label>
+		<graphicData>
+			<texPath>6C/Anneli_Gakuen_WoolMask</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6C/Anneli_Gakuen_WoolMask</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_MedicalMask-->
+	<ThingDef ParentName="Anneli_Gakuen_6C">
+		<defName>Anneli_Gakuen_MedicalMask</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6C_MedicalMask</label>
+		<graphicData>
+			<texPath>6C/Anneli_Gakuen_MedicalMask</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6C/Anneli_Gakuen_MedicalMask</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180,225,250,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_Toast-->
+	<ThingDef ParentName="Anneli_Gakuen_6C">
+		<defName>Anneli_Gakuen_Toast</defName>
+		<description>NOT dyeable.</description>
+		<label>(Gakuen)6C_Toast</label>
+		<graphicData>
+			<texPath>6C/Anneli_Gakuen_Toast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6C/Anneli_Gakuen_Toast</wornGraphicPath>
+			<tags>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.1</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+
+
+</Defs>

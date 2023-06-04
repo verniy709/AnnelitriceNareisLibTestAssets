@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Gakuen_1C" ParentName="Anneli_1C" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+			<CleaningSpeed>0.1</CleaningSpeed>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<SocialImpact>0.1</SocialImpact>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_LooseSocks-->
+	<ThingDef ParentName="Anneli_Gakuen_1C">
+		<defName>Anneli_Gakuen_LooseSocks</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)1C_LooseSocks</label>
+		<graphicData>
+			<texPath>1C/Anneli_Gakuen_LooseSocks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Gakuen_LooseSocks</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Common</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Gakuen_Pantyhose-->
+	<ThingDef ParentName="Anneli_Gakuen_1C">
+		<defName>Anneli_Gakuen_Pantyhose</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)1C_Pantyhose</label>
+		<graphicData>
+			<texPath>1C/Anneli_Gakuen_Pantyhose</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Gakuen_Pantyhose</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Common</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>20</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,205,195,255)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Gakuen_Socks-->
+	<ThingDef ParentName="Anneli_Gakuen_1C">
+		<defName>Anneli_Gakuen_Socks</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)1C_Socks</label>
+		<graphicData>
+			<texPath>1C/Anneli_Gakuen_Socks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Gakuen_Socks</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Tsuppari</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>20</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,205,195,255)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Gakuen_Stockings-->
+	<ThingDef ParentName="Anneli_Gakuen_1C">
+		<defName>Anneli_Gakuen_Stockings</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)1C_Stockings</label>
+		<graphicData>
+			<texPath>1C/Anneli_Gakuen_Stockings</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Gakuen_Stockings</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>20</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(240,205,195,255)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Gakuen_SoccerSocks-->
+	<ThingDef ParentName="Anneli_Gakuen_1C">
+		<defName>Anneli_Gakuen_SoccerSocks</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)1C_SoccerSocks</label>
+		<graphicData>
+			<texPath>1C/Anneli_Gakuen_SoccerSocks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Gakuen_SoccerSocks</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_Tabi-->
+	<ThingDef ParentName="Anneli_Gakuen_1C">
+		<defName>Anneli_Gakuen_Tabi</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)1C_Tabi</label>
+		<graphicData>
+			<texPath>1C/Anneli_Gakuen_Tabi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Gakuen_Tabi</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+				<li>Anneli_Gakuen_Kendobuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+		
+</Defs>

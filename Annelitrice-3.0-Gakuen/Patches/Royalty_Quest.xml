@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+            <!-- Guests -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+                    <value>
+                        <li>
+                            <factionDef>Anneli_Faction_Gakuen</factionDef>
+                            <pawnKinds>
+                                <li>Anneli_Gakuen_Kitakubuinn_SailorSuit</li>
+                                <li>Anneli_Gakuen_Kitakubuinn_WesternSuit</li>
+                                <li>Anneli_Gakuen_Sabagebuin_SailorSuit</li>
+                                <li>Anneli_Gakuen_Sabagebuin_WesternSuit</li>
+                                <li>Anneli_Gakuen_Tsuppari</li>
+                                <li>Anneli_Gakuen_Sukeban</li>
+                                <li>Anneli_Gakuen_Undoubuin</li>
+                                <li>Anneli_Gakuen_Suieibuin</li>
+                                <li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+                                <li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+                                <li>Anneli_Gakuen_Kendobuin</li>
+                            </pawnKinds>
+                        </li>  
+                    </value>
+                </li>
+                <!-- Mercenaries -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
+                    <value>
+                        <li>
+                            <factionDef>Anneli_Faction_Gakuen</factionDef>
+                            <pawnKinds>
+                                <li>Anneli_Gakuen_Kitakubuinn_SailorSuit</li>
+                                <li>Anneli_Gakuen_Kitakubuinn_WesternSuit</li>
+                                <li>Anneli_Gakuen_Sabagebuin_SailorSuit</li>
+                                <li>Anneli_Gakuen_Sabagebuin_WesternSuit</li>
+                                <li>Anneli_Gakuen_Tsuppari</li>
+                                <li>Anneli_Gakuen_Sukeban</li>
+                                <li>Anneli_Gakuen_Undoubuin</li>
+                                <li>Anneli_Gakuen_Suieibuin</li>
+                                <li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+                                <li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+                                <li>Anneli_Gakuen_Kendobuin</li>
+                            </pawnKinds>
+                        </li>  
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

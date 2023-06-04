@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_WALKWOMAN</defName>
+		<originalDef>Anneli_Gakuen_WALKWOMAN</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>8A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_WALKWOMAN</li>
+				</prefix>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>Anneli_Apparel8A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_Flute</defName>
+		<originalDef>Anneli_Gakuen_Flute</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>8A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_Flute</li>
+				</prefix>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>Anneli_Apparel8A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_KatanaA</defName>
+		<originalDef>Anneli_Gakuen_KatanaA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>8A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_KatanaA</li>
+				</prefix>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>Anneli_Apparel8A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Gakuen_KatanaA</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell8A</textureLevelsName>
+				<drawOffsetSouth>(0, -0.51, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.51, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.51, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.51, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_KatanaB</defName>
+		<originalDef>Anneli_Gakuen_KatanaB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>8A/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_KatanaB</li>
+				</prefix>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>Anneli_Apparel8A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Gakuen_KatanaB</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell8A</textureLevelsName>
+				<drawOffsetSouth>(0, -0.51, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.51, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.51, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.51, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_SchoolSwimsuit -->
+
+  <Anneli_Gakuen_SchoolSwimsuit.label>(学园)1AB_学校泳衣</Anneli_Gakuen_SchoolSwimsuit.label>
+  <Anneli_Gakuen_SchoolSwimsuit.description>可染色.</Anneli_Gakuen_SchoolSwimsuit.description>
+
+  <!-- Anneli_Gakuen_CowPrintSwimsuit -->
+
+  <Anneli_Gakuen_CowPrintSwimsuit.label>(学园)1AB_奶牛泳衣</Anneli_Gakuen_CowPrintSwimsuit.label>
+  <Anneli_Gakuen_CowPrintSwimsuit.description>不可染色.</Anneli_Gakuen_CowPrintSwimsuit.description>
+
+
+</LanguageData>

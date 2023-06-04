@@ -12,12 +12,14 @@
 					<li>Anneli_YoRHa_POD</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>FrontShell8B</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel8B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.52, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.52, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.52, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.52, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -34,12 +36,14 @@
 					<li>Anneli_YoRHa_Grimore</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>FrontShell8B</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel8B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.52, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.52, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.52, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.52, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -56,12 +60,14 @@
 					<li>Anneli_YoRHa_BabyMachine</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>FrontShell8B</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel8B</textureLevelsName>
 				<drawOffsetSouth>(0, 0.52, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.52, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.52, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.52, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_WALKWOMAN -->
+
+  <Anneli_Gakuen_WALKWOMAN.label>(学园)8A_WALKWOMAN</Anneli_Gakuen_WALKWOMAN.label>
+  <Anneli_Gakuen_WALKWOMAN.description>可染色. 无服装贴图.</Anneli_Gakuen_WALKWOMAN.description>
+
+
+  <!-- Anneli_Gakuen_Flute -->
+
+  <Anneli_Gakuen_Flute.label>(学园)8A_竖笛</Anneli_Gakuen_Flute.label>
+  <Anneli_Gakuen_Flute.description>可染色. 无服装贴图.</Anneli_Gakuen_Flute.description>
+
+
+  <!-- Anneli_Gakuen_KatanaA -->
+
+  <Anneli_Gakuen_KatanaA.label>(学园)8A_装饰用武士刀A</Anneli_Gakuen_KatanaA.label>
+  <Anneli_Gakuen_KatanaA.description>可染色.</Anneli_Gakuen_KatanaA.description>
+
+
+  <!-- Anneli_Gakuen_KatanaB -->
+
+  <Anneli_Gakuen_KatanaB.label>(学园)8A_装饰用武士刀B</Anneli_Gakuen_KatanaB.label>
+  <Anneli_Gakuen_KatanaB.description>可染色.</Anneli_Gakuen_KatanaB.description>
+
+
+</LanguageData>

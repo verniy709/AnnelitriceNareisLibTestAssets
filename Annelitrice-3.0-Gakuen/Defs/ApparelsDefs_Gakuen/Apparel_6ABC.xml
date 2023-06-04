@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Gakuen_6ABC_NonMetal" ParentName="Anneli_6ABC_NonMetal" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.3</FoodPoisonChance>
+			<CleaningSpeed>0.3</CleaningSpeed>
+			<NegotiationAbility>0.3</NegotiationAbility>
+			<TradePriceImprovement>0.3</TradePriceImprovement>
+			<SocialImpact>0.3</SocialImpact>
+			<GlobalLearningFactor>0.3</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Gakuen_6ABC_Metal" ParentName="Anneli_6ABC_Metal" Abstract="True">
+		<equippedStatOffsets>
+			<FoodPoisonChance>-0.3</FoodPoisonChance>
+			<CleaningSpeed>0.3</CleaningSpeed>
+			<NegotiationAbility>0.3</NegotiationAbility>
+			<TradePriceImprovement>0.3</TradePriceImprovement>
+			<SocialImpact>0.3</SocialImpact>
+			<GlobalLearningFactor>0.3</GlobalLearningFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Gakuen</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Gakuen_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_KendoHelmet-->
+	<ThingDef ParentName="Anneli_Gakuen_6ABC_Metal">
+		<defName>Anneli_Gakuen_KendoHelmet</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6ABC_KendoHelmet</label>
+		<graphicData>
+			<texPath>6ABC/Anneli_Gakuen_KendoHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/Anneli_Gakuen_KendoHelmet</wornGraphicPath>
+			<tags>
+				<li>Anneli_FullHelmet</li>
+				<li>Anneli_Gakuen_Kendobuin</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Gakuen_MotorHelmet-->
+	<ThingDef ParentName="Anneli_Gakuen_6ABC_Metal">
+		<defName>Anneli_Gakuen_MotorHelmet</defName>
+		<description>Dyeable.</description>
+		<label>(Gakuen)6ABC_MotorHelmet</label>
+		<graphicData>
+			<texPath>6ABC/Anneli_Gakuen_MotorHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/Anneli_Gakuen_MotorHelmet</wornGraphicPath>
+			<tags>
+				<li>Anneli_FullHelmet</li>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.5</generateCommonality><!--Less chance-->
+	</ThingDef>
+
+	<!--Anneli_Gakuen_PaperBag-->
+	<ThingDef ParentName="Anneli_Gakuen_6ABC_NonMetal">
+		<defName>Anneli_Gakuen_PaperBag</defName>
+		<description>NOT dyeable.</description>
+		<label>(Gakuen)6ABC_PaperBag</label>
+		<graphicData>
+			<texPath>6ABC/PaperBag/Anneli_Gakuen_PaperBag</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/PaperBag/Anneli_Gakuen_PaperBag</wornGraphicPath>
+			<tags>
+				<li>Anneli_FullHelmet</li>
+				<li>Anneli_Gakuen_Suieibuin</li>
+				<li>Anneli_Gakuen_Common</li>
+				<li>Anneli_Gakuen_Tsuppari</li>
+				<li>Anneli_Gakuen_Sukeban</li>
+				<li>Anneli_Gakuen_Undoubuin</li>
+				<li>Anneli_Gakuen_Ouenbuin_CheerLeader</li>
+				<li>Anneli_Gakuen_Ouenbuin_SailorSuit</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.1</generateCommonality><!--Less chance-->
+	</ThingDef>
+
+</Defs>

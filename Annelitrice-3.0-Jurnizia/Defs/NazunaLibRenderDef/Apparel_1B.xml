@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_BikiniUnderwear</defName>
+		<originalDef>Anneli_Jurnizia_BikiniUnderwear</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>1B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_BikiniUnderwear</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.11, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.11, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.11, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.11, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_CamoBikiniUnderwear</defName>
+		<originalDef>Anneli_Jurnizia_CamoBikiniUnderwear</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>1B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_CamoBikiniUnderwear</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.11, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.11, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.11, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.11, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_LaceUnderwearA</defName>
+		<originalDef>Anneli_Jurnizia_LaceUnderwearA</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>1B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_LaceUnderwearA</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.11, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.11, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.11, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.11, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_LaceUnderwearB</defName>
+		<originalDef>Anneli_Jurnizia_LaceUnderwearB</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>1B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_LaceUnderwearB</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.11, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.11, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.11, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.11, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_SportsUnderwear</defName>
+		<originalDef>Anneli_Jurnizia_SportsUnderwear</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>1B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_SportsUnderwear</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.11, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.11, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.11, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.11, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

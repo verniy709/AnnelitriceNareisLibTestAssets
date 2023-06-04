@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Anneli_Faction_Gakuen.label>安妮莉特丝学园</Anneli_Faction_Gakuen.label>
+  <Anneli_Faction_Gakuen.description>安妮莉特丝学园是一支独特的派系，她们认为高中生活是最充实的存在形式。她们热爱高中生活的典型活动，如恋爱三角关系、茶话会和学校竞赛。她们的社会以社团为中心，社团涵盖了生活的各个方面，从兴趣爱好到产业，甚至到执法。公民们被称为“学生”，被期望加入一个或多个社团。领导层由抽签产生，被选中的领袖被称为“大前辈”，成为她们定居点或“学校”的至高无上的领袖。\n\n尽管这种制度看起来颇有效率，但安妮莉特丝学园经常遭受来自学校外部的袭击。由于她们独特的意识形态，她们无法或不愿意建立有效的防御。因此，她们的民兵和社团成员经常不敌，导致她们的学校被洗劫一空。这种惨无人道的毁灭已经重复了很多次，但制度仍然保持不变。直到今天，安妮莉特丝学园的学生们仍然坚定不移地继续着重建，像什么都没有发生过一样拥抱她们奇特的生活方式。</Anneli_Faction_Gakuen.description>
+  <Anneli_Faction_Gakuen.fixedName>伪造的学园</Anneli_Faction_Gakuen.fixedName>
+  <Anneli_Faction_Gakuen.pawnsPlural>安妮莉特丝</Anneli_Faction_Gakuen.pawnsPlural>
+  <Anneli_Faction_Gakuen.leaderTitle>先辈</Anneli_Faction_Gakuen.leaderTitle>
+
+
+</LanguageData>

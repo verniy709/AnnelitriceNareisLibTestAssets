@@ -11,13 +11,15 @@
 				<prefix>
 					<li>Anneli_YoRHa_CloakA</li>
 				</prefix>
-				<renderLayer>Apparel</renderLayer>
+				<renderLayer>FrontShell</renderLayer>
 				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.43, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.43, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.43, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.43, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 			<li>
 				<prefix>
@@ -30,6 +32,8 @@
 				<drawOffsetNorth>(0, -0.43, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, -0.43, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -45,13 +49,15 @@
 				<prefix>
 					<li>Anneli_YoRHa_CloakB</li>
 				</prefix>
-				<renderLayer>Apparel</renderLayer>
+				<renderLayer>FrontShell</renderLayer>
 				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.43, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.43, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.43, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.43, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 			<li>
 				<prefix>
@@ -64,6 +70,8 @@
 				<drawOffsetNorth>(0, -0.43, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, -0.43, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>

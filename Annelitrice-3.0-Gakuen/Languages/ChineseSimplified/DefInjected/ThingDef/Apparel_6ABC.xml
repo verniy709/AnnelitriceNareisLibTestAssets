@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Gakuen_KendoHelmet -->
+
+  <Anneli_Gakuen_KendoHelmet.label>(学园)6ABC_剑道头盔</Anneli_Gakuen_KendoHelmet.label>
+  <Anneli_Gakuen_KendoHelmet.description>可染色.</Anneli_Gakuen_KendoHelmet.description>
+
+
+  <!-- Anneli_Gakuen_MotorHelmet -->
+
+  <Anneli_Gakuen_MotorHelmet.label>(学园)6ABC_摩托车盔</Anneli_Gakuen_MotorHelmet.label>
+  <Anneli_Gakuen_MotorHelmet.description>可染色.</Anneli_Gakuen_MotorHelmet.description>
+
+
+  <!-- Anneli_Gakuen_PaperBag -->
+
+  <Anneli_Gakuen_PaperBag.label>(学园)6ABC_纸袋</Anneli_Gakuen_PaperBag.label>
+  <Anneli_Gakuen_PaperBag.description>不可染色.</Anneli_Gakuen_PaperBag.description>
+
+
+</LanguageData>
