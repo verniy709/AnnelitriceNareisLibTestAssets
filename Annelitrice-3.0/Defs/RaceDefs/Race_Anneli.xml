@@ -55,14 +55,14 @@
 					</bodyTypes>
 					<oldHairAgeRange>3000~10000</oldHairAgeRange>
 					<headOffsetDirectional>
-						<north>(0.0, 0.1535)</north>
-						<south>(0.0, 0.1535)</south>
+						<north>(0.0, 0.1538)</north>
+						<south>(0.0, 0.1538)</south>
 						<east>(-0.046, 0.155)</east>
 						<west>(0.046, 0.155)</west>
 					</headOffsetDirectional>
-					<customDrawSize>(0.985, 1.112)</customDrawSize>
+					<customDrawSize>(0.98, 1.112)</customDrawSize>
 					<customHeadDrawSize>(0.685, 0.7)</customHeadDrawSize>
-					<customPortraitDrawSize>(0.985, 1.112)</customPortraitDrawSize>
+					<customPortraitDrawSize>(0.98, 1.112)</customPortraitDrawSize>
 					<customPortraitHeadDrawSize>(0.685, 0.7)</customPortraitHeadDrawSize>
 					<colorChannels>
 						<li>

@@ -59,7 +59,6 @@
 					<li>Back_SideBraid_A</li>
 					<li>Back_SideBraid_B</li>
 				</prefix>
-				<!-- Front of body -->
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_BackHair</textureLevelsName>
 				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>

@@ -227,6 +227,42 @@
 		</colorGenerator>
 	</ThingDef>
 
+	<!--Anneli_Jurnizia_OpenChestShirt-->
+	<ThingDef ParentName="Anneli_Jurnizia_2A">
+		<defName>Anneli_Jurnizia_OpenChestShirt</defName>
+		<description>Dyeable.</description>
+		<label>(Jurnizia)2A_OpenChestShirt</label>
+		<graphicData>
+			<texPath>2A/Anneli_Jurnizia_OpenChestShirt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2A/Anneli_Jurnizia_OpenChestShirt</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Civilian_Male</li>
+				<li>Anneli_Jurnizia_Militia_Male</li>
+				<li>Anneli_Jurnizia_Driver</li>
+				<li>Anneli_Jurnizia_InternalTroop_Male</li>
+				<li>Anneli_Jurnizia_Civilian_Female</li>
+				<li>Anneli_Jurnizia_Militia_Female</li>
+				<li>Anneli_Jurnizia_InternalTroop_Female</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,245,245,255)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
 	<!--Anneli_Jurnizia_HalterTop-->
 	<ThingDef ParentName="Anneli_Jurnizia_2A">
 		<defName>Anneli_Jurnizia_HalterTop</defName>
