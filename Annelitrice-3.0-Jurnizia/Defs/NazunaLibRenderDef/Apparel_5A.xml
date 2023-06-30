@@ -33,7 +33,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_Jurnizia_Lifchik_Olive</li>
+					<li>Anneli_Jurnizia_Lifchik</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
@@ -105,7 +105,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_Jurnizia_TacticalBelt_Olive</li>
+					<li>Anneli_Jurnizia_TacticalBelt</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>

@@ -81,7 +81,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_YoRHa_HeelsC_White</li>
+					<li>Anneli_YoRHa_HeelsC</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>
@@ -225,7 +225,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_YoRHa_LongBootsC_White</li>
+					<li>Anneli_YoRHa_LongBootsC</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel2C</textureLevelsName>

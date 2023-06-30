@@ -33,7 +33,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_Gakuen_Miniskirt_Red</li>
+					<li>Anneli_Gakuen_Miniskirt</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
@@ -81,7 +81,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_Gakuen_Skirt_Blue</li>
+					<li>Anneli_Gakuen_Skirt</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>

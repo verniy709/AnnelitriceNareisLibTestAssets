@@ -107,12 +107,26 @@
 				<prefix>
 					<li>Anneli_Gakuen_CoatAsCloak</li>
 				</prefix>
-				<renderLayer>Apparel</renderLayer>
+				<renderLayer>FrontShell</renderLayer>
 				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 0.43, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 0.43, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.43, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.43, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Gakuen_CoatAsCloak</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell5A</textureLevelsName>
+				<drawOffsetSouth>(0, -0.43, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.43, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.43, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.43, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>

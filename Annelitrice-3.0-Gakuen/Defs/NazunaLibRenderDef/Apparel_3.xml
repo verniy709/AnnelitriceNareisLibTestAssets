@@ -153,7 +153,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_Gakuen_TiedAroundWaist_Red</li>
+					<li>Anneli_Gakuen_TiedAroundWaist</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
@@ -201,7 +201,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_Gakuen_TrackJacket_Red</li>
+					<li>Anneli_Gakuen_TrackJacket</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel3</textureLevelsName>

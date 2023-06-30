@@ -33,7 +33,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_Jurnizia_6B2BodyArmor_Olive</li>
+					<li>Anneli_Jurnizia_6B2BodyArmor</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel4</textureLevelsName>
@@ -105,7 +105,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_Jurnizia_6B3BodyArmor_Olive</li>
+					<li>Anneli_Jurnizia_6B3BodyArmor</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel4</textureLevelsName>
@@ -169,8 +169,8 @@
 	</NareisLib.MultiTexDef>
 
 	<NareisLib.MultiTexDef>
-		<defName>Anneli_Jurnizia_6B13BodyArmor</defName>
-		<originalDef>Anneli_Jurnizia_6B13BodyArmor</originalDef>
+		<defName>Anneli_Jurnizia_6B13BodyArmor_Olive</defName>
+		<originalDef>Anneli_Jurnizia_6B13BodyArmor_Olive</originalDef>
 		<originalDefClass>ThingDef</originalDefClass>
 		<renderOriginTex>false</renderOriginTex>
 		<path>4/</path>

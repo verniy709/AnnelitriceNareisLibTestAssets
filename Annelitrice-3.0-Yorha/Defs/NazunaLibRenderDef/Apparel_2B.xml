@@ -33,7 +33,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_YoRHa_Pants_White</li>
+					<li>Anneli_YoRHa_Pants</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
@@ -57,7 +57,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_YoRHa_Pants_Red</li>
+					<li>Anneli_YoRHa_Pants</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
@@ -105,7 +105,7 @@
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_YoRHa_Shorts_Red</li>
+					<li>Anneli_YoRHa_Shorts</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel2B</textureLevelsName>
