@@ -5,7 +5,7 @@
 		<originalDef>Anneli_Gakuen_KendoHelmet</originalDef>
 		<originalDefClass>ThingDef</originalDefClass>
 		<renderOriginTex>false</renderOriginTex>
-		<path>6A/</path>
+		<path>6ABC/</path>
 		<levels>
 			<li>
 				<prefix>
@@ -13,10 +13,10 @@
 				</prefix>
 				<renderLayer>Hat</renderLayer>
 				<textureLevelsName>Anneli_Apparel6ABC</textureLevelsName>
-				<drawOffsetSouth>(0, 0.66, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.66, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.66, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.66, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
 			</li>
 		</levels>
@@ -27,7 +27,7 @@
 		<originalDef>Anneli_Gakuen_MotorHelmet</originalDef>
 		<originalDefClass>ThingDef</originalDefClass>
 		<renderOriginTex>false</renderOriginTex>
-		<path>6A/</path>
+		<path>6ABC/</path>
 		<levels>
 			<li>
 				<prefix>
@@ -35,10 +35,10 @@
 				</prefix>
 				<renderLayer>Hat</renderLayer>
 				<textureLevelsName>Anneli_Apparel6ABC</textureLevelsName>
-				<drawOffsetSouth>(0, 0.66, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.66, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.66, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.66, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
 			</li>
 		</levels>
@@ -49,7 +49,7 @@
 		<originalDef>Anneli_Gakuen_PaperBag</originalDef>
 		<originalDefClass>ThingDef</originalDefClass>
 		<renderOriginTex>false</renderOriginTex>
-		<path>6A/PaperBag</path>
+		<path>6ABC/PaperBag</path>
 		<levels>
 			<li>
 				<prefix>
@@ -57,10 +57,10 @@
 				</prefix>
 				<renderLayer>Hat</renderLayer>
 				<textureLevelsName>Anneli_Apparel6ABC</textureLevelsName>
-				<drawOffsetSouth>(0, 0.66, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.66, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.66, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.66, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
 			</li>
 		</levels>

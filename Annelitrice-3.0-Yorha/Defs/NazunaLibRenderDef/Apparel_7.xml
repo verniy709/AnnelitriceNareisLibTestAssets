@@ -1,4 +1,4 @@
-<?xml version="2.0988" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<NareisLib.MultiTexDef>
 		<defName>Anneli_YoRHa_Bag</defName>
@@ -11,14 +11,27 @@
 				<prefix>
 					<li>Anneli_YoRHa_Bag</li>
 				</prefix>
-				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel7</textureLevelsName>
-				<drawOffsetSouth>0, 2.0988, 0)</drawOffsetSouth>
-				<drawOffsetEast>0, 2.0988, 0)</drawOffsetEast>
-				<drawOffsetNorth>0, 2.0988, 0)</drawOffsetNorth>
-				<drawOffsetWest>0, 2.0988, 0)</drawOffsetWest>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>Anneli_FrontShell7</textureLevelsName>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
-				<useStaticYOffset>true</useStaticYOffset>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_YoRHa_Bag</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell7</textureLevelsName>
+				<drawOffsetSouth>(0, -0.6, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.6, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.6, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.6, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -36,14 +49,27 @@
 				<prefix>
 					<li>Anneli_YoRHa_OxidantTank</li>
 				</prefix>
-				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel7</textureLevelsName>
-				<drawOffsetSouth>(0, 2.0988, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.0988, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 2.0988, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.0988, 0)</drawOffsetWest>
+				<renderLayer>FrontShell</renderLayer>
+				<textureLevelsName>Anneli_FrontShell7</textureLevelsName>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
-				<useStaticYOffset>true</useStaticYOffset>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_YoRHa_OxidantTank</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell7</textureLevelsName>
+				<drawOffsetSouth>(0, -0.6, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.6, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.6, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.6, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
