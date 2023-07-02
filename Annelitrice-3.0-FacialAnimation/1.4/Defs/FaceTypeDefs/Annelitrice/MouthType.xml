@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.MouthTypeDef>
+	  <defName>Anneli_MouthNormal</defName>
+	  <texPath>Things/Pawn/Annelitrice/Mouth/Normal</texPath>
+	  <shader>Map/Transparent</shader>
+	  <raceName>Annelitrice</raceName>
+  </FacialAnimation.MouthTypeDef>
+
+  <!-- <FacialAnimation.MouthTypeDef>
+	  <defName>Anneli_MouthFang</defName>
+	  <texPath>Things/Pawn/Annelitrice/Mouth/Fang</texPath>
+	  <shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.MouthTypeDef>
+
+  <FacialAnimation.MouthTypeDef>
+	  <defName>Anneli_MouthFeline</defName>
+	  <texPath>Things/Pawn/Annelitrice/Mouth/Feline</texPath>
+	  <shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.MouthTypeDef>
+
+  <FacialAnimation.MouthTypeDef>
+	  <defName>Anneli_MouthSharp</defName>
+	  <texPath>Things/Pawn/Annelitrice/Mouth/Sharp</texPath>
+	  <shader>Map/Transparent</shader>
+    <probability>0.05</probability>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.MouthTypeDef> -->
+  
+</Defs>

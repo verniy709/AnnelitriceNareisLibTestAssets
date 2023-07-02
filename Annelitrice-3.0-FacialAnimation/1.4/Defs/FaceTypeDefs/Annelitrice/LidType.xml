@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.LidTypeDef>
+   <defName>Anneli_LidNormal</defName>
+   <texPath>Things/Pawn/Annelitrice/Lids/Normal</texPath>
+   <shader>Map/Transparent</shader>
+   <raceName>Annelitrice</raceName>
+ </FacialAnimation.LidTypeDef>
+
+ <!-- too high -->
+ <FacialAnimation.LidTypeDef>
+  <defName>Anneli_LidPointy</defName>
+  <texPath>Things/Pawn/Annelitrice/Lids/Pointy</texPath>
+  <shader>Map/Transparent</shader>
+  <gender>Female</gender>
+  <raceName>Annelitrice</raceName>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+  <defName>Anneli_LidFlashy</defName>
+  <texPath>Things/Pawn/Annelitrice/Lids/Flashy</texPath>
+  <shader>Map/Transparent</shader>
+  <gender>Female</gender>
+  <raceName>Annelitrice</raceName>
+</FacialAnimation.LidTypeDef>
+
+<!-- too big -->
+<FacialAnimation.LidTypeDef>
+  <defName>Anneli_LidQuite</defName>
+  <texPath>Things/Pawn/Annelitrice/Lids/Quite</texPath>
+  <shader>Map/Transparent</shader>
+  <gender>Female</gender>
+  <raceName>Annelitrice</raceName>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+  <defName>Anneli_LidSleepy</defName>
+  <texPath>Things/Pawn/Annelitrice/Lids/Sleepy</texPath>
+  <shader>Map/Transparent</shader>
+  <gender>Female</gender>
+  <raceName>Annelitrice</raceName>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+  <defName>Anneli_LidSharp</defName>
+  <texPath>Things/Pawn/Annelitrice/Lids/Sharp</texPath>
+  <shader>Map/Transparent</shader>
+  <raceName>Annelitrice</raceName>
+</FacialAnimation.LidTypeDef>
+</Defs>

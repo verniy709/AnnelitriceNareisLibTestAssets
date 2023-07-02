@@ -11,13 +11,14 @@
 				<prefix>
 					<li>Anneli_Jurnizia_Lifchik</li>
 				</prefix>
-				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_FrontShell5A</textureLevelsName>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 2.0264, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.0264, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.0264, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.0264, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -35,13 +36,14 @@
 				<prefix>
 					<li>Anneli_Jurnizia_Lifchik</li>
 				</prefix>
-				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_FrontShell5A</textureLevelsName>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 2.0264, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.0264, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.0264, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.0264, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -59,13 +61,14 @@
 				<prefix>
 					<li>Anneli_Jurnizia_CamoLifchik</li>
 				</prefix>
-				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_FrontShell5A</textureLevelsName>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 2.0264, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.0264, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.0264, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.0264, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -83,13 +86,14 @@
 				<prefix>
 					<li>Anneli_Jurnizia_TacticalBelt</li>
 				</prefix>
-				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_FrontShell5A</textureLevelsName>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 2.0264, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.0264, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.0264, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.0264, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -107,13 +111,14 @@
 				<prefix>
 					<li>Anneli_Jurnizia_TacticalBelt</li>
 				</prefix>
-				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_FrontShell5A</textureLevelsName>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 2.0264, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.0264, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.0264, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.0264, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -131,13 +136,14 @@
 				<prefix>
 					<li>Anneli_Jurnizia_CamoTacticalBelt</li>
 				</prefix>
-				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_FrontShell5A</textureLevelsName>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 2.0264, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.0264, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.0264, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.0264, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -155,13 +161,14 @@
 				<prefix>
 					<li>Anneli_Jurnizia_Bandolier</li>
 				</prefix>
-				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_FrontShell5A</textureLevelsName>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel5A</textureLevelsName>
 				<drawOffsetSouth>(0, 2.0264, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.0264, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.0264, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.0264, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>

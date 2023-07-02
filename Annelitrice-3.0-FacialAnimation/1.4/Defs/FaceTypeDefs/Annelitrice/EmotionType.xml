@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.EmotionTypeDef>
+	  <defName>Anneli_EmotionNormal</defName>
+	  <texPath>Things/Pawn/Annelitrice/Emotions/Normal</texPath>
+	  <shader>Map/Transparent</shader>
+	  <raceName>Annelitrice</raceName>
+  </FacialAnimation.EmotionTypeDef>
+</Defs>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.SkinTypeDef>
+	  <defName>Anneli_SkinNormal</defName>
+	  <texPath>Things/Pawn/Annelitrice/Skins/Normal</texPath>
+	  <shader>Map/CutoutSkin</shader>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+	  <defName>Anneli_SkinLeftEye</defName>
+	  <texPath>Things/Pawn/Annelitrice/Skins/LeftEye</texPath>
+	  <shader>Map/Transparent</shader>
+    <probability>0.05</probability>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Anneli_SkinRightEye</defName>
+    <texPath>Things/Pawn/Annelitrice/Skins/RightEye</texPath>
+    <shader>Map/Transparent</shader>
+    <probability>0.05</probability>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Anneli_SkinLeftChin</defName>
+    <texPath>Things/Pawn/Annelitrice/Skins/LeftChin</texPath>
+    <shader>Map/Transparent</shader>
+    <probability>0.05</probability>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.SkinTypeDef>
+
+</Defs>

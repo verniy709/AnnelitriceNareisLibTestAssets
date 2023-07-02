@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_Pray</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>1</duration>
+        <browShapeDef>flat</browShapeDef>
+        <lidShapeDef>close</lidShapeDef>
+        <mouthShapeDef>normal</mouthShapeDef>
+      </li>
+    </animationFrames>
+    <roopIntervalMin>0</roopIntervalMin>
+    <roopIntervalMax>0</roopIntervalMax>
+    <targetJobs>
+      <li>Pray</li>
+      <li>Meditate</li>
+      <li>VisitGrave</li>
+    </targetJobs>
+    <priority>210000</priority>
+    <applyWhenStandingOnly>true</applyWhenStandingOnly>
+  </FacialAnimation.FaceAnimationDef>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_Pray2</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>240</duration>
+        <lidShapeDef>normal</lidShapeDef>
+        <lidOptionShapeDef>cryA</lidOptionShapeDef>
+      </li>
+    </animationFrames>
+    <roopIntervalMin>100</roopIntervalMin>
+    <roopIntervalMax>500</roopIntervalMax>
+    <targetJobs>
+      <li>Pray</li>
+      <li>Meditate</li>
+      <li>VisitGrave</li>
+    </targetJobs>
+    <priority>210001</priority>
+    <applyWhenStandingOnly>true</applyWhenStandingOnly>
+  </FacialAnimation.FaceAnimationDef>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_Pray3</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>30</duration>
+        <browOffset>(0,0,-0.0075)</browOffset>
+        <mouthOffset>(0,0,0.000625)</mouthOffset>
+      </li>
+    </animationFrames>
+    <roopIntervalMin>100</roopIntervalMin>
+    <roopIntervalMax>500</roopIntervalMax>
+    <targetJobs>
+      <li>Pray</li>
+      <li>Meditate</li>
+      <li>VisitGrave</li>
+    </targetJobs>
+    <priority>210002</priority>
+    <applyWhenStandingOnly>true</applyWhenStandingOnly>
+  </FacialAnimation.FaceAnimationDef>
+</Defs>

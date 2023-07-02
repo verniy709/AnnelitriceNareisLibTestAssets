@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.MouthShapeDef>
+  	<defName>normal</defName>
+  </FacialAnimation.MouthShapeDef>
+
+  <!-- customized -->
+  <FacialAnimation.MouthShapeDef>
+    <defName>joy</defName>
+  </FacialAnimation.MouthShapeDef>
+
+  <!-- customized -->
+  <FacialAnimation.MouthShapeDef>
+    <defName>pain</defName>
+  </FacialAnimation.MouthShapeDef>
+
+  <!-- customized -->
+  <FacialAnimation.MouthShapeDef>
+    <defName>down</defName>
+  </FacialAnimation.MouthShapeDef>
+
+  <!-- customized -->
+  <FacialAnimation.MouthShapeDef>
+    <defName>openunhappy</defName>
+  </FacialAnimation.MouthShapeDef>
+
+  <!-- customized -->
+  <FacialAnimation.MouthShapeDef>
+    <defName>openpain</defName>
+  </FacialAnimation.MouthShapeDef>
+
+  <FacialAnimation.MouthShapeDef>
+    <defName>open</defName>
+  </FacialAnimation.MouthShapeDef>
+</Defs>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_normal</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>1</duration>
+        <headShapeDef>normal</headShapeDef>
+        <browShapeDef>normal</browShapeDef>
+        <lidShapeDef>normal</lidShapeDef>
+        <lidOptionShapeDef>normal</lidOptionShapeDef>
+        <eyeballShapeDef>normal</eyeballShapeDef>
+        <mouthShapeDef>normal</mouthShapeDef>
+        <emotionShapeDef>normal</emotionShapeDef>
+        <browOffset>(0,0,0)</browOffset>
+        <eyeballOffset>(0,0,0)</eyeballOffset>
+        <lidOffset>(0,0,0)</lidOffset>
+        <headOffset>(0,0,0)</headOffset>
+        <mouthOffset>(0,0,0)</mouthOffset>
+      </li>
+    </animationFrames>
+    <priority>200000</priority>
+  </FacialAnimation.FaceAnimationDef>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_eyeMoving</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>15</duration>
+        <eyeballOffset>(-0.008,0,0)</eyeballOffset>
+      </li>
+    </animationFrames>
+    <priority>200004</priority>
+    <roopIntervalMin>50 </roopIntervalMin>
+    <roopIntervalMax>500</roopIntervalMax>
+  </FacialAnimation.FaceAnimationDef>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_eyeMoving2</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>15</duration>
+        <eyeballOffset>(0.008,0,0)</eyeballOffset>
+      </li>
+    </animationFrames>
+    <priority>200003</priority>
+    <roopIntervalMin>50 </roopIntervalMin>
+    <roopIntervalMax>500</roopIntervalMax>
+  </FacialAnimation.FaceAnimationDef>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_eyeFlicker</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>3</duration>
+      </li>
+    </animationFrames>
+    <priority>200003</priority>
+    <roopIntervalMin>10 </roopIntervalMin>
+    <roopIntervalMax>30</roopIntervalMax>
+  </FacialAnimation.FaceAnimationDef>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_blink</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>3</duration>
+        <browOffset>(0,0,-0.005)</browOffset>
+        <lidOffset>(0,0,-0.005)</lidOffset>
+      </li>
+      <li>
+        <duration>1</duration>
+        <browOffset>(0,0,-0.0075)</browOffset>
+        <lidShapeDef>half</lidShapeDef>
+      </li>
+      <li>
+        <duration>9</duration>
+        <browOffset>(0,0,-0.01)</browOffset>
+        <lidShapeDef>close</lidShapeDef>
+      </li>
+      <li>
+        <duration>2</duration>
+        <browOffset>(0,0,-0.0075)</browOffset>
+        <lidShapeDef>half</lidShapeDef>
+      </li>
+      <li>
+        <duration>3</duration>
+        <browOffset>(0,0,-0.005)</browOffset>
+        <lidOffset>(0,0,-0.005)</lidOffset>
+      </li>
+    </animationFrames>
+    <roopIntervalMin>30 </roopIntervalMin>
+    <roopIntervalMax>500</roopIntervalMax>
+    <priority>200002</priority>
+  </FacialAnimation.FaceAnimationDef>
+
+</Defs>

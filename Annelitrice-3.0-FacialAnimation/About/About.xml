@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Facial Animation for Annelitrice 3.0</name>
+	<author>Verniy709</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>Verniy709.FacialAnimationForAnnelitrice3.0Remake</packageId>
+	<description>
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Nals.FacialAnimation</packageId>
+			<displayName>[NL] Facial Animation - WIP</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1635901197</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Verniy709.Annelitrice3.0</packageId>
+			<displayName>Annelitrice 3.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2622298601</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Nals.FacialAnimation</li>
+		<li>Verniy709.Annelitrice3.0</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>Verniy709.FacialAnimationForAnnelitrice</li>
+	</incompatibleWith>
+</ModMetaData>

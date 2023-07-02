@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.BrowTypeDef>
+	  <defName>Anneli_BrowNormal</defName>
+	  <texPath>Things/Pawn/Annelitrice/Brows/Normal</texPath>
+	  <shader>Map/Transparent</shader>
+	  <raceName>Annelitrice</raceName>
+  </FacialAnimation.BrowTypeDef>
+
+  <FacialAnimation.BrowTypeDef>
+	  <defName>Anneli_BrowThick</defName>
+	  <texPath>Things/Pawn/Annelitrice/Brows/Thick</texPath>
+	  <shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.BrowTypeDef>
+
+  <!-- <FacialAnimation.BrowTypeDef>
+	  <defName>Anneli_BrowGold</defName>
+	  <texPath>Things/Pawn/Annelitrice/Brows/Gold</texPath>
+	  <shader>Map/Transparent</shader>
+    <probability>0.0</probability>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.BrowTypeDef>
+
+  <FacialAnimation.BrowTypeDef>
+	  <defName>Anneli_BrowWhite</defName>
+	  <texPath>Things/Pawn/Annelitrice/Brows/White</texPath>
+	  <shader>Map/Transparent</shader>
+    <probability>0.0</probability>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.BrowTypeDef> -->
+
+</Defs>

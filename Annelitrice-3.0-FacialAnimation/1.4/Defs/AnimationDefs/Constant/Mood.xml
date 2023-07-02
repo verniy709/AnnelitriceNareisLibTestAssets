@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_moodCheerful</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>1</duration>
+        <emotionShapeDef>cheerful</emotionShapeDef>
+        <mouthShapeDef>joy</mouthShapeDef>
+      </li>
+    </animationFrames>
+    <priority>200100</priority>
+    <targetMoodMax>1.00</targetMoodMax>
+    <targetMoodMin>0.70</targetMoodMin>
+  </FacialAnimation.FaceAnimationDef>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_moodGloomy</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>1</duration>
+        <browShapeDef>s-shaped</browShapeDef>
+        <mouthShapeDef>down</mouthShapeDef>
+      </li>
+    </animationFrames>
+    <priority>200101</priority>
+    <targetMoodMax>0.30</targetMoodMax>
+    <targetMoodMin>0.15</targetMoodMin>
+  </FacialAnimation.FaceAnimationDef>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_moodHopeless</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>1</duration>
+        <emotionShapeDef>gloomy</emotionShapeDef>
+        <browShapeDef>s-shaped</browShapeDef>
+        <lidShapeDef>half</lidShapeDef>
+        <mouthShapeDef>down</mouthShapeDef>
+      </li>
+    </animationFrames>
+    <priority>200102</priority>
+    <targetMoodMax>0.15</targetMoodMax>
+    <targetMoodMin>0.00</targetMoodMin>
+  </FacialAnimation.FaceAnimationDef>
+
+</Defs>

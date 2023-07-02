@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.HeadTypeDef>
+	  <defName>Anneli_HeadNormal</defName>
+	  <texPath>Things/Pawn/Annelitrice/Heads_Blank/Normal</texPath>
+	  <shader>Map/CutoutSkin</shader>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.HeadTypeDef>
+
+</Defs>

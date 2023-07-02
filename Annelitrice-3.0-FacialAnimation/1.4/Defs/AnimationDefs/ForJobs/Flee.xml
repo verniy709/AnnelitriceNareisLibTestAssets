@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_Flee</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>1</duration>
+        <browShapeDef>angled</browShapeDef>
+        <mouthShapeDef>down</mouthShapeDef>
+      </li>
+    </animationFrames>
+    <targetJobs>
+      <li>Flee</li>
+      <li>FleeAndCower</li>
+      <li>Wait_SafeTemperature</li>
+    </targetJobs>
+    <priority>210000</priority>
+    <applyWhenStandingOnly>true</applyWhenStandingOnly>
+  </FacialAnimation.FaceAnimationDef>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Anneli_Flee3</defName>
+    <raceName>Annelitrice</raceName>
+    <animationFrames>
+      <li>
+        <duration>3</duration>
+        <lidOffset>(0,0,0.005)</lidOffset>
+        <browShapeDef>angled</browShapeDef>
+      </li>
+    </animationFrames>
+    <targetJobs>
+      <li>Flee</li>
+      <li>FleeAndCower</li>
+      <li>Wait_SafeTemperature</li>
+    </targetJobs>
+    <priority>210004</priority>
+    <applyWhenStandingOnly>true</applyWhenStandingOnly>
+  </FacialAnimation.FaceAnimationDef>
+
+</Defs>

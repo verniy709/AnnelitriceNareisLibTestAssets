@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Anneli_EyeNormal</defName>
+    <texPath>Things/Pawn/Annelitrice/Eyes/Normal</texPath>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.45,0.45,0.45)</minColor>
+    <maxColor>RGB(0.95,0.95,0.95)</maxColor>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Anneli_EyeWide</defName>
+    <texPath>Things/Pawn/Annelitrice/Eyes/Wide</texPath>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.45,0.45,0.45)</minColor>
+    <maxColor>RGB(0.95,0.95,0.95)</maxColor>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>
+  <defName>Anneli_EyeSanpaku</defName>
+  <texPath>Things/Pawn/Annelitrice/Eyes/Sanpaku</texPath>
+  <shader>Map/CutoutComplex</shader>
+  <minColor>RGB(0.45,0.45,0.45)</minColor>
+  <maxColor>RGB(0.95,0.95,0.95)</maxColor>
+  <raceName>Annelitrice</raceName>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Anneli_EyePointy</defName>
+    <texPath>Things/Pawn/Annelitrice/Eyes/Pointy</texPath>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.45,0.45,0.45)</minColor>
+    <maxColor>RGB(0.95,0.95,0.95)</maxColor>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Anneli_EyeSerious</defName>
+    <texPath>Things/Pawn/Annelitrice/Eyes/Serious</texPath>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.45,0.45,0.45)</minColor>
+    <maxColor>RGB(0.95,0.95,0.95)</maxColor>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Anneli_EyeInnocent</defName>
+    <texPath>Things/Pawn/Annelitrice/Eyes/Innocent</texPath>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.45,0.45,0.45)</minColor>
+    <maxColor>RGB(0.95,0.95,0.95)</maxColor>
+    <raceName>Annelitrice</raceName>
+  </FacialAnimation.EyeballTypeDef>
+
+
+</Defs>

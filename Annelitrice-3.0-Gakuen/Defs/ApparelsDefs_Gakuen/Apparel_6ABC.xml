@@ -105,6 +105,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
+			<wornGraphicPath>6ABC/PaperBag/Anneli_Gakuen_PaperBag</wornGraphicPath>
 			<tags>
 				<li>Anneli_FullHelmet</li>
 				<li>Anneli_Gakuen_Suieibuin</li>
