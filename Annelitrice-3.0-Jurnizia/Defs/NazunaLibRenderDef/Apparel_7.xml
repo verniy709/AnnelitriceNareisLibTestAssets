@@ -13,11 +13,25 @@
 					<li>Anneli_Jurnizia_ATAKA</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_Apparel7</textureLevelsName>
-				<drawOffsetSouth>(0, 0.44, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.44, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.44, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.44, 0)</drawOffsetWest>
+				<textureLevelsName>Anneli_FrontShell7</textureLevelsName>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Jurnizia_ATAKA</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell7</textureLevelsName>
+				<drawOffsetSouth>(0, -0.6, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.6, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.6, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.6, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
@@ -37,11 +51,25 @@
 					<li>Anneli_Jurnizia_ATAKA</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_Apparel7</textureLevelsName>
-				<drawOffsetSouth>(0, 0.44, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.44, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.44, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.44, 0)</drawOffsetWest>
+				<textureLevelsName>Anneli_FrontShell7</textureLevelsName>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Jurnizia_ATAKA</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell7</textureLevelsName>
+				<drawOffsetSouth>(0, -0.6, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.6, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.6, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.6, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
@@ -61,11 +89,25 @@
 					<li>Anneli_Jurnizia_CamoATAKA</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_Apparel7</textureLevelsName>
-				<drawOffsetSouth>(0, 0.44, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.44, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.44, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.44, 0)</drawOffsetWest>
+				<textureLevelsName>Anneli_FrontShell7</textureLevelsName>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Jurnizia_CamoATAKA</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell7</textureLevelsName>
+				<drawOffsetSouth>(0, -0.6, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.6, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.6, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.6, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
@@ -85,11 +127,25 @@
 					<li>Anneli_Jurnizia_Backpack</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_Apparel7</textureLevelsName>
-				<drawOffsetSouth>(0, 0.44, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.44, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.44, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.44, 0)</drawOffsetWest>
+				<textureLevelsName>Anneli_FrontShell7</textureLevelsName>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Jurnizia_Backpack</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell7</textureLevelsName>
+				<drawOffsetSouth>(0, -0.6, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.6, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.6, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.6, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
@@ -109,11 +165,25 @@
 					<li>Anneli_Jurnizia_Sack</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_Apparel7</textureLevelsName>
-				<drawOffsetSouth>(0, 0.44, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.44, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.44, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.44, 0)</drawOffsetWest>
+				<textureLevelsName>Anneli_FrontShell7</textureLevelsName>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Jurnizia_Sack</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell7</textureLevelsName>
+				<drawOffsetSouth>(0, -0.6, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.6, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.6, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.6, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>

@@ -430,6 +430,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
+			<hatRenderedAboveBody>>true</hatRenderedAboveBody>
 			<tags>
 				<li>Anneli_Gakuen_Common</li>
 				<li>Anneli_Gakuen_Tsuppari</li>

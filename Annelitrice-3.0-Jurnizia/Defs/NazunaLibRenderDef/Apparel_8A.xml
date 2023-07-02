@@ -12,11 +12,25 @@
 					<li>Anneli_Jurnizia_Guitar</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_Apparel8A</textureLevelsName>
-				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
+				<textureLevelsName>Anneli_FrontShell8A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.2, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.2, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.2, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.2, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Jurnizia_Guitar</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell8A</textureLevelsName>
+				<drawOffsetSouth>(0, -0.8, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.8, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.8, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.8, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
@@ -36,11 +50,25 @@
 					<li>Anneli_Jurnizia_Accordion</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_Apparel8A</textureLevelsName>
-				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
+				<textureLevelsName>Anneli_FrontShell8A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.2, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.2, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.2, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.2, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Back_Jurnizia_Accordion</li>
+				</prefix>
+				<renderLayer>BottomShell</renderLayer>
+				<textureLevelsName>Anneli_BottomShell8A</textureLevelsName>
+				<drawOffsetSouth>(0, -0.8, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.8, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.8, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.8, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
