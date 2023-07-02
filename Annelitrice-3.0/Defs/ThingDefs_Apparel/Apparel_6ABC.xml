@@ -20,6 +20,7 @@
 				<li>Neck</li>
 			</bodyPartGroups>
 			<layers>
+				<li>EyeCover</li>
 				<li>Overhead</li>
 			</layers>
 		</apparel>		

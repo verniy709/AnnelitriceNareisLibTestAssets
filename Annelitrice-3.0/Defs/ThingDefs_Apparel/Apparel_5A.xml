@@ -29,7 +29,7 @@
 				<li>Arms</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Anneli_UpperShell_Tactical</li>
+				<li>Anneli_Tactical</li>
 			</layers>
 		</apparel>
 	</ThingDef>

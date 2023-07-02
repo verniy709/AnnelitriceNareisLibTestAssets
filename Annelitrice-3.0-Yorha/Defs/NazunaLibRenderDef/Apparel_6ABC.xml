@@ -13,10 +13,10 @@
 				</prefix>
 				<renderLayer>Hat</renderLayer>
 				<textureLevelsName>Anneli_Hat6ABC</textureLevelsName>
-				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
 			</li>
 		</levels>
@@ -35,10 +35,10 @@
 				</prefix>
 				<renderLayer>Hat</renderLayer>
 				<textureLevelsName>Anneli_Hat6ABC</textureLevelsName>
-				<drawOffsetSouth>(0, 0.65, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.65, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.65, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.65, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
 			</li>
 		</levels>

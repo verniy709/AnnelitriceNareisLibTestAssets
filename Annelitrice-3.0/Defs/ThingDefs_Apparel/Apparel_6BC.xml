@@ -28,7 +28,7 @@
 				<li>Neck</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Overhead</li>
+				<li>EyeCover</li>
 			</layers>
 		</apparel>
 	</ThingDef>

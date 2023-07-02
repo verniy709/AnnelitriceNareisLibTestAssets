@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<NareisLib.MultiTexDef>
+	<!-- <NareisLib.MultiTexDef>
 		<defName>Anneli_BodyTypes_Female</defName>
 		<originalDef>Female</originalDef>
 		<originalDefClass>BodyTypeDef</originalDefClass>
@@ -23,5 +23,5 @@
 				<hasDessicated>true</hasDessicated>
 			</li>
 		</levels>
-	</NareisLib.MultiTexDef>
+	</NareisLib.MultiTexDef> -->
 </Defs>

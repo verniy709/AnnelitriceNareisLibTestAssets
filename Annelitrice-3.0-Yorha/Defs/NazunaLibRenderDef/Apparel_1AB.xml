@@ -13,11 +13,12 @@
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel1AB</textureLevelsName>
-				<drawOffsetSouth>(0, 0.14, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.14, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.14, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.14, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.0128, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.0128, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.0128, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.0128, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -37,11 +38,12 @@
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel1AB</textureLevelsName>
-				<drawOffsetSouth>(0, 0.14, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.14, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.14, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.14, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.0128, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.0128, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.0128, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.0128, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -61,11 +63,12 @@
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel1AB</textureLevelsName>
-				<drawOffsetSouth>(0, 0.14, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.14, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.14, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.14, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.0128, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.0128, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.0128, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.0128, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -85,11 +88,12 @@
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel1AB</textureLevelsName>
-				<drawOffsetSouth>(0, 0.14, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.14, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.14, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.14, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.0128, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.0128, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.0128, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.0128, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -109,11 +113,12 @@
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel1AB</textureLevelsName>
-				<drawOffsetSouth>(0, 0.16, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.16, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.16, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.16, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.1576, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.1576, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.1576, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.1576, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -133,11 +138,12 @@
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel1AB</textureLevelsName>
-				<drawOffsetSouth>(0, 0.16, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.16, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.16, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.16, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.0128, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.0128, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.0128, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.0128, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>

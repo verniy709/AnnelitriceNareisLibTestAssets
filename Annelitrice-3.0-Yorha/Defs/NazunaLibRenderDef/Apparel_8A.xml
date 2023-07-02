@@ -12,11 +12,11 @@
 					<li>Anneli_YoRHa_MusicBox</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_Apparel8A</textureLevelsName>
-				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
+				<textureLevelsName>Anneli_FrontShell8A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.0, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
@@ -36,11 +36,11 @@
 					<li>Anneli_YoRHa_WeaponSet</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
-				<textureLevelsName>Anneli_Apparel8A</textureLevelsName>
-				<drawOffsetSouth>(0, 0.51, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.51, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.51, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.51, 0)</drawOffsetWest>
+				<textureLevelsName>Anneli_FrontShell8A</textureLevelsName>
+				<drawOffsetSouth>(0, 0.0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.0, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
@@ -51,10 +51,10 @@
 				</prefix>
 				<renderLayer>BottomShell</renderLayer>
 				<textureLevelsName>Anneli_BottomShell8A</textureLevelsName>
-				<drawOffsetSouth>(0, -0.51, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, -0.51, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, -0.51, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, -0.51, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, -0.2, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.2, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.2, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.2, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>

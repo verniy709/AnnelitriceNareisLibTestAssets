@@ -201,6 +201,9 @@
 				<li>Anneli_YoRHa_Copied_Nier</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<layers>
+				<li>Anneli_Knee</li><!--Cannot equip knee pads-->
+			</layers>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -405,7 +408,7 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 			<layers>
-				<li>Anneli_UpperShell_Tactical</li><!--Cannot equip knee pads-->
+				<li>Anneli_Knee</li><!--Cannot equip knee pads-->
 			</layers>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">

@@ -45,7 +45,8 @@
 				<prefix>
 					<li>Anneli_Back_Gakuen_SunHat</li>
 				</prefix>
-				<renderLayer>BottomShell</renderLayer>
+				<renderLayer>BottomOverlay</renderLayer>
+				<textureLevelsName>Anneli_BottomOverlay6A</textureLevelsName>
 				<drawOffsetSouth>(0, -0.65, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, -0.65, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, -0.65, 0)</drawOffsetNorth>
