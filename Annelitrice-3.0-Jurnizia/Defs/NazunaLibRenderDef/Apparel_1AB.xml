@@ -18,6 +18,7 @@
 				<drawOffsetNorth>(0, 1.0128, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 1.0128, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -42,6 +43,7 @@
 				<drawOffsetNorth>(0, 1.0128, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 1.0128, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>

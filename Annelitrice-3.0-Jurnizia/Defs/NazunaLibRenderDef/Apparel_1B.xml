@@ -18,6 +18,7 @@
 				<drawOffsetNorth>(0, 0.9404, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.9404, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -42,6 +43,7 @@
 				<drawOffsetNorth>(0, 0.9404, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.9404, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -66,6 +68,7 @@
 				<drawOffsetNorth>(0, 0.9404, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.9404, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -90,6 +93,7 @@
 				<drawOffsetNorth>(0, 0.9404, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.9404, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>
@@ -114,6 +118,7 @@
 				<drawOffsetNorth>(0, 0.9404, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 0.9404, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
 				<renderFemale>true</renderFemale>
 			</li>

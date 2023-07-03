@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_1A" ParentName="Anneli_1A" Abstract="True">
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Ahmislan</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Ahmislan_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_StraplessBra-->
+	<ThingDef ParentName="Anneli_Ahmislan_1A">
+		<defName>Anneli_Ahmislan_StraplessBra</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)1A_StraplessBra</label>
+		<graphicData>
+			<texPath>1A/Anneli_Ahmislan_StraplessBra</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1A/Anneli_Ahmislan_StraplessBra</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240,225)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>
