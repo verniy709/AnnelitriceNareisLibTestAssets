@@ -200,17 +200,17 @@
 		</colorGenerator>
 	</ThingDef>	
 
-	<!--Anneli_YoRHa_Ribbon-->
+	<!--Anneli_YoRHa_RibbonHairband-->
 	<ThingDef ParentName="Anneli_YoRHa_6A_NonMetal">
-		<defName>Anneli_YoRHa_Ribbon</defName>
+		<defName>Anneli_YoRHa_RibbonHairband</defName>
 		<description>Dyeable.</description>
-		<label>(YoRHa)6A_Ribbon</label>
+		<label>(YoRHa)6A_RibbonHairband</label>
 		<graphicData>
-			<texPath>6A/Anneli_YoRHa_Ribbon</texPath>
+			<texPath>6A/Anneli_YoRHa_RibbonHairband</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>6A/Anneli_YoRHa_Ribbon</wornGraphicPath>
+			<wornGraphicPath>6A/Anneli_YoRHa_RibbonHairband</wornGraphicPath>
 			<tags>
 				<li>Anneli_YoRHa_Copied_Flower</li>
 				<li>Anneli_YoRHa_Battler</li>

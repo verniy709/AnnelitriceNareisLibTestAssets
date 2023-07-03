@@ -426,11 +426,11 @@
 		<description>NOT dyeable.</description>
 		<label>(Gakuen)6A_HachimakiKanji</label>
 		<graphicData>
-			<texPath>6A/Hachimaki/Anneli_Gakuen_HachimakiKanji_Gokaku</texPath>
+			<texPath>6A/HachimakiKanji/Anneli_Gakuen_HachimakiKanji_Gokaku</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>6A/Hachimaki/Anneli_Gakuen_HachimakiKanji_Gokaku</wornGraphicPath>
+			<wornGraphicPath>6A/HachimakiKanji/Anneli_Gakuen_HachimakiKanji_Gokaku</wornGraphicPath>
 			<tags>
 				<li>Anneli_Gakuen_Common</li>
 				<li>Anneli_Gakuen_Tsuppari</li>

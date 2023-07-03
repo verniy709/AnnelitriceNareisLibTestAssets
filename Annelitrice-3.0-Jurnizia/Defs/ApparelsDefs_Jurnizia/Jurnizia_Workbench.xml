@@ -11,11 +11,11 @@
       <drawSize>(1.2,1.2)</drawSize>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <castEdgeShadows>true</castEdgeShadows>
-    <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <costList>
-      <Steel>100</Steel>
-    </costList>
+    <stuffCategories>
+      <li>Stony</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.4</fillPercent>
     <rotatable>True</rotatable>
@@ -69,8 +69,8 @@
       <li>Manipulation</li>
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
- </WorkGiverDef>
-	
-	
-	
+  </WorkGiverDef>
+  
+  
+  
 </Defs>

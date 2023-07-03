@@ -5,7 +5,7 @@
 		<originalDef>Anneli_YoRHa_HeavyHelmetA</originalDef>
 		<originalDefClass>ThingDef</originalDefClass>
 		<renderOriginTex>false</renderOriginTex>
-		<path>6A/</path>
+		<path>6ABC/</path>
 		<levels>
 			<li>
 				<prefix>
@@ -27,7 +27,7 @@
 		<originalDef>Anneli_YoRHa_HeavyHelmetB</originalDef>
 		<originalDefClass>ThingDef</originalDefClass>
 		<renderOriginTex>false</renderOriginTex>
-		<path>6A/</path>
+		<path>6ABC/</path>
 		<levels>
 			<li>
 				<prefix>

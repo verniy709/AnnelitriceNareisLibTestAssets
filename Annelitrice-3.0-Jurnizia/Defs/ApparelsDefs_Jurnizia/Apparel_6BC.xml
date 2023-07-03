@@ -49,7 +49,7 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.35</generateAllowChance><!--Less Spawn-->
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 
 	<!--Anneli_Jurnizia_GP5GasMaskB-->
@@ -79,7 +79,7 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.35</generateAllowChance><!--Less Spawn-->
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 
 	<!--Anneli_Jurnizia_PMK1GasMaskA-->
@@ -107,7 +107,7 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.35</generateAllowChance><!--Less Spawn-->
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 
 	<!--Anneli_Jurnizia_PMK1GasMaskB-->
@@ -135,7 +135,7 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.35</generateAllowChance><!--Less Spawn-->
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 
 </Defs>

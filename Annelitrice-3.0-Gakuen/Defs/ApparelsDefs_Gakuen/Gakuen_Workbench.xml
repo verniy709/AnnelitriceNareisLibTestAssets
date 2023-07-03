@@ -14,7 +14,7 @@
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <costList>
-      <Steel>100</Steel>
+      <Steel>50</Steel>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.4</fillPercent>

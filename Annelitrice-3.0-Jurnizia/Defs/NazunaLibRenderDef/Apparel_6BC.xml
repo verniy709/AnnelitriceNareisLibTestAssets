@@ -11,12 +11,12 @@
 				<prefix>
 					<li>Anneli_Jurnizia_GP5GasMaskA</li>
 				</prefix>
-				<renderLayer>HeadMask</renderLayer>
+				<renderLayer>FaceMask</renderLayer>
 				<textureLevelsName>Anneli_Apparel6BC</textureLevelsName>
-				<drawOffsetSouth>(0, 1, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
 			</li>
 		</levels>
@@ -33,12 +33,12 @@
 				<prefix>
 					<li>Anneli_Jurnizia_GP5GasMaskB</li>
 				</prefix>
-				<renderLayer>HeadMask</renderLayer>
+				<renderLayer>FaceMask</renderLayer>
 				<textureLevelsName>Anneli_Apparel6BC</textureLevelsName>
-				<drawOffsetSouth>(0, 1, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
 			</li>
 		</levels>
@@ -55,12 +55,12 @@
 				<prefix>
 					<li>Anneli_Jurnizia_PMK1GasMaskA</li>
 				</prefix>
-				<renderLayer>HeadMask</renderLayer>
+				<renderLayer>FaceMask</renderLayer>
 				<textureLevelsName>Anneli_Apparel6BC</textureLevelsName>
-				<drawOffsetSouth>(0, 1, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
 			</li>
 		</levels>
@@ -77,12 +77,12 @@
 				<prefix>
 					<li>Anneli_Jurnizia_PMK1GasMaskB</li>
 				</prefix>
-				<renderLayer>HeadMask</renderLayer>
+				<renderLayer>FaceMask</renderLayer>
 				<textureLevelsName>Anneli_Apparel6BC</textureLevelsName>
-				<drawOffsetSouth>(0, 1, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
 			</li>
 		</levels>
