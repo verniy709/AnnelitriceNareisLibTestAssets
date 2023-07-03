@@ -13,10 +13,10 @@
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
 				<textureLevelsName>Anneli_FrontShell8B</textureLevelsName>
-				<drawOffsetSouth>(0, 2.316, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.316, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, -2.316, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.316, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 2.2837, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.2837, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -2.2837, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.2837, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
@@ -38,10 +38,10 @@
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
 				<textureLevelsName>Anneli_FrontShell8B</textureLevelsName>
-				<drawOffsetSouth>(0, 2.316, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.316, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, -2.316, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.316, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 2.2837, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.2837, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -2.2837, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.2837, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
@@ -63,10 +63,10 @@
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
 				<textureLevelsName>Anneli_FrontShell8B</textureLevelsName>
-				<drawOffsetSouth>(0, 2.316, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.316, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, -2.316, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.316, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 2.2837, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.2837, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -2.2837, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.2837, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>

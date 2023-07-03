@@ -4,7 +4,7 @@
   <ApparelLayerDef>
     <defName>Anneli_Knee</defName>
     <label>Anneli_Knee</label>
-    <drawOrder>110</drawOrder>
+    <drawOrder>100</drawOrder>
   </ApparelLayerDef>
 
   <ApparelLayerDef>

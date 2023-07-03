@@ -13,10 +13,10 @@
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
 				<textureLevelsName>Anneli_FrontShell5A</textureLevelsName>
-				<drawOffsetSouth>(0, 2.1712, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.1712, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, -2.1712, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.1712, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 2.155, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.155, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -2.155, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.155, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
@@ -28,10 +28,10 @@
 				</prefix>
 				<renderLayer>BottomShell</renderLayer>
 				<textureLevelsName>Anneli_BottomShell5A</textureLevelsName>
-				<drawOffsetSouth>(0, -2.1712, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.1712, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 2.1712, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.1712, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, -2.155, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.155, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.155, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.155, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
@@ -53,10 +53,10 @@
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
 				<textureLevelsName>Anneli_FrontShell5A</textureLevelsName>
-				<drawOffsetSouth>(0, 2.1712, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.1712, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, -2.1712, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.1712, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 2.155, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.155, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -2.155, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.155, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
@@ -68,10 +68,10 @@
 				</prefix>
 				<renderLayer>BottomShell</renderLayer>
 				<textureLevelsName>Anneli_BottomShell5A</textureLevelsName>
-				<drawOffsetSouth>(0, -2.1712, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.1712, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 2.1712, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.1712, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, -2.155, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.155, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.155, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.155, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<hasGender>true</hasGender>
