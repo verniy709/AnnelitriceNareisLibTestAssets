@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Jurnizia_Dress</defName>
+		<originalDef>Anneli_Jurnizia_Dress</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>2AB/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Jurnizia_Dress</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel2AB</textureLevelsName>
+				<drawOffsetSouth>(0, 1.57585, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.57585, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.57585, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.57585, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+	
 	<NareisLib.MultiTexDef>
 		<defName>Anneli_Jurnizia_SunDress</defName>
 		<originalDef>Anneli_Jurnizia_SunDress</originalDef>

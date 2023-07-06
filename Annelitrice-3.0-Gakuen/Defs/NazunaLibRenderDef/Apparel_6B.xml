@@ -45,6 +45,28 @@
 	</NareisLib.MultiTexDef>
 
 	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_SqureGlasses</defName>
+		<originalDef>Anneli_Gakuen_SqureGlasses</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>6B/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_SqureGlasses</li>
+				</prefix>
+				<renderLayer>FaceMask</renderLayer>
+				<textureLevelsName>Anneli_Apparel6B</textureLevelsName>
+				<drawOffsetSouth>(0, 0.1, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.1, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.1, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.1, 0)</drawOffsetWest>
+				<meshType>Head</meshType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
 		<defName>Anneli_Gakuen_RoundGlasses</defName>
 		<originalDef>Anneli_Gakuen_RoundGlasses</originalDef>
 		<originalDefClass>ThingDef</originalDefClass>

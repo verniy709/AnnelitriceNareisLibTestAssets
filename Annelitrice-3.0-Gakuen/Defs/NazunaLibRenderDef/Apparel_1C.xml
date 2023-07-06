@@ -52,6 +52,31 @@
 	</NareisLib.MultiTexDef>
 
 	<NareisLib.MultiTexDef>
+		<defName>Anneli_Gakuen_LooseSocks</defName>
+		<originalDef>Anneli_Gakuen_LooseSocks</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>1C/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Gakuen_LooseSocks</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel1C</textureLevelsName>
+				<drawOffsetSouth>(0, 0.93235, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.93235, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.93235, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.93235, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<hasGender>true</hasGender>
+				<renderFemale>true</renderFemale>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
 		<defName>Anneli_Gakuen_Stockings</defName>
 		<originalDef>Anneli_Gakuen_Stockings</originalDef>
 		<originalDefClass>ThingDef</originalDefClass>
