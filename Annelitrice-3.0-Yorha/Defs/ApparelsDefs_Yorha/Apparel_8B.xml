@@ -253,13 +253,13 @@
 		</comps>
 	</ThingDef>
 
-	<!-- Anneli_YoRHa_BabyMachine_Bullet-->
+	<!-- Anneli_YoRHa_Machine_Bullet-->
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>Anneli_YoRHa_BabyMachine_Bullet</defName>
-		<label>BabyMachine bullet</label>
+		<defName>Anneli_YoRHa_Machine_Bullet</defName>
+		<label>Machine bullet</label>
 		<graphicData>
-			<texPath>Projectiles/Anneli_YoRHa_BabyMachine_Bullet</texPath>
+			<texPath>Projectiles/Anneli_YoRHa_Machine_Bullet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -269,16 +269,16 @@
 		</projectile>
 	</ThingDef>
 
-	<!-- Anneli_YoRHa_BabyMachine_Sound-->
+	<!-- Anneli_YoRHa_Machine_Sound-->
 	<SoundDef>
-		<defName>Anneli_YoRHa_BabyMachine_Sound</defName>
+		<defName>Anneli_YoRHa_Machine_Sound</defName>
 		<context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Anneli_YoRHa_BabyMachine_Sound</clipPath>
+						<clipPath>Anneli_YoRHa_Machine_Sound</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -294,15 +294,15 @@
 	</SoundDef>
 
 	<ThingDef ParentName="Anneli_YoRHa_8B">
-		<defName>Anneli_YoRHa_BabyMachine</defName>
+		<defName>Anneli_YoRHa_Machine</defName>
 		<description>Not dyeable.</description>
-		<label>(YoRHa)8B_BabyMachine</label>
+		<label>(YoRHa)8B_Machine</label>
 		<graphicData>
-			<texPath>8B/Anneli_YoRHa_BabyMachine</texPath>
+			<texPath>8B/Anneli_YoRHa_Machine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>8B/Anneli_YoRHa_BabyMachine</wornGraphicPath>
+			<wornGraphicPath>8B/Anneli_YoRHa_Machine</wornGraphicPath>
 			<tags>
 				<li>Anneli_YoRHa_Commander</li>
 				<li>Anneli_YoRHa_Attacker</li>
@@ -342,14 +342,14 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
-				<label>BabyMachine</label>
+				<label>Machine</label>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Anneli_YoRHa_BabyMachine_Bullet</defaultProjectile>
+				<defaultProjectile>Anneli_YoRHa_Machine_Bullet</defaultProjectile>
 				<warmupTime>2.0</warmupTime>
 				<range>30.9</range>
 				<burstShotCount>20</burstShotCount>
 				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-				<soundCast>Anneli_YoRHa_BabyMachine_Sound</soundCast>
+				<soundCast>Anneli_YoRHa_Machine_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<accuracyTouch>0.75</accuracyTouch>
@@ -357,16 +357,16 @@
 				<accuracyMedium>0.85</accuracyMedium>
 				<accuracyLong>0.65</accuracyLong>
 				<defaultCooldownTime>2.0</defaultCooldownTime>
-				<commandIcon>8B/Anneli_YoRHa_BabyMachine</commandIcon>
+				<commandIcon>8B/Anneli_YoRHa_Machine</commandIcon>
 			</li>
 		</verbs>
 		<comps>
 			<li Class="MVCF.Comps.CompProperties_VerbGiver">
 				<verbProps>
 					<li>
-						<label>BabyMachine</label>
+						<label>Machine</label>
 						<draw>false</draw>
-						<description>BabyMachine.</description>
+						<description>Machine.</description>
 						<canBeToggled>true</canBeToggled>
 					</li>
 				</verbProps>

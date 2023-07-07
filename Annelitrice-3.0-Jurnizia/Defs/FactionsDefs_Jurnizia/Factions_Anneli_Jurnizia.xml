@@ -159,6 +159,62 @@
 					<Anneli_Jurnizia_HeavyTrooper>10</Anneli_Jurnizia_HeavyTrooper>
 				</options>
 			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Jurnizia_Civilian_Male>1</Anneli_Jurnizia_Civilian_Male>
+					<Anneli_Jurnizia_Civilian_Female>1</Anneli_Jurnizia_Civilian_Female>
+					<Anneli_Jurnizia_InternalTroop_Male>1</Anneli_Jurnizia_InternalTroop_Male>
+					<Anneli_Jurnizia_InternalTroop_Female>1</Anneli_Jurnizia_InternalTroop_Female>
+					<Anneli_Jurnizia_Draftee>1</Anneli_Jurnizia_Draftee>
+					<Anneli_Jurnizia_Officer>1</Anneli_Jurnizia_Officer>
+					<Anneli_Jurnizia_Driver>1</Anneli_Jurnizia_Driver>
+					<Anneli_Jurnizia_Spetsnaz>1</Anneli_Jurnizia_Spetsnaz>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Jurnizia_Civilian_Male>1</Anneli_Jurnizia_Civilian_Male>
+					<Anneli_Jurnizia_Civilian_Female>1</Anneli_Jurnizia_Civilian_Female>
+					<Anneli_Jurnizia_InternalTroop_Male>1</Anneli_Jurnizia_InternalTroop_Male>
+					<Anneli_Jurnizia_InternalTroop_Female>1</Anneli_Jurnizia_InternalTroop_Female>
+					<Anneli_Jurnizia_Draftee>1</Anneli_Jurnizia_Draftee>
+					<Anneli_Jurnizia_Officer>1</Anneli_Jurnizia_Officer>
+					<Anneli_Jurnizia_Driver>1</Anneli_Jurnizia_Driver>
+					<Anneli_Jurnizia_Spetsnaz>1</Anneli_Jurnizia_Spetsnaz>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Jurnizia_Civilian_Male>1</Anneli_Jurnizia_Civilian_Male>
+					<Anneli_Jurnizia_Civilian_Female>1</Anneli_Jurnizia_Civilian_Female>
+					<Anneli_Jurnizia_InternalTroop_Male>1</Anneli_Jurnizia_InternalTroop_Male>
+					<Anneli_Jurnizia_InternalTroop_Female>1</Anneli_Jurnizia_InternalTroop_Female>
+					<Anneli_Jurnizia_Draftee>1</Anneli_Jurnizia_Draftee>
+					<Anneli_Jurnizia_Officer>1</Anneli_Jurnizia_Officer>
+					<Anneli_Jurnizia_Driver>1</Anneli_Jurnizia_Driver>
+					<Anneli_Jurnizia_Spetsnaz>1</Anneli_Jurnizia_Spetsnaz>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Jurnizia_Civilian_Male>1</Anneli_Jurnizia_Civilian_Male>
+					<Anneli_Jurnizia_Civilian_Female>1</Anneli_Jurnizia_Civilian_Female>
+					<Anneli_Jurnizia_InternalTroop_Male>1</Anneli_Jurnizia_InternalTroop_Male>
+					<Anneli_Jurnizia_InternalTroop_Female>1</Anneli_Jurnizia_InternalTroop_Female>
+					<Anneli_Jurnizia_Draftee>1</Anneli_Jurnizia_Draftee>
+					<Anneli_Jurnizia_Officer>1</Anneli_Jurnizia_Officer>
+					<Anneli_Jurnizia_Driver>1</Anneli_Jurnizia_Driver>
+					<Anneli_Jurnizia_Spetsnaz>1</Anneli_Jurnizia_Spetsnaz>
+				</options>
+			</li>
 		</pawnGroupMakers>
 	</FactionDef>
 

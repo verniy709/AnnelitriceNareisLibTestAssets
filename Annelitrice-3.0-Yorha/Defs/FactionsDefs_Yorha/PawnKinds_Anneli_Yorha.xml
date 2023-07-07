@@ -6,7 +6,7 @@
 		<itemQuality>Masterwork</itemQuality>
 		<defaultFactionType>Anneli_Faction_YoRHa</defaultFactionType>
 		<isFighter>true</isFighter>
-		<combatPower>220</combatPower>
+		<combatPower>200</combatPower>
 		<canBeSapper>true</canBeSapper>
 		<backstoryCategories>
 			<li>Anneli_Childhood</li>

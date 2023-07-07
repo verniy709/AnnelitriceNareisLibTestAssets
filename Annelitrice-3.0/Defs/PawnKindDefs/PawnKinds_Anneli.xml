@@ -9,8 +9,8 @@
 		<forceNormalGearQuality>false</forceNormalGearQuality>
 		<backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
 		<invNutrition>4.5</invNutrition>
-		<initialWillRange>5~15</initialWillRange>
-		<initialResistanceRange>20~45</initialResistanceRange>
+		<initialWillRange>1~5</initialWillRange>
+		<initialResistanceRange>10~25</initialResistanceRange>
 		<styleItemTags>
 			<li>
 				<tag>Anneli</tag>

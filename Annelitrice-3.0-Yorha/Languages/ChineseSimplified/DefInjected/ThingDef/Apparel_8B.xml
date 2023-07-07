@@ -23,15 +23,15 @@
   <Anneli_YoRHa_Grimore.description>不可染色.</Anneli_YoRHa_Grimore.description>
 
 
-  <!-- Anneli_YoRHa_BabyMachine_Bullet -->
+  <!-- Anneli_YoRHa_Machine_Bullet -->
 
-  <Anneli_YoRHa_BabyMachine_Bullet.label>机器子弹</Anneli_YoRHa_BabyMachine_Bullet.label>
+  <Anneli_YoRHa_Machine_Bullet.label>机器子弹</Anneli_YoRHa_Machine_Bullet.label>
 
 
-  <!-- Anneli_YoRHa_BabyMachine_Sound -->
+  <!-- Anneli_YoRHa_Machine_Sound -->
 
-  <Anneli_YoRHa_BabyMachine.label>(寄叶)8B_机器宝宝</Anneli_YoRHa_BabyMachine.label>
-  <Anneli_YoRHa_BabyMachine.description>不可染色.</Anneli_YoRHa_BabyMachine.description>
+  <Anneli_YoRHa_Machine.label>(寄叶)8B_机器宝宝</Anneli_YoRHa_Machine.label>
+  <Anneli_YoRHa_Machine.description>不可染色.</Anneli_YoRHa_Machine.description>
 
 
 </LanguageData>

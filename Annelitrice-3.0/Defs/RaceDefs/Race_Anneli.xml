@@ -61,9 +61,9 @@
 						<west>(0.046, 0.155)</west>
 					</headOffsetDirectional>
 					<customDrawSize>(0.98, 1.112)</customDrawSize>
-					<customHeadDrawSize>(0.685, 0.7)</customHeadDrawSize>
+					<customHeadDrawSize>(0.68, 0.695)</customHeadDrawSize>
 					<customPortraitDrawSize>(0.98, 1.112)</customPortraitDrawSize>
-					<customPortraitHeadDrawSize>(0.685, 0.7)</customPortraitHeadDrawSize>
+					<customPortraitHeadDrawSize>(0.68, 0.695)</customPortraitHeadDrawSize>
 					<colorChannels>
 						<li>
 							<name>skin</name>
@@ -662,7 +662,7 @@
 			<fleshType>Anneli_Flesh</fleshType>
 			<body>Anneli_Body</body>
 			<baseBodySize>1.0</baseBodySize>
-			<baseHealthScale>0.75</baseHealthScale>
+			<baseHealthScale>0.8</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<litterSizeCurve>
 				<points>

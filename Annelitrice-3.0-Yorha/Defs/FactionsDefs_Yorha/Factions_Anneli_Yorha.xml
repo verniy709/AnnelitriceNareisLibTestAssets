@@ -133,6 +133,62 @@
 					<Anneli_YoRHa_Scanner>5</Anneli_YoRHa_Scanner>
 				</options>
 			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_YoRHa_Copied_Flower>1</Anneli_YoRHa_Copied_Flower>
+					<Anneli_YoRHa_Commander>1</Anneli_YoRHa_Commander>
+					<Anneli_YoRHa_Battler>1</Anneli_YoRHa_Battler>
+					<Anneli_YoRHa_Defender>1</Anneli_YoRHa_Defender>
+					<Anneli_YoRHa_Gunner>1</Anneli_YoRHa_Gunner>
+					<Anneli_YoRHa_Healer>1</Anneli_YoRHa_Healer>
+					<Anneli_YoRHa_Operator>1</Anneli_YoRHa_Operator>
+					<Anneli_YoRHa_Scanner>1</Anneli_YoRHa_Scanner>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_YoRHa_Copied_Flower>1</Anneli_YoRHa_Copied_Flower>
+					<Anneli_YoRHa_Commander>1</Anneli_YoRHa_Commander>
+					<Anneli_YoRHa_Battler>1</Anneli_YoRHa_Battler>
+					<Anneli_YoRHa_Defender>1</Anneli_YoRHa_Defender>
+					<Anneli_YoRHa_Gunner>1</Anneli_YoRHa_Gunner>
+					<Anneli_YoRHa_Healer>1</Anneli_YoRHa_Healer>
+					<Anneli_YoRHa_Operator>1</Anneli_YoRHa_Operator>
+					<Anneli_YoRHa_Scanner>1</Anneli_YoRHa_Scanner>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_YoRHa_Copied_Flower>1</Anneli_YoRHa_Copied_Flower>
+					<Anneli_YoRHa_Commander>1</Anneli_YoRHa_Commander>
+					<Anneli_YoRHa_Battler>1</Anneli_YoRHa_Battler>
+					<Anneli_YoRHa_Defender>1</Anneli_YoRHa_Defender>
+					<Anneli_YoRHa_Gunner>1</Anneli_YoRHa_Gunner>
+					<Anneli_YoRHa_Healer>1</Anneli_YoRHa_Healer>
+					<Anneli_YoRHa_Operator>1</Anneli_YoRHa_Operator>
+					<Anneli_YoRHa_Scanner>1</Anneli_YoRHa_Scanner>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_YoRHa_Copied_Flower>1</Anneli_YoRHa_Copied_Flower>
+					<Anneli_YoRHa_Commander>1</Anneli_YoRHa_Commander>
+					<Anneli_YoRHa_Battler>1</Anneli_YoRHa_Battler>
+					<Anneli_YoRHa_Defender>1</Anneli_YoRHa_Defender>
+					<Anneli_YoRHa_Gunner>1</Anneli_YoRHa_Gunner>
+					<Anneli_YoRHa_Healer>1</Anneli_YoRHa_Healer>
+					<Anneli_YoRHa_Operator>1</Anneli_YoRHa_Operator>
+					<Anneli_YoRHa_Scanner>1</Anneli_YoRHa_Scanner>
+				</options>
+			</li>
 		</pawnGroupMakers>
 	</FactionDef>
 

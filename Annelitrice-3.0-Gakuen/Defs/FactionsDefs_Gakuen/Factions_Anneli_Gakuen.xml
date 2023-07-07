@@ -136,6 +136,62 @@
 					<Anneli_Gakuen_Kendobuin>3</Anneli_Gakuen_Kendobuin>
 				</options>
 			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Gakuen_Kitakubuinn_SailorSuit>1</Anneli_Gakuen_Kitakubuinn_SailorSuit>
+					<Anneli_Gakuen_Kitakubuinn_WesternSuit>1</Anneli_Gakuen_Kitakubuinn_WesternSuit>
+					<Anneli_Gakuen_Sabagebuin_SailorSuit>1</Anneli_Gakuen_Sabagebuin_SailorSuit>
+					<Anneli_Gakuen_Sabagebuin_WesternSuit>1</Anneli_Gakuen_Sabagebuin_WesternSuit>
+					<Anneli_Gakuen_Undoubuin>1</Anneli_Gakuen_Undoubuin>
+					<Anneli_Gakuen_Suieibuin>1</Anneli_Gakuen_Suieibuin>
+					<Anneli_Gakuen_Ouenbuin_CheerLeader>1</Anneli_Gakuen_Ouenbuin_CheerLeader>
+					<Anneli_Gakuen_Ouenbuin_SailorSuit>1</Anneli_Gakuen_Ouenbuin_SailorSuit>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Gakuen_Kitakubuinn_SailorSuit>1</Anneli_Gakuen_Kitakubuinn_SailorSuit>
+					<Anneli_Gakuen_Kitakubuinn_WesternSuit>1</Anneli_Gakuen_Kitakubuinn_WesternSuit>
+					<Anneli_Gakuen_Sabagebuin_SailorSuit>1</Anneli_Gakuen_Sabagebuin_SailorSuit>
+					<Anneli_Gakuen_Sabagebuin_WesternSuit>1</Anneli_Gakuen_Sabagebuin_WesternSuit>
+					<Anneli_Gakuen_Undoubuin>1</Anneli_Gakuen_Undoubuin>
+					<Anneli_Gakuen_Suieibuin>1</Anneli_Gakuen_Suieibuin>
+					<Anneli_Gakuen_Ouenbuin_CheerLeader>1</Anneli_Gakuen_Ouenbuin_CheerLeader>
+					<Anneli_Gakuen_Ouenbuin_SailorSuit>1</Anneli_Gakuen_Ouenbuin_SailorSuit>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Gakuen_Kitakubuinn_SailorSuit>1</Anneli_Gakuen_Kitakubuinn_SailorSuit>
+					<Anneli_Gakuen_Kitakubuinn_WesternSuit>1</Anneli_Gakuen_Kitakubuinn_WesternSuit>
+					<Anneli_Gakuen_Sabagebuin_SailorSuit>1</Anneli_Gakuen_Sabagebuin_SailorSuit>
+					<Anneli_Gakuen_Sabagebuin_WesternSuit>1</Anneli_Gakuen_Sabagebuin_WesternSuit>
+					<Anneli_Gakuen_Undoubuin>1</Anneli_Gakuen_Undoubuin>
+					<Anneli_Gakuen_Suieibuin>1</Anneli_Gakuen_Suieibuin>
+					<Anneli_Gakuen_Ouenbuin_CheerLeader>1</Anneli_Gakuen_Ouenbuin_CheerLeader>
+					<Anneli_Gakuen_Ouenbuin_SailorSuit>1</Anneli_Gakuen_Ouenbuin_SailorSuit>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Anneli_Gakuen_Kitakubuinn_SailorSuit>1</Anneli_Gakuen_Kitakubuinn_SailorSuit>
+					<Anneli_Gakuen_Kitakubuinn_WesternSuit>1</Anneli_Gakuen_Kitakubuinn_WesternSuit>
+					<Anneli_Gakuen_Sabagebuin_SailorSuit>1</Anneli_Gakuen_Sabagebuin_SailorSuit>
+					<Anneli_Gakuen_Sabagebuin_WesternSuit>1</Anneli_Gakuen_Sabagebuin_WesternSuit>
+					<Anneli_Gakuen_Undoubuin>1</Anneli_Gakuen_Undoubuin>
+					<Anneli_Gakuen_Suieibuin>1</Anneli_Gakuen_Suieibuin>
+					<Anneli_Gakuen_Ouenbuin_CheerLeader>1</Anneli_Gakuen_Ouenbuin_CheerLeader>
+					<Anneli_Gakuen_Ouenbuin_SailorSuit>1</Anneli_Gakuen_Ouenbuin_SailorSuit>
+				</options>
+			</li>
 		</pawnGroupMakers>
 	</FactionDef>
 

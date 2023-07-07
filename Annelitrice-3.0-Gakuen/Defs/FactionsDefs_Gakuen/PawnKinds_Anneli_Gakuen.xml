@@ -6,7 +6,7 @@
 		<itemQuality>Good</itemQuality>
 		<defaultFactionType>Anneli_Faction_Gakuen</defaultFactionType>
 		<isFighter>true</isFighter>
-		<combatPower>150</combatPower>
+		<combatPower>140</combatPower>
 		<canBeSapper>true</canBeSapper>
 		<backstoryCategories>
 			<li>Anneli_Childhood</li>

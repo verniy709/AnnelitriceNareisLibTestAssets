@@ -19,8 +19,7 @@
 				<drawOffsetWest>(0, 2.2837, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
-				<hasGender>true</hasGender>
-				<renderFemale>true</renderFemale>
+				<useBodyType>true</useBodyType>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -44,22 +43,21 @@
 				<drawOffsetWest>(0, 2.2837, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
-				<hasGender>true</hasGender>
-				<renderFemale>true</renderFemale>
+				<useBodyType>true</useBodyType>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
 
 	<NareisLib.MultiTexDef>
-		<defName>Anneli_YoRHa_BabyMachine</defName>
-		<originalDef>Anneli_YoRHa_BabyMachine</originalDef>
+		<defName>Anneli_YoRHa_Machine</defName>
+		<originalDef>Anneli_YoRHa_Machine</originalDef>
 		<originalDefClass>ThingDef</originalDefClass>
 		<renderOriginTex>false</renderOriginTex>
 		<path>8B/</path>
 		<levels>
 			<li>
 				<prefix>
-					<li>Anneli_YoRHa_BabyMachine</li>
+					<li>Anneli_YoRHa_Machine</li>
 				</prefix>
 				<renderLayer>FrontShell</renderLayer>
 				<textureLevelsName>Anneli_FrontShell8B</textureLevelsName>
@@ -69,8 +67,7 @@
 				<drawOffsetWest>(0, 2.2837, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
-				<hasGender>true</hasGender>
-				<renderFemale>true</renderFemale>
+				<useBodyType>true</useBodyType>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
