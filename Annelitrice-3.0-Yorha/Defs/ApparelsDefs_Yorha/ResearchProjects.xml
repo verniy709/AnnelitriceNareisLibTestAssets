@@ -5,13 +5,13 @@
 		<defName>Anneli_YoRHa_Apparels</defName>
 		<label>Annelitrice YoRHa Apparels</label>
 		<description>Annelitrice YoRHa apparels.</description>
-		<baseCost>800</baseCost>
+		<baseCost>400</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
       		<li>Anneli_PuppetTheatre</li>
     	</prerequisites>
 		<researchViewX>1</researchViewX>
-		<researchViewY>1</researchViewY>
+		<researchViewY>3</researchViewY>
 		<tab>Anneli_Research</tab>
 	</ResearchProjectDef>
 

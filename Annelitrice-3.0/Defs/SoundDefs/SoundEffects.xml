@@ -83,4 +83,20 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef>
+		<defName>Anneli_Infest</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_Infest</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30~30</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>

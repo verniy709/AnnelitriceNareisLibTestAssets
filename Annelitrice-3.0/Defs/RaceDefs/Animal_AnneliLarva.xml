@@ -49,7 +49,7 @@
 			<race>
 				<body>BeetleLike</body>
 				<baseBodySize>1.0</baseBodySize>
-				<baseHungerRate>0.10</baseHungerRate>
+				<baseHungerRate>2.0</baseHungerRate>
 				<baseHealthScale>0.4</baseHealthScale>
 				<useMeatFrom>Megaspider</useMeatFrom>
 				<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
@@ -66,12 +66,10 @@
 				<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 				<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 			</race>
-    <!-- Tower-->
     <inspectorTabs>
       <li>Annelitrice.ITab_Pawn_Character</li>
     </inspectorTabs>
 			<comps Inherit="False">
-        <!-- Tower : New Comps-->
         <li>
           <compClass>Annelitrice.CompContainPawn</compClass>
         </li>

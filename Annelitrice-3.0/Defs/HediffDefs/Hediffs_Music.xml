@@ -37,7 +37,7 @@
     <label>inspired by melancholic music</label>
     <labelNoun>melancholic music</labelNoun>
     <description>Increase speed of wound healing.</description>
-    <defaultLabelColor>(7,55,99)</defaultLabelColor>
+    <defaultLabelColor>(70,120,170)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
     <tendable>false</tendable>

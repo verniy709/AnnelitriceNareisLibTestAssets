@@ -30,6 +30,10 @@
 				<goodwillImpact>-15</goodwillImpact>
 				<applicableToMechs>False</applicableToMechs>
 			</li>
+			<li Class="CompProperties_AbilityEffecterOnTarget">
+				<effecterDef>Anneli_Infest</effecterDef>
+				<maintainForTicks>80</maintainForTicks>
+			</li>
 		</comps>
 	</AbilityDef>
 

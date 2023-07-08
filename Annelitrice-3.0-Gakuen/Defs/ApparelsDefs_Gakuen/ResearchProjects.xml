@@ -5,7 +5,7 @@
 		<defName>Anneli_Gakuen_Apparels</defName>
 		<label>Annelitrice Gakuen Apparels</label>
 		<description>Annelitrice Gakuen apparels.</description>
-		<baseCost>800</baseCost>
+		<baseCost>400</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
       		<li>Anneli_PuppetTheatre</li>
