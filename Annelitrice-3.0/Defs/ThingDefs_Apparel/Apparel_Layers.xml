@@ -9,7 +9,7 @@
 
   <ApparelLayerDef>
     <defName>Anneli_Armor</defName>
-    <label>Anneli_UpperShell_Armor</label>
+    <label>Anneli_Armor</label>
     <drawOrder>200</drawOrder>
   </ApparelLayerDef>
 

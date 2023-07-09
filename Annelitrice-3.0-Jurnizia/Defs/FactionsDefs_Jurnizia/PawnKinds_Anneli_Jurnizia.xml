@@ -10,7 +10,7 @@
 		<canBeSapper>true</canBeSapper>
 		<backstoryCategories>
 			<li>Anneli_Childhood</li>
-			<li>Anneli_Story_Jurnizia</li>
+			<li>Anneli_Story</li>
 		</backstoryCategories>
 		<weaponMoney>1500</weaponMoney>
 		<techHediffsChance>0.1</techHediffsChance>

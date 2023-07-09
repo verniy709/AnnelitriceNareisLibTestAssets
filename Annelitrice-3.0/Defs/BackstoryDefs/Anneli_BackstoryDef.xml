@@ -278,4 +278,106 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_ZealousWorm</defName>
+		<title>Annelitrice Zealous Worm</title>
+		<titleShort>Zealous Worm</titleShort>
+		<baseDesc>[PAWN_nameDef] believed herself to be a reincarnation of a cult leader.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>-4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Childhood</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_MedicalWorm</defName>
+		<title>Annelitrice Medical Worm</title>
+		<titleShort>Medical Worm</titleShort>
+		<baseDesc>[PAWN_nameDef] is employed at a massage therapy establishment that specializes in providing leech therapy.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Childhood</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_CheesyWorm</defName>
+		<title>Annelitrice Cheesy Worm</title>
+		<titleShort>Cheesy Worm</titleShort>
+		<baseDesc>[PAWN_nameDef] lives in soft and creamy Sardinian cheese.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>1</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Childhood</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_BookWorm</defName>
+		<title>Annelitrice Book Worm</title>
+		<titleShort>Book Worm</titleShort>
+		<baseDesc>[PAWN_nameDef] cannot read, but finds great joy in admiring illustrations.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>1</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Childhood</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_DOSWorm</defName>
+		<title>Annelitrice DOS Worm</title>
+		<titleShort>DOS Worm</titleShort>
+		<baseDesc>[PAWN_nameDef] was enlisted in the monumental conflict known as DOS Worm in 1995.</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Anneli_Childhood</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
 </Defs>

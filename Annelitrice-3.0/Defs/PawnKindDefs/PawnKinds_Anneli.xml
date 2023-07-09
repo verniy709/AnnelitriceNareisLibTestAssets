@@ -27,6 +27,7 @@
 		<apparelMoney>100~150</apparelMoney>
 		<isFighter>false</isFighter>
 		<backstoryCategories>
+			<li>Anneli_Childhood</li>
 			<li>Anneli_Story</li>
 		</backstoryCategories>
 		<apparelTags>
@@ -41,6 +42,7 @@
 		<apparelMoney>100~150</apparelMoney>
 		<isFighter>false</isFighter>
 		<backstoryCategories>
+			<li>Anneli_Childhood</li>
 			<li>Anneli_Story</li>
 		</backstoryCategories>
 		<apparelTags>

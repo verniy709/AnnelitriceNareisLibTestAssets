@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!--Adulthood-->
+	<!--Adulthood-->
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_Gakuen_AverageStudent</defName>
@@ -23,10 +23,10 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-	<spawnCategories>
-		<li>Anneli_Story_Gakuen</li>
-		<li>Anneli_Story</li>
-	</spawnCategories>
+		<spawnCategories>
+			<li>Anneli_Story_Gakuen</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
@@ -45,10 +45,10 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-	<spawnCategories>
-		<li>Anneli_Story_Gakuen</li>
-		<li>Anneli_Story</li>
-	</spawnCategories>
+		<spawnCategories>
+			<li>Anneli_Story_Gakuen</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
@@ -67,10 +67,10 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-	<spawnCategories>
-		<li>Anneli_Story_Gakuen</li>
-		<li>Anneli_Story</li>
-	</spawnCategories>
+		<spawnCategories>
+			<li>Anneli_Story_Gakuen</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
@@ -89,10 +89,10 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-	<spawnCategories>
-		<li>Anneli_Story_Gakuen</li>
-		<li>Anneli_Story</li>
-	</spawnCategories>
+		<spawnCategories>
+			<li>Anneli_Story_Gakuen</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
@@ -111,10 +111,10 @@
 				<value>4</value>
 			</li>
 		</skillGains>
-	<spawnCategories>
-		<li>Anneli_Story_Gakuen</li>
-		<li>Anneli_Story</li>
-	</spawnCategories>
+		<spawnCategories>
+			<li>Anneli_Story_Gakuen</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
@@ -133,10 +133,10 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-	<spawnCategories>
-		<li>Anneli_Story_Gakuen</li>
-		<li>Anneli_Story</li>
-	</spawnCategories>
+		<spawnCategories>
+			<li>Anneli_Story_Gakuen</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
@@ -155,10 +155,10 @@
 				<value>4</value>
 			</li>
 		</skillGains>
-	<spawnCategories>
-		<li>Anneli_Story_Gakuen</li>
-		<li>Anneli_Story</li>
-	</spawnCategories>
+		<spawnCategories>
+			<li>Anneli_Story_Gakuen</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
@@ -177,10 +177,10 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-	<spawnCategories>
-		<li>Anneli_Story_Gakuen</li>
-		<li>Anneli_Story</li>
-	</spawnCategories>
+		<spawnCategories>
+			<li>Anneli_Story_Gakuen</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
@@ -211,10 +211,10 @@
 				<value>-10</value>
 			</li>
 		</skillGains>
-	<spawnCategories>
-		<li>Anneli_Story_Gakuen</li>
-		<li>Anneli_Story</li>
-	</spawnCategories>
+		<spawnCategories>
+			<li>Anneli_Story_Gakuen</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
@@ -233,10 +233,10 @@
 				<value>4</value>
 			</li>
 		</skillGains>
-	<spawnCategories>
-		<li>Anneli_Story_Gakuen</li>
-		<li>Anneli_Story</li>
-	</spawnCategories>
+		<spawnCategories>
+			<li>Anneli_Story_Gakuen</li>
+			<li>Anneli_Story</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 </Defs>
