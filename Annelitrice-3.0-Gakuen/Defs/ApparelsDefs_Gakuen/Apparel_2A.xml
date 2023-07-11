@@ -3,12 +3,7 @@
 
 	<ThingDef Name="Anneli_Gakuen_2A" ParentName="Anneli_2A" Abstract="True">
 		<equippedStatOffsets>
-			<FoodPoisonChance>-0.1</FoodPoisonChance>
-			<CleaningSpeed>0.1</CleaningSpeed>
-			<NegotiationAbility>0.1</NegotiationAbility>
-			<TradePriceImprovement>0.1</TradePriceImprovement>
-			<SocialImpact>0.1</SocialImpact>
-			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+			<SocialImpact>0.3</SocialImpact>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Category_Annelitrice_Gakuen</li>

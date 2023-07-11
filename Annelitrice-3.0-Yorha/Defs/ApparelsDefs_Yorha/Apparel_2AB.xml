@@ -3,14 +3,8 @@
 
 	<ThingDef Name="Anneli_YoRHa_2AB" ParentName="Anneli_2AB" Abstract="True">
 		<equippedStatOffsets>
-			<MeleeHitChance>0.1</MeleeHitChance>
-			<MeleeDodgeChance>0.1</MeleeDodgeChance>
-			<ResearchSpeed>0.1</ResearchSpeed>
-			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.1</HackingSpeed>
-			<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.1</MechRepairSpeed>
-			<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
-			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
-			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+			<MeleeHitChance>0.2</MeleeHitChance>
+			<MeleeDodgeChance>0.2</MeleeDodgeChance>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Category_Annelitrice_YoRHa</li>

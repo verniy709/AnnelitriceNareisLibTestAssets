@@ -3,14 +3,9 @@
 
 	<ThingDef Name="Anneli_YoRHa_6ABC_NonMetal" ParentName="Anneli_6ABC_NonMetal" Abstract="True">
 		<equippedStatOffsets>
-			<MeleeHitChance>0.3</MeleeHitChance>
-			<MeleeDodgeChance>0.3</MeleeDodgeChance>
-			<ResearchSpeed>0.3</ResearchSpeed>
-			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.3</HackingSpeed>
-			<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.3</MechRepairSpeed>
-			<MedicalSurgerySuccessChance>0.3</MedicalSurgerySuccessChance>
-			<MentalBreakThreshold>-0.3</MentalBreakThreshold>
-			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">6</MechBandwidth>
+			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.2</HackingSpeed>
+			<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.2</MechRepairSpeed>
+			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">8</MechBandwidth>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Category_Annelitrice_YoRHa</li>
@@ -24,14 +19,9 @@
 
 	<ThingDef Name="Anneli_YoRHa_6ABC_Metal" ParentName="Anneli_6ABC_Metal" Abstract="True">
 		<equippedStatOffsets>
-			<MeleeHitChance>0.2</MeleeHitChance>
-			<MeleeDodgeChance>0.2</MeleeDodgeChance>
-			<ResearchSpeed>0.2</ResearchSpeed>
 			<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.2</HackingSpeed>
 			<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.2</MechRepairSpeed>
-			<MedicalSurgerySuccessChance>0.2</MedicalSurgerySuccessChance>
-			<MentalBreakThreshold>-0.2</MentalBreakThreshold>
-			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">4</MechBandwidth>
+			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">8</MechBandwidth>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Category_Annelitrice_YoRHa</li>

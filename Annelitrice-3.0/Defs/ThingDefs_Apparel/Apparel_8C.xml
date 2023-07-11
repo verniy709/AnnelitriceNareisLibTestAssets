@@ -16,7 +16,7 @@
             <Flammability>0.15</Flammability>
         </statBases>
         <equippedStatOffsets>
-            <MoveSpeed>-0.15</MoveSpeed>
+            <MoveSpeed>-0.2</MoveSpeed>
         </equippedStatOffsets>
         <apparel>
             <careIfWornByCorpse>false</careIfWornByCorpse>

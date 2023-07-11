@@ -24,10 +24,10 @@
 		<apparel>
 			<forceRenderUnderHair>true</forceRenderUnderHair><!-- under hair -->
 			<bodyPartGroups>
-				<li>Mouth</li>
+				<li>Neck</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Overhead</li>
+				<li>EyeCover</li>
 			</layers>
 		</apparel>
 	</ThingDef>

@@ -3,14 +3,7 @@
 
 	<ThingDef Name="Anneli_Jurnizia_6ABC_NonMetal" ParentName="Anneli_6ABC_NonMetal" Abstract="True">
 		<equippedStatOffsets>
-			<PainShockThreshold>0.3</PainShockThreshold>
-			<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
-			<AimingDelayFactor>-0.15</AimingDelayFactor>
-			<EatingSpeed>0.3</EatingSpeed>			
-			<ConstructionSpeed>0.3</ConstructionSpeed>
-			<HuntingStealth>0.3</HuntingStealth>
-			<MedicalTendSpeed>0.3</MedicalTendSpeed>
-			<MedicalTendQuality>0.3</MedicalTendQuality>
+			<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Category_Annelitrice_Jurnizia</li>
@@ -24,14 +17,7 @@
 
 	<ThingDef Name="Anneli_Jurnizia_6ABC_Metal" ParentName="Anneli_6ABC_Metal" Abstract="True">
 		<equippedStatOffsets>
-			<PainShockThreshold>0.3</PainShockThreshold>
-			<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
-			<AimingDelayFactor>-0.15</AimingDelayFactor>
-			<EatingSpeed>0.3</EatingSpeed>			
-			<ConstructionSpeed>0.3</ConstructionSpeed>
-			<HuntingStealth>0.3</HuntingStealth>
-			<MedicalTendSpeed>0.3</MedicalTendSpeed>
-			<MedicalTendQuality>0.3</MedicalTendQuality>
+			<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Category_Annelitrice_Jurnizia</li>

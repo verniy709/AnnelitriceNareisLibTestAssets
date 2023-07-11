@@ -17,7 +17,7 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<equippedStatOffsets>
-			<IncomingDamageFactor>-0.05</IncomingDamageFactor>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
 			<CarryingCapacity>20</CarryingCapacity>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<ComfyTemperatureMax>5</ComfyTemperatureMax>

@@ -8,9 +8,6 @@
 			<Mass>0.5</Mass>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>0.1</MoveSpeed>
-		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>Feet</li>
@@ -23,6 +20,9 @@
 		<graphicData>
 			<drawSize>1.2</drawSize>
 		</graphicData>
+		<equippedStatOffsets>
+			<MoveSpeed>0.2</MoveSpeed>
+		</equippedStatOffsets>
 	</ThingDef>
 
 	<ThingDef Name="Anneli_2C_NonMetal" ParentName="Anneli_2C"  Abstract="True">
@@ -36,9 +36,6 @@
 			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>0.15</MoveSpeed>
-		</equippedStatOffsets>
 	</ThingDef>
 
 	<ThingDef Name="Anneli_2C_Metal" ParentName="Anneli_2C"  Abstract="True">

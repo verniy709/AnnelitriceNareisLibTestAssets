@@ -3,12 +3,7 @@
 
 	<ThingDef Name="Anneli_Gakuen_6A_NonMetal" ParentName="Anneli_6A_NonMetal" Abstract="True">
 		<equippedStatOffsets>
-			<FoodPoisonChance>-0.1</FoodPoisonChance>
-			<CleaningSpeed>0.1</CleaningSpeed>
-			<NegotiationAbility>0.1</NegotiationAbility>
-			<TradePriceImprovement>0.1</TradePriceImprovement>
-			<SocialImpact>0.1</SocialImpact>
-			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+			<GlobalLearningFactor>0.2</GlobalLearningFactor>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Category_Annelitrice_Gakuen</li>
@@ -22,12 +17,7 @@
 
 	<ThingDef Name="Anneli_Gakuen_6A_Metal" ParentName="Anneli_6A_Metal" Abstract="True">
 		<equippedStatOffsets>
-			<FoodPoisonChance>-0.1</FoodPoisonChance>
-			<CleaningSpeed>0.1</CleaningSpeed>
-			<NegotiationAbility>0.1</NegotiationAbility>
-			<TradePriceImprovement>0.1</TradePriceImprovement>
-			<SocialImpact>0.1</SocialImpact>
-			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+			<GlobalLearningFactor>0.2</GlobalLearningFactor>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Category_Annelitrice_Gakuen</li>

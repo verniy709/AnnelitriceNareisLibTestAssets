@@ -3,14 +3,7 @@
 
 <ThingDef Name="Anneli_Jurnizia_2AB" ParentName="Anneli_2AB" Abstract="True">
 		<equippedStatOffsets>
-			<PainShockThreshold>0.2</PainShockThreshold>
-			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
-			<AimingDelayFactor>-0.1</AimingDelayFactor>
-			<EatingSpeed>0.2</EatingSpeed>			
-			<ConstructionSpeed>0.2</ConstructionSpeed>
-			<HuntingStealth>0.2</HuntingStealth>
-			<MedicalTendSpeed>0.2</MedicalTendSpeed>
-			<MedicalTendQuality>0.2</MedicalTendQuality>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Category_Annelitrice_Jurnizia</li>

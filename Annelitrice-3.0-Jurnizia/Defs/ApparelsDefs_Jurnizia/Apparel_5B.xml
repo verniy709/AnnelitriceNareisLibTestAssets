@@ -2,16 +2,6 @@
 <Defs>
 
 	<ThingDef Name="Anneli_Jurnizia_5B_NonMetal" ParentName="Anneli_5B_NonMetal" Abstract="True">
-		<equippedStatOffsets>
-			<PainShockThreshold>0.1</PainShockThreshold>
-			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
-			<AimingDelayFactor>-0.05</AimingDelayFactor>
-			<EatingSpeed>0.1</EatingSpeed>			
-			<ConstructionSpeed>0.1</ConstructionSpeed>
-			<HuntingStealth>0.1</HuntingStealth>
-			<MedicalTendSpeed>0.1</MedicalTendSpeed>
-			<MedicalTendQuality>0.1</MedicalTendQuality>
-		</equippedStatOffsets>
 		<thingCategories>
 			<li>Category_Annelitrice_Jurnizia</li>
 		</thingCategories>

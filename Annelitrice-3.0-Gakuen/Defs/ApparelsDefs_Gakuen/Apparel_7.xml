@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="Anneli_Gakuen_7" ParentName="Anneli_7" Abstract="True">
-		<equippedStatOffsets>
-			<FoodPoisonChance>-0.1</FoodPoisonChance>
-			<CleaningSpeed>0.1</CleaningSpeed>
-			<NegotiationAbility>0.1</NegotiationAbility>
-			<TradePriceImprovement>0.1</TradePriceImprovement>
-			<SocialImpact>0.1</SocialImpact>
-			<GlobalLearningFactor>0.1</GlobalLearningFactor>
-		</equippedStatOffsets>
+	<ThingDef Name="Anneli_Gakuen_7" ParentName="Anneli_7_NonMetal" Abstract="True">
 		<thingCategories>
 			<li>Category_Annelitrice_Gakuen</li>
 		</thingCategories>

@@ -13,7 +13,7 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<CarryingCapacity>40</CarryingCapacity>
+			<CarryingCapacity>60</CarryingCapacity>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -36,9 +36,6 @@
 			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>0.15</MoveSpeed>
-		</equippedStatOffsets>
 	</ThingDef>
 
 	<ThingDef Name="Anneli_7_Metal" ParentName="Anneli_7"  Abstract="True">
