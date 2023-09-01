@@ -19,6 +19,14 @@
 			<li>
 				<compClass>Annelitrice.CompRegeneration</compClass>
 			</li>
+			<li Class="NareisLib.MultiRenderCompProperties">
+				<handDefNameAndWeights>
+					<li>
+						<key>Anneli_Arm_Generic</key>
+						<value>1</value>
+					</li>
+				</handDefNameAndWeights>
+			</li>
 		</comps>
 		<alienRace>
 			<generalSettings>
