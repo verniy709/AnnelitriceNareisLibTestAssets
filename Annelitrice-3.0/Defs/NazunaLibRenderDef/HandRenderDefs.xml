@@ -14,10 +14,10 @@
 				<hasDessicated>true</hasDessicated>
 				<renderLayer>Hand</renderLayer>
 				<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-				<drawOffsetSouth>(0, 2.09065, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.09065, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 2.09065, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.09065, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 2.155, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.155, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.155, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.155, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<actionManager>
@@ -33,16 +33,33 @@
 				<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
-				<drawOffsetSouth>(0, 2.09065, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.09065, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 2.09065, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.09065, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 2.155, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.155, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.155, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.155, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<actionManager>
 					<def>Anneli_Arm_Generic_Right</def>
 				</actionManager>
 			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Props</li>
+				</prefix>
+				<renderLayer>Hand</renderLayer>
+				<textureLevelsName>Anneli_Props</textureLevelsName>
+				<drawOffsetSouth>(0, 2.99155, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.99155, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.99155, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.99155, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<actionManager>
+					<def>Anneli_Props</def>
+				</actionManager>
+			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
+
 </Defs>

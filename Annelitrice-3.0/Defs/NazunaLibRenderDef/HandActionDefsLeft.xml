@@ -5,6 +5,46 @@
 		<behaviors>
 			<!-- Command Job Category -->
 			<li>
+				<key>UseVerbOnThing</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmStraightE/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>UseVerbOnThingStatic</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmStraightE/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
 				<key>CastAbilityOnThing</key>
 				<value>
 					<exPath>Anneli_Arms/Naked/</exPath>
@@ -2886,6 +2926,26 @@
 				</value>
 			</li>
 			<li>
+				<key>Vomit</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmStraightA/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
 				<key>BestowingCeremony</key>
 				<value>
 					<exPath>Anneli_Arms/Naked/</exPath>
@@ -2941,8 +3001,9 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -2963,8 +3024,9 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -2985,8 +3047,9 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3007,8 +3070,32 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>Wait_SafeTemperature</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmStraightA/</li>
+								<li>ArmStraightB/</li>
+								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3029,8 +3116,9 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3051,8 +3139,9 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3073,8 +3162,9 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3095,8 +3185,55 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>EnterCryptosleepCasket</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmStraightA/</li>
+								<li>ArmStraightB/</li>
+								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>FleeAndCower</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmStraightA/</li>
+								<li>ArmStraightB/</li>
+								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3117,8 +3254,9 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3139,8 +3277,9 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3161,8 +3300,9 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3183,8 +3323,9 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3205,8 +3346,32 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
+								<li>ArmStraightB/</li>
 								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>EnterBiosculpterPod</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmStraightA/</li>
+								<li>ArmStraightB/</li>
+								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -4118,6 +4283,26 @@
 					</pathDict>
 				</value>
 			</li>
+			<li>
+				<key>ExtinguishSelf</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmStraightC/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
 			<!-- Hurt Job Category -->
 			<li>
 				<key>Wait_Downed</key>
@@ -4134,8 +4319,6 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
-								<li>ArmHandLowA/</li>
 							</value>
 						</li>
 						<li>
@@ -4146,11 +4329,51 @@
 								<li>ArmHandHighF/</li>
 							</value>
 						</li>
+						<li>
+							<key>LayingOnGroundFaceUp</key>
+							<value>
+								<li>ArmStraightD/</li>
+								<li>ArmHandMidB/</li>
+								<li>ArmHandHighF/</li>
+							</value>
+						</li>
+						<li>
+							<key>LayingInBed</key>
+							<value>
+								<li>ArmStraightD/</li>
+								<li>ArmHandMidB/</li>
+								<li>ArmHandHighF/</li>
+							</value>
+						</li>
+						<li>
+							<key>LayingInBedFaceUp</key>
+							<value>
+								<li>ArmStraightD/</li>
+								<li>ArmHandMidB/</li>
+								<li>ArmHandHighF/</li>
+							</value>
+						</li>
+						<li>
+							<key>InBedMask</key>
+							<value>
+								<li>ArmStraightD/</li>
+								<li>ArmHandMidB/</li>
+								<li>ArmHandHighF/</li>
+							</value>
+						</li>
+						<li>
+							<key>FaceUpMask</key>
+							<value>
+								<li>ArmStraightD/</li>
+								<li>ArmHandMidB/</li>
+								<li>ArmHandHighF/</li>
+							</value>
+						</li>
 					</pathDict>
 				</value>
 			</li>
 			<li>
-				<key>Carried</key>
+				<key>Lovin</key>
 				<value>
 					<exPath>Anneli_Arms/Naked/</exPath>
 					<randomChange>true</randomChange>          
@@ -4164,8 +4387,6 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
-								<li>ArmHandLowA/</li>
 							</value>
 						</li>
 						<li>
@@ -4235,8 +4456,6 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
-								<li>ArmHandLowA/</li>
 							</value>
 						</li>
 						<li>
@@ -4305,8 +4524,6 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
-								<li>ArmHandLowA/</li>
 							</value>
 						</li>
 						<li>
@@ -4375,8 +4592,6 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
-								<li>ArmHandLowA/</li>
 							</value>
 						</li>
 						<li>
@@ -4445,8 +4660,6 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
-								<li>ArmHandLowA/</li>
 							</value>
 						</li>
 						<li>
@@ -4515,8 +4728,6 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
-								<li>ArmHandLowA/</li>
 							</value>
 						</li>
 						<li>
@@ -4585,8 +4796,6 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
-								<li>ArmHandLowA/</li>
 							</value>
 						</li>
 						<li>
@@ -4655,8 +4864,6 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmStraightA/</li>
-								<li>ArmHandMidB/</li>
-								<li>ArmHandLowA/</li>
 							</value>
 						</li>
 						<li>
@@ -4705,6 +4912,191 @@
 								<li>ArmStraightF/</li>
 								<li>ArmHandMidB/</li>
 								<li>ArmHandHighF/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<!-- Fist Job Category -->
+			<li>
+				<key>SocialFight</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandMidC/</li>
+								<li>ArmHandMidD/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<!-- Work (PropsPickaxe) Job Category -->
+			<li>
+				<key>Mine</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowC/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>SmoothWall</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowC/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<!-- Work (PropsShovel) Job Category -->
+			<li>
+				<key>Replant</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowC/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>ExtractTree</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowC/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>Sow</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowC/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>PlantSeed</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowC/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<!-- Work (PropsAxe) Job Category -->
+			<li>
+				<key>CutPlant</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowC/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>CutPlantDesignated</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowC/</li>
 							</value>
 						</li>
 					</pathDict>
