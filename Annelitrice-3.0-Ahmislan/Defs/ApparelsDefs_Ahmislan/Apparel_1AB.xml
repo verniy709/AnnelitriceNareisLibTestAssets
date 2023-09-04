@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_1AB" ParentName="Anneli_1AB" Abstract="True">
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Ahmislan</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Ahmislan_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_BodySuit-->
+	<ThingDef ParentName="Anneli_Ahmislan_1AB">
+		<defName>Anneli_Ahmislan_BodySuit</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)1AB_BodySuit</label>
+		<graphicData>
+			<texPath>1AB/Anneli_Ahmislan_BodySuit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_Ahmislan_BodySuit</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_Lingerie-->
+	<ThingDef ParentName="Anneli_Ahmislan_1AB">
+		<defName>Anneli_Ahmislan_Lingerie</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)1AB_Lingerie</label>
+		<graphicData>
+			<texPath>1AB/Anneli_Ahmislan_Lingerie</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_Ahmislan_Lingerie</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

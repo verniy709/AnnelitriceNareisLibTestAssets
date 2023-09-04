@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_4" ParentName="Anneli_4" Abstract="True">
+		<thingCategories>
+			<li>Category_Annelitrice_Ahmislan</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Ahmislan_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Brigandine-->
+	<ThingDef ParentName="Anneli_Ahmislan_4">
+		<defName>Anneli_Ahmislan_Brigandine</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)4_Brigandine</label>
+		<graphicData>
+			<texPath>4/Anneli_Ahmislan_Brigandine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Ahmislan_Brigandine</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+<!--Anneli_Ahmislan_CorsetA-->
+	<ThingDef ParentName="Anneli_Ahmislan_4">
+		<defName>Anneli_Ahmislan_CorsetA</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)4_CorsetA</label>
+		<graphicData>
+			<texPath>4/Anneli_Ahmislan_CorsetA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Ahmislan_CorsetA</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+<!--Anneli_Ahmislan_CorsetB-->
+	<ThingDef ParentName="Anneli_Ahmislan_4">
+		<defName>Anneli_Ahmislan_CorsetB</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)4_CorsetB</label>
+		<graphicData>
+			<texPath>4/Anneli_Ahmislan_CorsetB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Ahmislan_CorsetB</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+<!--Anneli_Ahmislan_CorsetC-->
+	<ThingDef ParentName="Anneli_Ahmislan_4">
+		<defName>Anneli_Ahmislan_CorsetC</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)4_CorsetC</label>
+		<graphicData>
+			<texPath>4/Anneli_Ahmislan_CorsetC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Ahmislan_CorsetC</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

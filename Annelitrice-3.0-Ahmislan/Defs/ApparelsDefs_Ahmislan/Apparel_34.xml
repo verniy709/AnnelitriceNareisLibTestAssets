@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_34" ParentName="Anneli_34" Abstract="True">
+		<equippedStatOffsets>
+			<RestFallRateFactor>-0.2</RestFallRateFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Ahmislan</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Ahmislan_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_ArmorA-->
+	<ThingDef ParentName="Anneli_Ahmislan_34">
+		<defName>Anneli_Ahmislan_ArmorA</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)34_ArmorA</label>
+		<graphicData>
+			<texPath>34/Anneli_Ahmislan_ArmorA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Ahmislan_ArmorA</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_ArmorB-->
+	<ThingDef ParentName="Anneli_Ahmislan_34">
+		<defName>Anneli_Ahmislan_ArmorB</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)34_ArmorB</label>
+		<graphicData>
+			<texPath>34/Anneli_Ahmislan_ArmorB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Ahmislan_ArmorB</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_ArmorC-->
+	<ThingDef ParentName="Anneli_Ahmislan_34">
+		<defName>Anneli_Ahmislan_ArmorC</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)34_ArmorC</label>
+		<graphicData>
+			<texPath>34/Anneli_Ahmislan_ArmorC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Ahmislan_ArmorC</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_ArmorD-->
+	<ThingDef ParentName="Anneli_Ahmislan_34">
+		<defName>Anneli_Ahmislan_ArmorD</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)34_ArmorD</label>
+		<graphicData>
+			<texPath>34/Anneli_Ahmislan_ArmorD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Ahmislan_ArmorD</wornGraphicPath>
+			<tags>
+
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

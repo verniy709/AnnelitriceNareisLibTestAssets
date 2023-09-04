@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_2C_NonMetal" ParentName="Anneli_2C_NonMetal" Abstract="True">
+		<thingCategories>
+			<li>Category_Annelitrice_Ahmislan</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Ahmislan_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Ahmislan_2C_Metal" ParentName="Anneli_2C_Metal" Abstract="True">
+		<thingCategories>
+			<li>Category_Annelitrice_Ahmislan</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Ahmislan_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Moccasins-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
+		<defName>Anneli_Ahmislan_Moccasins</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2C_Moccasins</label>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_Moccasins</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_Moccasins</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Boots-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
+		<defName>Anneli_Ahmislan_Boots</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2C_Boots</label>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_Boots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_Boots</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Heels-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
+		<defName>Anneli_Ahmislan_Heels</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2C_Heels</label>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_Heels</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_Heels</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_MaryJane-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
+		<defName>Anneli_Ahmislan_MaryJane</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2C_MaryJane</label>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_MaryJane</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_MaryJane</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_LongBootsA-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
+		<defName>Anneli_Ahmislan_LongBootsA</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2C_LongBootsA</label>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_LongBootsA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_LongBootsA</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_LongBootsB-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
+		<defName>Anneli_Ahmislan_LongBootsB</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2C_LongBootsB</label>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_LongBootsB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_LongBootsB</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_SolleretsA-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C_Metal">
+		<defName>Anneli_Ahmislan_SolleretsA</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2C_SolleretsA</label>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_SolleretsA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_SolleretsA</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<layers>
+				<li>Anneli_Knee</li><!--Cannot equip knee pads-->
+			</layers>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_SolleretsB-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C_Metal">
+		<defName>Anneli_Ahmislan_SolleretsB</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2C_SolleretsB</label>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_SolleretsB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_SolleretsB</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<layers>
+				<li>Anneli_Knee</li><!--Cannot equip knee pads-->
+			</layers>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_LongSolleretsA-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C_Metal">
+		<defName>Anneli_Ahmislan_LongSolleretsA</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2C_LongSolleretsA</label>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_LongSolleretsA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_LongSolleretsA</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<layers>
+				<li>Anneli_Knee</li><!--Cannot equip knee pads-->
+			</layers>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_LongSolleretsB-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C_Metal">
+		<defName>Anneli_Ahmislan_LongSolleretsB</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2C_LongSolleretsB</label>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_LongSolleretsB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_LongSolleretsB</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+			<layers>
+				<li>Anneli_Knee</li><!--Cannot equip knee pads-->
+			</layers>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+
+</Defs>

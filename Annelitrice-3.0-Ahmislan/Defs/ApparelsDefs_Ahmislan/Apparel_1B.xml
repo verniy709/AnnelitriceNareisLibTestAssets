@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_1B" ParentName="Anneli_1B" Abstract="True">
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Ahmislan</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Ahmislan_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Underwear-->
+	<ThingDef ParentName="Anneli_Ahmislan_1B">
+		<defName>Anneli_Ahmislan_Underwear</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)1B_Underwear</label>
+		<graphicData>
+			<texPath>1B/Anneli_Ahmislan_Underwear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1B/Anneli_Ahmislan_Underwear</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_LaceUnderwear-->
+	<ThingDef ParentName="Anneli_Ahmislan_1B">
+		<defName>Anneli_Ahmislan_LaceUnderwear</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)1B_LaceUnderwear</label>
+		<graphicData>
+			<texPath>1B/Anneli_Ahmislan_LaceUnderwear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1B/Anneli_Ahmislan_LaceUnderwear</wornGraphicPath>
+			<tags>
+				<li>Anneli_Underwear</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+</Defs>

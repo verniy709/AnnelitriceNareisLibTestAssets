@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_3" ParentName="Anneli_3" Abstract="True">
+		<equippedStatOffsets>
+			<RestFallRateFactor>-0.2</RestFallRateFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Ahmislan</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Ahmislan_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Apron-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_Apron</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_Apron</label>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_Apron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_Apron</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_BlacksmithApron-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_BlacksmithApron</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_BlacksmithApron</label>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_BlacksmithApron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_BlacksmithApron</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+	
+	<!--Anneli_Ahmislan_Jacket-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_Jacket</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_Jacket</label>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_Jacket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_Jacket</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Overdress-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_Overdress</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_Overdress</label>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_Overdress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_Overdress</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_RuffledVest-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_RuffledVest</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_RuffledVest</label>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_RuffledVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_RuffledVest</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_ShortApron-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_ShortApron</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_ShortApron</label>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_ShortApron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_ShortApron</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Tunic-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_Tunic</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_Tunic</label>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_Tunic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_Tunic</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Vest-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_Vest</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_Vest</label>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_Vest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_Vest</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.9</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+</Defs>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_2AB" ParentName="Anneli_2AB" Abstract="True">
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Category_Annelitrice_Ahmislan</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Ahmislan_Workbench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Chemise-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_Chemise</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_Chemise</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_Chemise</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_Chemise</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_SquireUniformA-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_SquireUniformA</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_SquireUniformA</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_SquireUniformA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_SquireUniformA</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_SquireUniformB-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_SquireUniformB</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_SquireUniformB</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_SquireUniformB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_SquireUniformB</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_DressA-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_DressA</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_DressA</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_DressA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_DressA</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_DressB-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_DressB</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_DressB</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_DressB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_DressB</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_DressC-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_DressC</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_DressC</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_DressC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_DressC</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_LongDressA-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_LongDressA</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_LongDressA</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_LongDressA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_LongDressA</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_LongDressB-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_LongDressB</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_LongDressB</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_LongDressB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_LongDressB</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_MaidDressA-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_MaidDressA</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_MaidDressA</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_MaidDressA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_MaidDressA</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_MaidDressB-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_MaidDressB</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_MaidDressB</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_MaidDressB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_MaidDressB</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_NunAttireA-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_NunAttireA</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_NunAttireA</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_NunAttireA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_NunAttireA</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_NunAttireB-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_NunAttireB</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2AB_NunAttireB</label>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_NunAttireB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_NunAttireB</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(50,45,50,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

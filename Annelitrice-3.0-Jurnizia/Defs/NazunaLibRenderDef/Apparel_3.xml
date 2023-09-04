@@ -37,10 +37,10 @@
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
-				<drawOffsetSouth>(0, 1.6402, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1.6402, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1.6402, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1.6402, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.7689, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.7689, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.7689, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.7689, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
@@ -61,10 +61,10 @@
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
 				<textureLevelsName>Anneli_Apparel3</textureLevelsName>
-				<drawOffsetSouth>(0, 1.6402, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1.6402, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1.6402, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1.6402, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.7689, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.7689, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.7689, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.7689, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
@@ -140,6 +140,42 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useBodyType>true</useBodyType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3_LongSleevesCamo_Left</textureLevelsName>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 2.34805, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.34805, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.34805, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.34805, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LongSleevesCamo_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel3_LongSleevesCamo_Right</textureLevelsName>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<drawOffsetSouth>(0, 2.34805, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.34805, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.34805, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.34805, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<isSleeve>true</isSleeve>
+				<actionManager>
+					<def>Anneli_Arm_LongSleevesCamo_Right</def>
+				</actionManager>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>

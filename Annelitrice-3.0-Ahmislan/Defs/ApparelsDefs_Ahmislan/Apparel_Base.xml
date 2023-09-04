@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Category_Annelitrice_Ahmislan</defName>
+		<parent>Apparel</parent>
+		<label>Annelitrice Ahmislan Apparels</label>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Category_Annelitrice_Ahmislan_Dyed</defName>
+		<parent>Category_Annelitrice_Ahmislan</parent>
+		<label>Pawn Spawn Ahmislan Apparels</label>
+	</ThingCategoryDef>
+	
+</Defs>

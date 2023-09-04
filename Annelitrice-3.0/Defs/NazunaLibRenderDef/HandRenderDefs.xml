@@ -21,7 +21,7 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<actionManager>
-					<def>Anneli_Arm_Generic_Left_Actions</def>
+					<def>Anneli_Arm_Generic_Left</def>
 				</actionManager>
 			</li>
 			<li>
@@ -40,7 +40,7 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<actionManager>
-					<def>Anneli_Arm_Generic_Right_Actions</def>
+					<def>Anneli_Arm_Generic_Right</def>
 				</actionManager>
 			</li>
 		</levels>

@@ -3,7 +3,7 @@
 
 	<ThingDef Name="Anneli_YoRHa_34" ParentName="Anneli_34" Abstract="True">
 		<equippedStatOffsets>
-			<ResearchSpeed>0.3</ResearchSpeed>
+			<RestFallRateFactor>-0.2</RestFallRateFactor>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Category_Annelitrice_YoRHa</li>
