@@ -3,12 +3,475 @@
 	<NareisLib.ActionDef>
 		<defName>Anneli_Props</defName>
 		<behaviors>
+			<!-- Work (PropsCleaver) Job Category -->
+			<li>
+				<key>Slaughter</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsCleaver/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>PrisonerExecution</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsCleaver/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>GuiltyColonistExecution</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsCleaver/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>Sacrifice</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsCleaver/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>Scarify</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsCleaver/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>SlaveExecution</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsCleaver/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>ExtractSkull</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsCleaver/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<!-- Work (PropsHammer) Job Category -->
+			<li>
+				<key>FinishFrame</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHammer/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>Deconstruct</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHammer/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>Repair</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHammer/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>FixBrokenDownBuilding</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHammer/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>BuildRoof</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHammer/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>RemoveRoof</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHammer/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>SmoothFloor</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHammer/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>RemoveFloor</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHammer/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>RepairMech</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHammer/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>DisassembleMech</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHammer/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<!-- Work (PropsBrush) Job Category -->
+			<li>
+				<key>PaintBuilding</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsBrush/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>PaintFloor</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsBrush/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>RemovePaintBuilding</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsBrush/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>RemovePaintFloor</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsBrush/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<!-- Work (PropsSickle) Job Category -->
+			<li>
+				<key>Harvest</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsSickle/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>HarvestDesignated</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsSickle/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>PruneGauranlenTree</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsSickle/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<!-- Work (PropsBroom) Job Category -->
+			<li>
+				<key>ClearSnow</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsBroom/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>Clean</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsBroom/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>ClearPollution</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsBroom/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
 			<!-- Work (PropsPickaxe) Job Category -->
 			<li>
 				<key>Mine</key>
 				<value>
-					<exPath>Anneli_Arms/Props/</exPath>
-					<randomChange>false</randomChange>          
+					<exPath>Anneli_Arms/Props/</exPath>         
 					<textures>
 						<li>Anneli_Props</li>
 					</textures>
@@ -25,8 +488,7 @@
 			<li>
 				<key>SmoothWall</key>
 				<value>
-					<exPath>Anneli_Arms/Props/</exPath>
-					<randomChange>false</randomChange>          
+					<exPath>Anneli_Arms/Props/</exPath>         
 					<textures>
 						<li>Anneli_Props</li>
 					</textures>
@@ -44,8 +506,7 @@
 			<li>
 				<key>Replant</key>
 				<value>
-					<exPath>Anneli_Arms/Props/</exPath>
-					<randomChange>false</randomChange>          
+					<exPath>Anneli_Arms/Props/</exPath>         
 					<textures>
 						<li>Anneli_Props</li>
 					</textures>
@@ -62,8 +523,7 @@
 			<li>
 				<key>ExtractTree</key>
 				<value>
-					<exPath>Anneli_Arms/Props/</exPath>
-					<randomChange>false</randomChange>          
+					<exPath>Anneli_Arms/Props/</exPath>         
 					<textures>
 						<li>Anneli_Props</li>
 					</textures>
@@ -80,8 +540,7 @@
 			<li>
 				<key>Sow</key>
 				<value>
-					<exPath>Anneli_Arms/Props/</exPath>
-					<randomChange>false</randomChange>          
+					<exPath>Anneli_Arms/Props/</exPath>         
 					<textures>
 						<li>Anneli_Props</li>
 					</textures>
@@ -98,8 +557,7 @@
 			<li>
 				<key>PlantSeed</key>
 				<value>
-					<exPath>Anneli_Arms/Props/</exPath>
-					<randomChange>false</randomChange>          
+					<exPath>Anneli_Arms/Props/</exPath>         
 					<textures>
 						<li>Anneli_Props</li>
 					</textures>
@@ -117,8 +575,7 @@
 			<li>
 				<key>CutPlant</key>
 				<value>
-					<exPath>Anneli_Arms/Props/</exPath>
-					<randomChange>false</randomChange>          
+					<exPath>Anneli_Arms/Props/</exPath>         
 					<textures>
 						<li>Anneli_Props</li>
 					</textures>
@@ -135,8 +592,7 @@
 			<li>
 				<key>CutPlantDesignated</key>
 				<value>
-					<exPath>Anneli_Arms/Props/</exPath>
-					<randomChange>false</randomChange>          
+					<exPath>Anneli_Arms/Props/</exPath>         
 					<textures>
 						<li>Anneli_Props</li>
 					</textures>
