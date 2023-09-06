@@ -4386,7 +4386,9 @@
 						<li>
 							<key>Standing</key>
 							<value>
-								<li>ArmStraightA/</li>
+								<li>ArmStraightD/</li>
+								<li>ArmHandMidB/</li>
+								<li>ArmHandHighF/</li>
 							</value>
 						</li>
 						<li>
@@ -4455,7 +4457,9 @@
 						<li>
 							<key>Standing</key>
 							<value>
-								<li>ArmStraightA/</li>
+								<li>ArmStraightF/</li>
+								<li>ArmHandMidB/</li>
+								<li>ArmHandHighF/</li>
 							</value>
 						</li>
 						<li>
@@ -5677,6 +5681,90 @@
 			</li>
 			<li>
 				<key>CutPlantDesignated</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowC/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<!-- HoldWeapon Job Category -->
+			<li>
+				<key>AttackStatic</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowE/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>Hunt</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowE/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>Wait_Combat</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,5)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmStraightA/</li>
+								<li>ArmStraightB/</li>
+								<li>ArmHandLowA/</li>
+								<li>ArmHandMidB/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>AttackMelee</key>
 				<value>
 					<exPath>Anneli_Arms/Naked/</exPath>
 					<randomChange>true</randomChange>          

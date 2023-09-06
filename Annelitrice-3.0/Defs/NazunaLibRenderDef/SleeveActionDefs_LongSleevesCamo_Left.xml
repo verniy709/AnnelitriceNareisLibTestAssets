@@ -3198,6 +3198,59 @@
 					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
 				</value>
 			</li>
+			<!-- HoldWeapon Job Category -->
+			<li>
+				<key>AttackStatic</key>
+				<value>
+					<exPath>Anneli_Arms/CamoLS/</exPath>
+					<textures>
+						<li>Anneli_Arm_CamoLS</li>
+					</textures>
+					<linkedWithAction>true</linkedWithAction>
+					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+					<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
+					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+				</value>
+			</li>
+			<li>
+				<key>Hunt</key>
+				<value>
+					<exPath>Anneli_Arms/CamoLS/</exPath>
+					<textures>
+						<li>Anneli_Arm_CamoLS</li>
+					</textures>
+					<linkedWithAction>true</linkedWithAction>
+					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+					<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
+					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+				</value>
+			</li>
+			<li>
+				<key>Wait_Combat</key>
+				<value>
+					<exPath>Anneli_Arms/CamoLS/</exPath>
+					<textures>
+						<li>Anneli_Arm_CamoLS</li>
+					</textures>
+					<linkedWithAction>true</linkedWithAction>
+					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+					<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
+					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+				</value>
+			</li>
+			<li>
+				<key>AttackMelee</key>
+				<value>
+					<exPath>Anneli_Arms/CamoLS/</exPath>
+					<textures>
+						<li>Anneli_Arm_CamoLS</li>
+					</textures>
+					<linkedWithAction>true</linkedWithAction>
+					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+					<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
+					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+				</value>
+			</li>
 		</behaviors>
 	</NareisLib.ActionDef>
 
