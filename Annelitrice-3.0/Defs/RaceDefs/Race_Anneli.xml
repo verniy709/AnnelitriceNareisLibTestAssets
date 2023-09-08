@@ -42,11 +42,11 @@
 				<maxDamageForSocialfight>2</maxDamageForSocialfight>
 				<lovinIntervalHoursFromAge>
 					<points>
-						<li>(16, 1.5)</li>
-						<li>(500, 2.5)</li>
-						<li>(1500, 4)</li>
-						<li>(3000, 12)</li>
-						<li>(5000, 36)</li>
+						<li>(16, 0.5)</li>
+						<li>(500, 1.0)</li>
+						<li>(1500, 1)</li>
+						<li>(3000, 2)</li>
+						<li>(5000, 3)</li>
 					</points>
 				</lovinIntervalHoursFromAge>
 				<alienPartGenerator>
@@ -323,6 +323,16 @@
 					</value>
 				</li>
 			</styleSettings>
+			<relationSettings>
+				<relationChanceModifierLover>0</relationChanceModifierLover>
+				<relationChanceModifierExLover>0</relationChanceModifierExLover>
+				<relationChanceModifierFiance>0</relationChanceModifierFiance>
+				<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+				<relationChanceModifierParent>0</relationChanceModifierParent>
+				<relationChanceModifierChild>0</relationChanceModifierChild>
+				<relationChanceModifierSibling>2</relationChanceModifierSibling>
+			</relationSettings>
 			<thoughtSettings>
 				<cannotReceiveThoughts>
 					<li>KnowPrisonerDiedInnocent</li>

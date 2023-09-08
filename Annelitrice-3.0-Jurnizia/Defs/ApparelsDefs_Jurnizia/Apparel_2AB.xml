@@ -77,32 +77,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<comps>
-			<li Class="Annelitrice.CompProperties_ApparelSecialTex">
-				<replaceTexPathList>	 
-					<li>
-						<apparelDef>Anneli_Jurnizia_Parka</apparelDef>
-						<level>1</level>
-						<path>2B/Anneli_Jurnizia_Skirt</path>
-					</li> 	 
-					<li>
-						<apparelDef>Anneli_Jurnizia_GorkaParka</apparelDef>
-						<level>1</level>
-						<path>2B/Anneli_Jurnizia_Skirt</path>
-					</li> 	 
-					<li>
-						<apparelDef>Anneli_Jurnizia_CamoParka</apparelDef>
-						<level>1</level>
-						<path>2B/Anneli_Jurnizia_Skirt</path>
-					</li> 
-					<li>
-						<apparelDef>Anneli_Jurnizia_Hoodie</apparelDef>
-						<level>1</level>
-						<path>2B/Anneli_Jurnizia_Skirt</path>
-					</li> 	 
-				</replaceTexPathList>
-			</li>
-		</comps>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_SheathDress-->

@@ -32,17 +32,22 @@
 		<burnableByRecipe>true</burnableByRecipe>
 		<smeltable>true</smeltable>
 		<tradeNeverStack>true</tradeNeverStack>
+		<tradeability>Sellable</tradeability>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<messageOnDeteriorateInStorage>false</messageOnDeteriorateInStorage>
 		<deteriorateFromEnvironmentalEffects>false</deteriorateFromEnvironmentalEffects>
 		<apparel>
 			<useWornGraphicMask>false</useWornGraphicMask>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 			<tags>
 				<li>Anneli</li>
 				<li>EVA</li>
 			</tags>
 		</apparel>
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li>

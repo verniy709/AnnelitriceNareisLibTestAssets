@@ -70,7 +70,6 @@
     <Compile Include="CompPlayMusic.cs" />
     <Compile Include="JobDriver_WatchPuppetShow.cs" />
     <Compile Include="AnnelitriceDefOf.cs" />
-    <Compile Include="HarmonyPatches\DateChance.cs" />
     <Compile Include="CompRegeneration.cs" />
     <Compile Include="CompTargetable_Parameters_Egg.cs" />
     <Compile Include="CompTargetEffect_NutrientSolution.cs" />
