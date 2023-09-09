@@ -77,11 +77,11 @@ namespace Annelitrice
         public override void PostExposeData()
         {
             Scribe_Values.Look(ref eggTime, "eggTime");
-        }
+		}
         private int eggTime;
         public const int SpawnTime = 30000;
 
-        public static ThingWithComps MakeEgg(Pawn pawn)
+		public static ThingWithComps MakeEgg(Pawn pawn)
         {
             ThingWithComps egg;
             
@@ -96,11 +96,13 @@ namespace Annelitrice
             egg.TryGetComp<CompContainPawn>().GetDirectlyHeldThings().TryAddOrTransfer(pawn);
             return egg;
         }
-        public static ThingWithComps MakeEgg()
+		
+		public static ThingWithComps MakeEgg()
         {
-            ThingWithComps egg = ThingMaker.MakeThing(ThingDef.Named("Anneli_OutsiderEgg")) as ThingWithComps;
-            Pawn pawn = PawnGenerator.GeneratePawn(PawnKindDef.Named("Anneli_Wild"));
-            egg.TryGetComp<CompContainPawn>().GetDirectlyHeldThings().TryAdd(pawn);
+			Faction AnneliWildFaction = Find.FactionManager.FirstFactionOfDef(DefDatabase<FactionDef>.GetNamed("Anneli_Faction_Wild"));
+			ThingWithComps egg = ThingMaker.MakeThing(ThingDef.Named("Anneli_OutsiderEgg")) as ThingWithComps;
+			Pawn pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(PawnKindDef.Named("Anneli_Wild"), AnneliWildFaction, PawnGenerationContext.PlayerStarter, tile: -1, forceGenerateNewPawn: true, allowDead: false, allowDowned: false, canGeneratePawnRelations: false, mustBeCapableOfViolence: false, colonistRelationChanceFactor: 0f, forceAddFreeWarmLayerIfNeeded: false));
+			egg.TryGetComp<CompContainPawn>().GetDirectlyHeldThings().TryAdd(pawn);
             return egg;
         }
     }

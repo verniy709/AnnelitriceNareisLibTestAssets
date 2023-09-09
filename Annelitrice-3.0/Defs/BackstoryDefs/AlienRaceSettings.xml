@@ -12,7 +12,6 @@
 					<chance>0</chance>
 				</li>
 			</alienslavekinds>
-
 			<alienwandererkinds>
 				<li>
 					<pawnKindEntries>
@@ -28,7 +27,6 @@
 					</factionDefs>
 				</li>
 			</alienwandererkinds>
-
 			<alienrefugeekinds>
 				<li>
 					<kindDefs>
@@ -37,7 +35,6 @@
 					<chance>0</chance>
 				</li>
 			</alienrefugeekinds>
-
 			<startingColonists>
 				<li>
 					<pawnKindEntries>

@@ -31,18 +31,16 @@
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>0.00001</maleGenderProbability>
-				<allowHumanBios>true</allowHumanBios>
+				<allowHumanBios>false</allowHumanBios>
 				<humanRecipeImport>true</humanRecipeImport>
 				<immuneToXenophobia>false</immuneToXenophobia>
 				<canLayDown>true</canLayDown>
-				<notXenophobistTowards>
-					<li>Human</li>
-				</notXenophobistTowards>
 				<immuneToAge>true</immuneToAge>
 				<maxDamageForSocialfight>2</maxDamageForSocialfight>
+				<additionalTraits>0~2</additionalTraits>
 				<lovinIntervalHoursFromAge>
 					<points>
-						<li>(16, 0.5)</li>
+						<li>(16, 1.0)</li>
 						<li>(500, 1.0)</li>
 						<li>(1500, 1)</li>
 						<li>(3000, 2)</li>
