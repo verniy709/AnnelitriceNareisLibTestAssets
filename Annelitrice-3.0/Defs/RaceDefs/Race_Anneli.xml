@@ -38,15 +38,15 @@
 				<immuneToAge>true</immuneToAge>
 				<maxDamageForSocialfight>2</maxDamageForSocialfight>
 				<additionalTraits>0~2</additionalTraits>
-				<lovinIntervalHoursFromAge>
+				<!-- <lovinIntervalHoursFromAge>
 					<points>
-						<li>(16, 1.0)</li>
-						<li>(500, 1.0)</li>
-						<li>(1500, 1)</li>
+						<li>(16, 1)</li>
+						<li>(500, 1)</li>
+						<li>(1500, 1.5)</li>
 						<li>(3000, 2)</li>
 						<li>(5000, 3)</li>
 					</points>
-				</lovinIntervalHoursFromAge>
+				</lovinIntervalHoursFromAge> -->
 				<alienPartGenerator>
 					<headTypes Inherit="False">
 						<li>Anneli_Head_1</li>
@@ -59,7 +59,7 @@
 					<bodyTypes>
 						<li>Female</li>
 					</bodyTypes>
-					<oldHairAgeRange>3000~10000</oldHairAgeRange>
+					<oldHairAgeRange>70~100</oldHairAgeRange>
 					<headOffsetDirectional>
 						<north>(0.0, 0.1538)</north>
 						<south>(0.0, 0.1538)</south>
@@ -673,7 +673,7 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<nameCategory>HumanStandard</nameCategory>
-			<lifeExpectancy>5000</lifeExpectancy>
+			<lifeExpectancy>100</lifeExpectancy>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<fleshType>Anneli_Flesh</fleshType>
 			<body>Anneli_Body</body>
@@ -694,27 +694,27 @@
 				</li>
 			</lifeStageAges>
 			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
-				<Firefighter>5</Firefighter>
+				<Firefighter>0</Firefighter>
 				<Patient>0</Patient>
-				<Doctor>8</Doctor>
+				<Doctor>0</Doctor>
 				<PatientBedRest>0</PatientBedRest>
 				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
-				<BasicWorker>5</BasicWorker>
-				<Warden>8</Warden>
-				<Handling>5</Handling>
-				<Cooking>5</Cooking>
-				<Hunting>5</Hunting>
-				<Construction>8</Construction>
-				<Growing>5</Growing>
-				<Mining>5</Mining>
-				<PlantCutting>5</PlantCutting>
-				<Smithing>10</Smithing>
-				<Tailoring>5</Tailoring>
-				<Art>8</Art>
-				<Crafting>5</Crafting>
-				<Hauling>2</Hauling>
-				<Cleaning>2</Cleaning>
-				<Research>10</Research>
+				<BasicWorker>0</BasicWorker>
+				<Warden>0</Warden>
+				<Handling>0</Handling>
+				<Cooking>0</Cooking>
+				<Hunting>0</Hunting>
+				<Construction>0</Construction>
+				<Growing>0</Growing>
+				<Mining>0</Mining>
+				<PlantCutting>0</PlantCutting>
+				<Smithing>0</Smithing>
+				<Tailoring>0</Tailoring>
+				<Art>0</Art>
+				<Crafting>0</Crafting>
+				<Hauling>0</Hauling>
+				<Cleaning>0</Cleaning>
+				<Research>0</Research>
 			</lifeStageWorkSettings>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
@@ -726,12 +726,11 @@
 			<ageGenerationCurve>
 				<points>
 					<li>(0,0)</li>
-					<li>(12,5)</li>
-					<li>(16,10)</li>
-					<li>(35,100)</li>
-					<li>(100,10)</li>
-					<li>(200,5)</li>
-					<li>(2000,0)</li>
+					<li>(12,1)</li>
+					<li>(18,300)</li>
+					<li>(24,300)</li>
+					<li>(30,10)</li>
+					<li>(100,0)</li>
 				</points>
 			</ageGenerationCurve>
 			<hediffGiverSets>

@@ -26,13 +26,15 @@
 					<li>Anneli_Arm_LS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_LS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_LS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 2.4124, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.4124, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.4124, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.4124, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticColor>true</useStaticColor>
+				<color>RGBA(0.999,0.999,0.999,1)</color>
 				<isSleeve>true</isSleeve>
 				<actionManager>
 					<def>Anneli_Arm_LS_Left</def>
@@ -43,7 +45,7 @@
 					<li>Anneli_Arm_LS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_LS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_LS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -52,6 +54,8 @@
 				<drawOffsetNorth>(0, 2.4124, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.4124, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticColor>true</useStaticColor>
+				<color>RGBA(0.999,0.999,0.999,1)</color>
 				<isSleeve>true</isSleeve>
 				<actionManager>
 					<def>Anneli_Arm_LS_Right</def>
@@ -86,7 +90,7 @@
 					<li>Anneli_Arm_LS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_LS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_LS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 2.4124, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.4124, 0)</drawOffsetEast>
@@ -103,7 +107,7 @@
 					<li>Anneli_Arm_LS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_LS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_LS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -143,27 +147,29 @@
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 2.4124, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.4124, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.4124, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.4124, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticColor>true</useStaticColor>
+				<color>RGBA(0.999,0.999,0.999,1)</color>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Left</def>
+					<def>Anneli_Arm_ShirtSS_Left</def>
 				</actionManager>
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -172,9 +178,11 @@
 				<drawOffsetNorth>(0, 2.4124, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.4124, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticColor>true</useStaticColor>
+				<color>RGBA(0.999,0.999,0.999,1)</color>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Right</def>
+					<def>Anneli_Arm_ShirtSS_Right</def>
 				</actionManager>
 			</li>
 		</levels>
@@ -203,10 +211,10 @@
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 2.4124, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.4124, 0)</drawOffsetEast>
@@ -215,15 +223,15 @@
 				<meshType>Body</meshType>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Left</def>
+					<def>Anneli_Arm_ShirtSS_Left</def>
 				</actionManager>
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -234,7 +242,7 @@
 				<meshType>Body</meshType>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Right</def>
+					<def>Anneli_Arm_ShirtSS_Right</def>
 				</actionManager>
 			</li>
 		</levels>
@@ -263,27 +271,29 @@
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 2.4124, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.4124, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.4124, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.4124, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticColor>true</useStaticColor>
+				<color>RGBA(0.999,0.999,0.999,1)</color>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Left</def>
+					<def>Anneli_Arm_ShirtSS_Left</def>
 				</actionManager>
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -292,9 +302,11 @@
 				<drawOffsetNorth>(0, 2.4124, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.4124, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticColor>true</useStaticColor>
+				<color>RGBA(0.999,0.999,0.999,1)</color>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Right</def>
+					<def>Anneli_Arm_ShirtSS_Right</def>
 				</actionManager>
 			</li>
 		</levels>
@@ -323,27 +335,29 @@
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 2.4124, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.4124, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.4124, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.4124, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticColor>true</useStaticColor>
+				<color>RGBA(0.999,0.999,0.999,1)</color>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Left</def>
+					<def>Anneli_Arm_ShirtSS_Left</def>
 				</actionManager>
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -352,9 +366,11 @@
 				<drawOffsetNorth>(0, 2.4124, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.4124, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticColor>true</useStaticColor>
+				<color>RGBA(0.999,0.999,0.999,1)</color>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Right</def>
+					<def>Anneli_Arm_ShirtSS_Right</def>
 				</actionManager>
 			</li>
 		</levels>
@@ -383,10 +399,10 @@
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 2.4124, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.4124, 0)</drawOffsetEast>
@@ -395,15 +411,15 @@
 				<meshType>Body</meshType>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Left</def>
+					<def>Anneli_Arm_ShirtSS_Left</def>
 				</actionManager>
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -414,7 +430,7 @@
 				<meshType>Body</meshType>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Right</def>
+					<def>Anneli_Arm_ShirtSS_Right</def>
 				</actionManager>
 			</li>
 		</levels>
@@ -443,10 +459,10 @@
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 2.4124, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.4124, 0)</drawOffsetEast>
@@ -455,15 +471,15 @@
 				<meshType>Body</meshType>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Left</def>
+					<def>Anneli_Arm_ShirtSS_Left</def>
 				</actionManager>
 			</li>
 			<li>
 				<prefix>
-					<li>Anneli_Arm_SSS</li>
+					<li>Anneli_Arm_ShirtSS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SSS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_ShirtSS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -474,7 +490,7 @@
 				<meshType>Body</meshType>
 				<isSleeve>true</isSleeve>
 				<actionManager>
-					<def>Anneli_Arm_SSS_Right</def>
+					<def>Anneli_Arm_ShirtSS_Right</def>
 				</actionManager>
 			</li>
 		</levels>
@@ -530,13 +546,15 @@
 					<li>Anneli_Arm_SS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SS_Left</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_SS_Left</textureLevelsName>
 				<useStaticYOffset>true</useStaticYOffset>
 				<drawOffsetSouth>(0, 2.4124, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.4124, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.4124, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.4124, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticColor>true</useStaticColor>
+				<color>RGBA(0.999,0.999,0.999,1)</color>
 				<isSleeve>true</isSleeve>
 				<actionManager>
 					<def>Anneli_Arm_SS_Left</def>
@@ -547,7 +565,7 @@
 					<li>Anneli_Arm_SS</li>
 				</prefix>
 				<renderLayer>Apparel</renderLayer>
-				<textureLevelsName>Anneli_Apparel2A_SS_Right</textureLevelsName>
+				<textureLevelsName>Anneli_Apparel2_SS_Right</textureLevelsName>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
 				<useStaticYOffset>true</useStaticYOffset>
@@ -556,6 +574,8 @@
 				<drawOffsetNorth>(0, 2.4124, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.4124, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
+				<useStaticColor>true</useStaticColor>
+				<color>RGBA(0.999,0.999,0.999,1)</color>
 				<isSleeve>true</isSleeve>
 				<actionManager>
 					<def>Anneli_Arm_SS_Right</def>

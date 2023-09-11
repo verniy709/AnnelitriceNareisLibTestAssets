@@ -115,7 +115,7 @@
     </thingDefs>
   </defaultIngredientFilter>
   <products>
-    <Meat_Megaspider>5</Meat_Megaspider>
+    <Meat_Megaspider>20</Meat_Megaspider>
   </products>
 </RecipeDef>
 

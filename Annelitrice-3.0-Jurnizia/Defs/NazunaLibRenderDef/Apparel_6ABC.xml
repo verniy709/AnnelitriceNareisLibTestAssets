@@ -18,6 +18,72 @@
 				<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 1, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
+				<hideList>
+					<li>
+						<defLevelName>Anneli_HairCombo_FlatA_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_FlatB_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_BraidA_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_LongA_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_LongB_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_LongC_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_LongD_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_LongE_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_ShortA_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_ShortB_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_ShortC_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_ShortD_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_ShortE_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_TiedA_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_TiedB_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_TiedC_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+				</hideList>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
@@ -40,6 +106,72 @@
 				<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 1, 0)</drawOffsetWest>
 				<meshType>Head</meshType>
+				<hideList>
+					<li>
+						<defLevelName>Anneli_HairCombo_FlatA_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_FlatB_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_BraidA_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_LongA_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_LongB_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_LongC_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_LongD_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_LongE_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_ShortA_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_ShortB_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_ShortC_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_ShortD_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_ShortE_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_TiedA_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_TiedB_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+					<li>
+						<defLevelName>Anneli_HairCombo_TiedC_Anneli_BackHair</defLevelName>
+						<hide>true</hide>
+					</li>
+				</hideList>
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>

@@ -3,7 +3,7 @@
   <ThingDef ParentName="BenchBase">
     <defName>Anneli_Jurnizia_Workbench</defName>
     <label>Anneli Jurnizia Workbench</label>
-    <description>A strange nightstand-like furniture with a big screen. Sometimes the screen shows an angry old man who yells in an ancient language.</description>
+    <description>A strange nightstand-like furniture with a big mirror. Sometimes the mirror shows an angry old man who yells in an ancient language.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Anneli_Jurnizia_Workbench</texPath>
